@@ -1,0 +1,27 @@
+---
+export interface Props {
+  icon?: string;
+  label?: string;
+}
+const {icon, label} = Astro.props
+---
+
+<li class="item">
+    <b class="arrow">-&gt;</b>{icon && (<text class="icon"> {icon}</text>)} {label && (<b class="label"> {label}:</b>)}
+    <slot />
+</li>
+
+<style>
+    .arrow {
+        font-weight: bold;
+        color: var(--color13);
+    }
+    .icon {
+        width: 1em;
+        height: 1em;
+        color: var(--color11);
+    }
+    .label {
+        color: var(--color11);
+    }
+</style>

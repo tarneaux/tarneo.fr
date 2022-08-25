@@ -1,0 +1,75 @@
+---
+import Base from './Base.astro';
+
+export interface Props {
+	content: {
+		title: string;
+		description: string;
+		date?: string;
+		updatedDate?: string;
+		image?: string;
+		sideImage?: string;
+		link?: string;
+		linkText?: string;
+	};
+}
+
+const {
+	content: { title, description, date, updatedDate, image, sideImage, link, linkText },
+} = Astro.props as Props;
+---
+
+<Base title={title} description={description}>
+	{image && (
+		<img
+		width={720}
+		src={image}
+		alt=""
+		/>
+	)}
+	<div id="title_and_image">
+		<div id="title">
+			<h1>{title}</h1>
+			{date && <time>{date}</time>}
+			{updatedDate && <div>Last updated on <time>{updatedDate}</time></div>}
+			{link && linkText && <div><a href={link}>{linkText}</a></div>}
+		</div>
+		{sideImage && (
+			<img
+			src={sideImage}
+			id="side_image"
+			alt=""
+			/>
+		)}
+	</div>
+	<hr/>
+	<main>
+		<article>
+			<slot />
+		</article>
+	</main>
+	<style>
+		#title_and_image {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: flex-end;
+		}
+		#title {
+			margin-left: 1em;
+		}
+		#title h1 {
+			font-size: 2em;
+			font-weight: bold;
+			margin-top: 0;
+			padding-top: 0;
+		}
+		#title a {
+			text-decoration: none;
+		}
+		#side_image {
+			border-radius: 50%;
+			height: 76px;
+		}
+	</style>
+</Base>

@@ -1,0 +1,21 @@
+---
+export interface Props {
+    title?: string;
+}
+const {title} = Astro.props;
+---
+
+<b class="title">{title}</b>
+<ul class="list">
+    <slot />
+</ul>
+
+<style>
+    .title {
+        color: var(--color11);
+    }
+
+    .list {
+        list-style: none;
+    }
+</style>

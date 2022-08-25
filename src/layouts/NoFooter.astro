@@ -1,0 +1,77 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Navbar from "../components/Navbar.astro";
+
+import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
+
+export interface Props {
+  title?: string;
+  description?: string;
+}
+
+const {title, description} = Astro.props;
+
+// If possible, add the page title to the full title.
+var full_title = SITE_TITLE;
+if (title){
+    full_title = title + " - " + full_title;
+}
+
+// Pick the description from the page if possible, otherwise use the site description
+const best_description = description || SITE_DESCRIPTION;
+
+---
+
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <BaseHead title={full_title} description={best_description} />
+</head>
+<body>
+    <Navbar title={full_title}/>
+    <div class="parent">
+        <div class="children">
+            <slot />
+        </div>
+    </div>
+    
+    <style>
+        .parent {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            flex-grow: 1;
+        }
+        
+        .children {
+            width: min(65ch, 95vw);
+        }
+        
+        @font-face {
+            font-family: Hasklug;
+            src: url('/Hasklug.otf');
+        }
+        
+        body {
+            background-color: var(--bg-color);
+            color: var(--fg-color);
+            font-family: Hasklug;
+            margin-top: var(--nav-height);
+            margin-bottom: 0;
+            padding: 4em 0;
+            min-height: calc(100vh - var(--nav-height) - 8em);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            font-size: medium;
+        }
+
+        body::selection {
+            background-color: var(--selection-background-color);
+            color: var(--selection-foreground-color);
+        }
+    </style>
+</body>
+</html>

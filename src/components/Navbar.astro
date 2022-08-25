@@ -1,0 +1,47 @@
+---
+import NavbarLink from './NavbarLink.astro';
+import { SITE_TITLE } from '../config';
+---
+
+<div id="nav">
+	<img src="/profile.jpeg" alt="tarneo's profile picture: a penguin looking at a computer, rembrandt-style oilpaint" id="profile">
+	<h2>
+		{SITE_TITLE}
+	</h2>
+	<nav>
+		<NavbarLink href="/">Home</NavbarLink>
+		<NavbarLink href="/blog">Blog</NavbarLink>
+		<NavbarLink href="/about">About</NavbarLink>
+		<NavbarLink href="https://github.com/tarneaux" target="_blank">GitHub</NavbarLink>
+	</nav>
+</div>
+<style>
+	#nav {
+		margin: 0em 0 2em;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		align-items: center;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: var(--nav-height);
+		background-color: var(--color0);
+	}
+	#nav h2 {
+		margin: 0;
+		padding: 0;
+		color: var(--color11);
+	}
+	#nav nav {
+		margin-left: 20px;
+	}
+	#profile {
+		width: calc(var(--nav-height)/4*3);
+		height: calc(var(--nav-height)/4*3);
+		border-radius: 50%;
+		margin-right: 20px;
+		margin-left: 20px;
+	}
+</style>
