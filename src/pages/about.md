@@ -11,4 +11,6 @@ I have then started using other languages, first HTML and CSS, then Arduino, C, 
 
 I am now in high school in Paris and make little projects that, most of the time, are just for my personal use.
 
-All my projects are on my <a href="https://github.com/tarneaux" target="_blank">github</a>.
+All my projects are on my <a href="https://github.com/tarneaux" target="_blank">github</a>. (Some are private)
+
+One project I really enjoyed making is the <a href="https://github.com/tarneaux/supersplit" target="_blank">supersplit<a>.
