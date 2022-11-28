@@ -7,7 +7,7 @@ const {icon, label} = Astro.props
 ---
 
 <li class="item">
-    <b class="arrow">-&gt;</b>{icon && (<text class="icon"> {icon}</text>)} {label && (<b class="label"> {label}:</b>)}
+    <b class="arrow"></b>{icon && (<text class="icon"> {icon}</text>)} {label && (<b class="label"> {label}:</b>)}
     <slot />
 </li>
 
