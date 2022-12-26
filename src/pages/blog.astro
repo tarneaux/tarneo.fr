@@ -8,46 +8,46 @@ var noposts = false;
 
 // Use Astro.glob() to fetch all posts, and then sort them by date.
 try {
-	posts = (await Astro.glob('./blog/*.{md,mdx}')).sort(
-	(a, b) => new Date(b.frontmatter.date).valueOf() - new Date(a.frontmatter.date).valueOf()
-	);
+    posts = (await Astro.glob('./blog/*.{md,mdx}')).sort(
+    (a, b) => new Date(b.frontmatter.date).valueOf() - new Date(a.frontmatter.date).valueOf()
+    );
 } catch (error) {
-	noposts = true;
+    noposts = true;
 }
 ---
 
 <Base>
-	<style>
-		ul {
-			list-style-type: none;
-			padding: unset;
-		}
-		ul li {
-			display: flex;
-		}
-		ul li time {
-			flex: 0 0 130px;
-			font-style: italic;
-			color: #888;
-		}
-		ul li a:visited {
-			color: #8e32dc;
-		}
-	</style>
-	<ul>
-		<main>
-			{!noposts && <List title="Posts:">
-				{posts.map((post) => (
-					<ListItem label={new Date(post.frontmatter.date).toLocaleDateString('en-us', {
-								year: 'numeric',
-								month: 'short',
-								day: 'numeric',
-							})}>
-						<a href={post.url}>{post.frontmatter.title}</a>
-					</ListItem>
-				))}
-			</List>}
-			{noposts && <p>No posts found.</p>}
-		</main>
-	</ul>
+    <style>
+        ul {
+            list-style-type: none;
+            padding: unset;
+        }
+        ul li {
+            display: flex;
+        }
+        ul li time {
+            flex: 0 0 130px;
+            font-style: italic;
+            color: #888;
+        }
+        ul li a:visited {
+            color: #8e32dc;
+        }
+    </style>
+    <ul>
+        <main>
+            {!noposts && <List title="Posts:">
+                {posts.map((post) => (
+                    <ListItem label={new Date(post.frontmatter.date).toLocaleDateString('en-us', {
+                                year: 'numeric',
+                                month: 'short',
+                                day: 'numeric',
+                            })}>
+                        <a href={post.url}>{post.frontmatter.title}</a>
+                    </ListItem>
+                ))}
+            </List>}
+            {noposts && <p>No posts found.</p>}
+        </main>
+    </ul>
 </Base>
