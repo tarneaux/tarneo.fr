@@ -36,3 +36,6 @@ const { title, description, image = '/profile.jpeg' } = Astro.props;
 <meta property="twitter:title" content={title} />
 <meta property="twitter:description" content={description} />
 <meta property="twitter:image" content={new URL(image, Astro.url)} />
+
+ <!-- https://developer.chrome.com/docs/lighthouse/pwa/themed-omnibox/ -->
+<meta name="theme-color" content="#1e1e1e" />
