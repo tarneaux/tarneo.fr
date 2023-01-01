@@ -39,7 +39,7 @@ a {
 }
 
 .astro-code {
-    font-family: 'Blex Mono Nerd Font', monospace;
+    font-family: 'Blex', monospace;
     font-size: large;
     border-radius: 10px;
 }
