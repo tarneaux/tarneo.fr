@@ -1,3 +1,4 @@
 # tarneo.fr - astro
 
-This is my [personal blog](https://tarneo.fr/) using astro.
+This was my personal blog made using astro.
+For the current version please see [this repo](https://github.com/tarneaux/tarneo.fr)
