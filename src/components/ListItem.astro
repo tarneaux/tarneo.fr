@@ -7,12 +7,12 @@ const {icon, label} = Astro.props
 ---
 
 <li class="item">
-    <b class="arrow"></b>{icon && (<text class="icon"> {icon}</text>)} {label && (<b class="label"> {label}:</b>)}
+    <b class="dash">-</b>{icon && (<text class="icon"> {icon} </text>)} {label && (<b class="label"> {label}:</b>)}
     <slot />
 </li>
 
 <style>
-    .arrow {
+    .dash {
         font-weight: bold;
         color: var(--color13);
     }
