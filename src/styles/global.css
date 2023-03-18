@@ -5,6 +5,14 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--color11);
 }
 
+.children * {
+    max-width: 100%;
+}
+
+.children img {
+    border-radius: 5px;
+}
+
 b {
     color: var(--color11);
 }
