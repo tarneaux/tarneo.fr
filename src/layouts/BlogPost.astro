@@ -14,9 +14,13 @@ export interface Props {
     };
 }
 
+const date = new Date(Astro.props.content.date);
+const updatedDate = new Date(Astro.props.content.updatedDate);
+
 const {
-    content: { title, description, date, updatedDate, image, sideImage, link, linkText },
+    content: { title, description, dateRaw, updatedDateRaw, image, sideImage, link, linkText },
 } = Astro.props as Props;
+
 ---
 
 <Base title={title} description={description}>
@@ -30,8 +34,8 @@ const {
     <div id="title_and_image">
         <div id="title">
             <h1>{title}</h1>
-            {date && <time>{date}</time>}
-            {updatedDate && <div>Last updated on <time>{updatedDate}</time></div>}
+            {date && <time>{date.toDateString()}</time>}
+            {updatedDateRaw && <div>Last updated on <time>{updatedDate.toString()}</time></div>}
             {link && linkText && <div><a href={link}>{linkText}</a></div>}
         </div>
         {sideImage && (
