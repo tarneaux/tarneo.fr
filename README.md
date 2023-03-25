@@ -1,8 +1,7 @@
-# tarneo.fr - astro
+# tarneo.fr
 
-This was my personal blog made using astro.
-For the current version please see [this repo](https://github.com/tarneaux/tarneo.fr).
-
+This is my personal blog made using astro.
+You can see it in action on [tarneo.fr](https://tarneo.fr).
 
 Additional things:
 - [feather icons](https://feathericons.com/)
