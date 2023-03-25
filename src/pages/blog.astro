@@ -9,7 +9,7 @@ var noposts = false;
 // Use Astro.glob() to fetch all posts, and then sort them by date.
 try {
     posts = (await Astro.glob('./blog/*')).sort(
-        (a, b) => new Date(b.frontmatter.date).valueOf() - new Date(a.frontmatter.date).valueOf()
+        (a, b) => new Date(b.frontmatter.pubDate).valueOf() - new Date(a.frontmatter.date).valueOf()
     );
 } catch (error) {
     noposts = true;
@@ -38,7 +38,7 @@ try {
         <main>
             {!noposts && <List title="Posts:">
                 {posts.map((post) => (
-                    <ListItem label={new Date(post.frontmatter.date).toLocaleDateString('en-us', {
+                    <ListItem label={new Date(post.frontmatter.pubDate).toLocaleDateString('en-us', {
                                 year: 'numeric',
                                 month: 'short',
                                 day: 'numeric',
