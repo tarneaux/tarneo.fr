@@ -4,8 +4,16 @@ h1, h2, h3, h4, h5, h6
   font-weight: bold
   color: var(--color11)
 
+.parent
+  display: flex
+  justify-content: center
+  align-items: center
+  flex-direction: column
+  flex-grow: 1
+
 .children *
   max-width: 100%
+  width: Min(65ch, 95vw)
 
 .children img
   border-radius: 5px
@@ -44,3 +52,18 @@ a
   font-family: monospace
   font-size: large
   border-radius: 10px
+
+
+body
+  background-color: var(--bg-color)
+  color: var(--fg-color)
+  font-family: monospace
+  margin-top: var(--nav-height)
+  margin-bottom: 0
+  padding: 4em 0
+  min-height: calc(100vh - var(--nav-height) - 8em)
+  display: flex
+  flex-direction: column
+  justify-content: center
+  font-size: medium
+

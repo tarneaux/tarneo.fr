@@ -35,38 +35,5 @@ const best_description = description || SITE_DESCRIPTION;
             <slot />
         </div>
     </div>
-    
-    <style>
-        .parent {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            flex-grow: 1;
-        }
-        
-        .children {
-            width: min(65ch, 95vw);
-        }
-
-        body {
-            background-color: var(--bg-color);
-            color: var(--fg-color);
-            font-family: monospace;
-            margin-top: var(--nav-height);
-            margin-bottom: 0;
-            padding: 4em 0;
-            min-height: calc(100vh - var(--nav-height) - 8em);
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            font-size: medium;
-        }
-
-        body::selection {
-            background-color: var(--selection-background-color);
-            color: var(--selection-foreground-color);
-        }
-    </style>
 </body>
 </html>
