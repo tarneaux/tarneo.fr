@@ -5,7 +5,7 @@ export interface Props {
     content: {
         title: string;
         description: string;
-        date?: string;
+        pubDate?: string;
         updatedDate?: string;
         image?: string;
         link?: string;
@@ -13,7 +13,7 @@ export interface Props {
     };
 }
 
-var date = new Date(Astro.props.content.date);
+var date = new Date(Astro.props.content.pubDate);
 var updatedDate = new Date(Astro.props.content.updatedDate);
 
 if (date.toString() === 'Invalid Date') {
@@ -25,7 +25,7 @@ if (updatedDate.toString() === 'Invalid Date') {
 }
 
 const {
-    content: { title, description, dateRaw, updatedDateRaw, image, link, linkText },
+    content: { title, description, pubDateRaw, updatedDateRaw, image, link, linkText },
 } = Astro.props as Props;
 
 ---
@@ -57,10 +57,8 @@ const {
         #title_and_image {
             display: flex;
             flex-direction: row;
-            align-items: flex-end;
         }
         #title {
-            text-align: center;
             width: calc(100% - 76px);
         }
         #title h1 {
@@ -75,6 +73,7 @@ const {
         #side_image {
             border-radius: 50%;
             height: 76px;
+            width: 76px;
         }
     </style>
 </Base>

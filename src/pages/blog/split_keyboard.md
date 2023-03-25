@@ -1,6 +1,6 @@
 ---
 title: "Making A Split Keyboard From Scratch"
-date: 2023-02-27
+pubDate: 2023-02-27
 layout: /src/layouts/BlogPost.astro
 ---
 
