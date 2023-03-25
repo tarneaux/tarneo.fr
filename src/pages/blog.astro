@@ -2,6 +2,7 @@
 import Base from "../layouts/Base.astro";
 import List from "../components/List.astro";
 import ListItem from "../components/ListItem.astro";
+import Icon from "../components/Icon.astro";
 
 var posts = [];
 var noposts = false;
@@ -48,6 +49,7 @@ try {
                 ))}
             </List>}
             {noposts && <p>No posts found.</p>}
+            <a href="/rss.xml"><Icon icon="rss" />RSS</a>
         </main>
     </ul>
 </Base>
