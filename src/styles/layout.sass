@@ -1,0 +1,19 @@
+.parent
+  display: flex
+  justify-content: center
+  align-items: center
+  flex-direction: column
+  flex-grow: 1
+
+.children *
+  max-width: 100%
+  width: Min(65ch, 95vw)
+
+body
+  margin-top: var(--nav-height)
+  margin-bottom: 0
+  padding: 4em 0
+  min-height: calc(100vh - var(--nav-height) - 8em)
+  display: flex
+  flex-direction: column
+  justify-content: center
