@@ -14,5 +14,8 @@
     "@astrojs/rss": "^1.0.0",
     "@astrojs/sitemap": "^1.0.0",
     "astro": "^1.0.8"
+  },
+  "dependencies": {
+    "sass": "^1.60.0"
   }
 }

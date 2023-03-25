@@ -49,22 +49,10 @@ const best_description = description || SITE_DESCRIPTION;
             width: min(65ch, 95vw);
         }
 
-        @font-face {
-            font-family: 'Blex';
-            src: url('/font/subset-BlexMonoNerdFontComplete-.eot');
-            src: url('/font/subset-BlexMonoNerdFontComplete-.eot?#iefix') format('embedded-opentype'),
-                url('/font/subset-BlexMonoNerdFontComplete-.woff2') format('woff2'),
-                url('/font/subset-BlexMonoNerdFontComplete-.woff') format('woff'),
-                url('/font/subset-BlexMonoNerdFontComplete-.ttf') format('truetype'),
-                url('/font/subset-BlexMonoNerdFontComplete-.svg#BlexMonoNerdFontComplete-') format('svg');
-            font-weight: normal;
-            font-style: normal;
-        }
-        
         body {
             background-color: var(--bg-color);
             color: var(--fg-color);
-            font-family: 'BlexMono Nerd Font';
+            font-family: monospace;
             margin-top: var(--nav-height);
             margin-bottom: 0;
             padding: 4em 0;
