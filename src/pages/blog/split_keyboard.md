@@ -41,7 +41,7 @@ First things off: making your own keyboard takes time, and I almost made a mista
 
 [^1]: On a traditional keyboard, both thumbs press only one key.
 
-    This is highly inefficient as, well, you don't need two fingers to press one key. Have you never noticed the fact that one of your thumbs is always doing nothing? In ergonomic keyboards, we fix this with multiple methods, mainly:
+    This is highly inefficient as, well, you don't need two fingers to press one key. Have you never noticed the fact that one of your thumbs is never doing anything? In ergonomic keyboards, we fix this with multiple methods, mainly:
     - Thumb clusters are sections which make you stretch your thumb to reach many keys. For example, here is the layout for the ergodox:
       ![the ergodox layout with the thumb keys highlighted](/assets/split_keyboard/ergodox-thumb-keys.webp)
     - Thumb fans use the main ability of your thumbs: they can move in an arc, and so a thumbfan is just an arc of keys. Thumbfans sometimes also have multiple rows of keys, just like I did.
