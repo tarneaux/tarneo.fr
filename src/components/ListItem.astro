@@ -9,15 +9,11 @@ const {icon, label} = Astro.props
 ---
 
 <li class="item">
-<b class="dash">-</b> {icon && (<Icon {icon} />)}{label && (<b class="label">{label}:</b>)}
+{icon && (<Icon {icon} />)}{label && (<b class="label">{label}:</b>)}
 <slot />
 </li>
 
 <style>
-    .dash {
-        font-weight: bold;
-        color: var(--color13);
-    }
     .label {
         color: var(--color11);
     }
