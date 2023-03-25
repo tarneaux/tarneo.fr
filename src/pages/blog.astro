@@ -49,7 +49,13 @@ try {
                 ))}
             </List>}
             {noposts && <p>No posts found.</p>}
-            <a href="/rss.xml"><Icon icon="rss" />RSS</a>
+            <a class="rss-link" href="/rss.xml"><Icon icon="rss" />RSS</a>
         </main>
     </ul>
+    <style>
+        .rss-link {
+            text-decoration: none;
+            border-bottom: 1px solid var(--color13);
+        }
+    </style>
 </Base>
