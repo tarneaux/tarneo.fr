@@ -8,17 +8,24 @@ export interface Props {
         date?: string;
         updatedDate?: string;
         image?: string;
-        sideImage?: string;
         link?: string;
         linkText?: string;
     };
 }
 
-const date = new Date(Astro.props.content.date);
-const updatedDate = new Date(Astro.props.content.updatedDate);
+var date = new Date(Astro.props.content.date);
+var updatedDate = new Date(Astro.props.content.updatedDate);
+
+if (date.toString() === 'Invalid Date') {
+    date = undefined;
+}
+
+if (updatedDate.toString() === 'Invalid Date') {
+    updatedDate = undefined;
+}
 
 const {
-    content: { title, description, dateRaw, updatedDateRaw, image, sideImage, link, linkText },
+    content: { title, description, dateRaw, updatedDateRaw, image, link, linkText },
 } = Astro.props as Props;
 
 ---
@@ -35,16 +42,10 @@ const {
         <div id="title">
             <h1>{title}</h1>
             {date && <time>{date.toDateString()}</time>}
-            {updatedDateRaw && <div>Last updated on <time>{updatedDate.toString()}</time></div>}
+            {updatedDate && <div>Last updated on <time>{updatedDate.toDateString()}</time></div>}
             {link && linkText && <div><a href={link}>{linkText}</a></div>}
         </div>
-        {sideImage && (
-            <img
-            src={sideImage}
-            id="side_image"
-            alt=""
-            />
-        )}
+        <img src="/profile.jpeg" id="side_image" alt=""/>
     </div>
     <hr/>
     <main>
@@ -56,12 +57,11 @@ const {
         #title_and_image {
             display: flex;
             flex-direction: row;
-            justify-content: space-between;
             align-items: flex-end;
         }
         #title {
-            margin-left: 1em;
             text-align: center;
+            width: calc(100% - 76px);
         }
         #title h1 {
             font-size: 2em;
