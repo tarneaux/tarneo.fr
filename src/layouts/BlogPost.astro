@@ -13,19 +13,8 @@ export interface Props {
     };
 }
 
-var date = new Date(Astro.props.content.pubDate);
-var updatedDate = new Date(Astro.props.content.updatedDate);
-
-if (date.toString() === 'Invalid Date') {
-    date = undefined;
-}
-
-if (updatedDate.toString() === 'Invalid Date') {
-    updatedDate = undefined;
-}
-
 const {
-    content: { title, description, pubDateRaw, updatedDateRaw, image, link, linkText },
+    content: { title, description, pubDate, updatedDate, image, link, linkText },
 } = Astro.props as Props;
 
 ---
@@ -41,8 +30,14 @@ const {
     <div id="title_and_image">
         <div id="title">
             <h1>{title}</h1>
-            {date && <time>{date.toDateString()}</time>}
-            {updatedDate && <div>Last updated on <time>{updatedDate.toDateString()}</time></div>}
+            {pubDate && new Date(pubDate).toLocaleDateString('en-us', {
+                                year: 'numeric',
+                                month: 'long',
+                                day: 'numeric'})</div>}
+            {updatedDate && new Date(updatedDate).toLocaleDateString('en-us', {
+                                year: 'numeric',
+                                month: 'long',
+                                day: 'numeric'})</div>}
             {link && linkText && <div><a href={link}>{linkText}</a></div>}
         </div>
         <img src="/profile.jpeg" id="side_image" alt=""/>

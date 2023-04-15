@@ -40,10 +40,10 @@ try {
             <h1>Most recent blog posts</h1>
             <p><b>BAGUETTE WARNING:</b> some of these are in french.</p>
             {!noposts && <List title="Posts:">
-                {posts.map((post) => (
+                {posts.sort((a, b) => new Date(b.frontmatter.pubDate).valueOf() - new Date(a.frontmatter.pubDate).valueOf()).map((post) => (
                     <ListItem label={new Date(post.frontmatter.pubDate).toLocaleDateString('en-us', {
                                 year: 'numeric',
-                                month: 'short',
+                                month: 'long',
                                 day: 'numeric',
                             })}>
                         <a href={post.url}>{post.frontmatter.title}</a>
