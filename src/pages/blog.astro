@@ -37,6 +37,8 @@ try {
     </style>
     <ul>
         <main>
+            <h1>Most recent blog posts</h1>
+            <p><b>BAGUETTE WARNING:</b> some of these are in french.</p>
             {!noposts && <List title="Posts:">
                 {posts.map((post) => (
                     <ListItem label={new Date(post.frontmatter.pubDate).toLocaleDateString('en-us', {
