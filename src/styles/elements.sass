@@ -35,6 +35,11 @@ ul > li::marker
   font-weight: bold
   content: "- "
 
+// Prevent footnote references from adding height to the line
+// More information: https://stackoverflow.com/questions/1530685/hoe-can-i-keep-consistent-line-height-with-superscript-elements
+sup
+  line-height: 0
+
 .astro-code 
   font-family: monospace
   font-size: large
