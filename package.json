@@ -7,7 +7,8 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "deploy": "astro build; rsync -avx --delete ./dist/ deploy:./tarneo.fr/"
   },
   "devDependencies": {
     "@astrojs/mdx": "^0.10.1",
