@@ -1,9 +1,9 @@
-+++
-title = "Making a split keyboard with Ergogen and QMK"
-date = 2023-02-27
-summary = "This post is about my journey to make my own (highly inefficient, but already better than standard) split keyboard."
-image = "supersplit.webp"
-+++
+---
+title: Making a split keyboard with Ergogen and QMK
+date: 2023-02-27
+summary: This post is about my journey to make my own (highly inefficient, but already better than standard) split keyboard.
+image: supersplit.webp
+---
 
 # Introduction
 

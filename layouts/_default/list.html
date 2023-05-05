@@ -4,7 +4,11 @@
     {{ range .Pages }}
         <article>
             <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-            {{ .Summary | truncate 200 }}
+            <p>
+                <strong>{{ .Date.Format "January 2, 2006" }}</strong>
+                -
+                {{ .Summary | truncate 200 }}
+            </p>
         </article>
     {{ end }}
 {{ end }}

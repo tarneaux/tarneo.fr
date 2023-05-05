@@ -2,7 +2,6 @@ baseURL: 'http://example.org/'
 languageCode: 'en-us'
 title: "Tarneo's blog"
 
-
 menu:
   main:
     - name: "Home"
