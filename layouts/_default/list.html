@@ -4,10 +4,17 @@
     <strong>Posts:</strong>
     <ul>
         {{ range .Pages }}
-            <li>
-                <strong>{{ .Date.Format "January 2, 2006" }}:</strong>
-                <a href="{{ .Permalink }}">{{ .Title }}</a><br>
-                {{ .Summary | truncate 200 }}
+            <li class="post-in-list">
+                <div>
+                    <strong>{{ .Date.Format "January 2, 2006" }}:</strong>
+                    <a href="{{ .Permalink }}">{{ .Title }}</a><br>
+                    {{ .Summary | truncate 200 }}
+                </div>
+                {{ if .Params.image }}
+                    {{ $image := .Resources.GetMatch .Params.image }}
+                    {{ $image = $image.Resize "300x" }}
+                    <img src="{{ $image.Permalink }}" alt="{{ .Title }}">
+                {{ end }}
             </li>
         {{ end }}
     </ul>
