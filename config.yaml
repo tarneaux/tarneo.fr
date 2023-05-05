@@ -1,6 +1,6 @@
 baseURL: 'http://example.org/'
 languageCode: 'en-us'
-title: 'My New Hugo Site'
+title: "Tarneo's blog"
 
 
 menu:
@@ -12,5 +12,5 @@ menu:
       url: "/posts/"
       weight: 2
     - name: "About me"
-      url: "/about/"
+      url: "/whoami/"
       weight: 3
