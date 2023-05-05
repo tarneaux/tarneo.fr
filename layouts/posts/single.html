@@ -1,13 +1,8 @@
 {{ define "main" }}
 <article>
 	<header id="post-header">
-		<div>
-			<h1>{{ .Title }}</h1>
-			<p>{{ .Date.Format "January 2, 2006" }}</p>
-		</div>
-		{{ $profile := resources.Get "img/profile.jpg" }}
-		{{ $profile = $profile.Resize "76x" }}
-		<img src="{{ $profile.Permalink }}" alt="{{ .Title }}">
+		<h1>{{ .Title }}</h1>
+		<p>{{ .Date.Format "January 2, 2006" }}</p>
 	</header>
 	<hr>
 	{{ .Content }}
