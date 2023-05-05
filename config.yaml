@@ -13,3 +13,6 @@ menu:
     - name: "About me"
       url: "/whoami/"
       weight: 3
+
+params:
+  favicon: "profile.png"

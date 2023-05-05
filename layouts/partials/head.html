@@ -9,7 +9,7 @@
 
 	<link rel="alternate" type="application/rss+xml" href="/posts/index.xml">
 
-	{{ $profile := resources.Get "img/profile.png" }}
+	{{ $profile := resources.Get (printf "%s%s" "img/" .Site.Params.favicon) }}
 	{{ $profile = $profile.Resize "128x" }}
 	<link rel="icon" href="{{ $profile.Permalink }}">
 </head>
