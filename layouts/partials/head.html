@@ -8,4 +8,8 @@
 	<link rel="stylesheet" href="{{ $style.Permalink }}">
 
 	<link rel="alternate" type="application/rss+xml" href="/posts/index.xml">
+
+	{{ $profile := resources.Get "img/profile.png" }}
+	{{ $profile = $profile.Resize "128x" }}
+	<link rel="icon" href="{{ $profile.Permalink }}">
 </head>
