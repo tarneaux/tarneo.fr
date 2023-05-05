@@ -1,14 +1,15 @@
 {{ define "main" }}
     <h1>{{ .Title }}</h1>
     {{ .Content }}
-    {{ range .Pages }}
-        <article>
-            <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-            <p>
-                <strong>{{ .Date.Format "January 2, 2006" }}</strong>
-                -
+    <strong>Posts:</strong>
+    <ul>
+        {{ range .Pages }}
+            <li>
+                <strong>{{ .Date.Format "January 2, 2006" }}:</strong>
+                <a href="{{ .Permalink }}">{{ .Title }}</a><br>
                 {{ .Summary | truncate 200 }}
-            </p>
-        </article>
-    {{ end }}
+            </li>
+        {{ end }}
+    </ul>
+    <a href="index.xml">RSS</a>
 {{ end }}

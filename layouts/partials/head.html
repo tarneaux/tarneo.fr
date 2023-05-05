@@ -6,4 +6,6 @@
 	{{ $sass := resources.Get "sass/main.sass" }}
 	{{ $style := $sass | resources.ToCSS | resources.Minify }}
 	<link rel="stylesheet" href="{{ $style.Permalink }}">
+
+	<link rel="alternate" type="application/rss+xml" href="/posts/index.xml">
 </head>
