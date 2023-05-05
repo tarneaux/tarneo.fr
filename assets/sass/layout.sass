@@ -1,0 +1,50 @@
+body
+  margin: 0
+  margin-top: var(--nav-height)
+  padding: 4em 0
+  min-height: calc(100vh - 8em - var(--nav-height))
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+
+#parent
+  display: flex
+  justify-content: center
+  align-items: center
+  flex-direction: column
+  flex-grow: 1
+
+#child
+  max-width: 100%
+  width: Min(65ch, 95vw)
+
+#child img
+  max-width: 100%
+ 
+#navbar
+  position: fixed
+  top: 0
+  left: 0
+  right: 0
+  height: var(--nav-height)
+  background-color: var(--nav-bg-color)
+  box-shadow: var(--nav-shadow)
+  display: flex
+  justify-content: center
+  align-items: center
+  a
+    display: inline-block
+    padding: 0 0.5em
+    font-weight: bold
+  .sub
+    font-weight: normal
+  #sub-box
+    padding: 0.2em
+    border-radius: 0.2em
+    background-color: var(--nav-sub-bg-color)
+    margin-left: 0.5em
+    margin-right: 0.5em
+
+html
+  --nav-height: 2em

@@ -2,4 +2,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>{{ .Page.Title }} - {{ .Site.Title }}</title>
+
+	{{ $sass := resources.Get "sass/main.sass" }}
+	{{ $style := $sass | resources.ToCSS | resources.Minify }}
+	<link rel="stylesheet" href="{{ $style.Permalink }}">
 </head>
