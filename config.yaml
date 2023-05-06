@@ -16,3 +16,4 @@ menu:
 
 params:
   favicon: "profile.png"
+  nav: true

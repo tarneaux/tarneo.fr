@@ -2,7 +2,9 @@
 <html>
     {{- partial "head.html" . -}}
     <body>
-        {{- partial "navbar.html" . -}}
+        {{ if .Site.Params.nav -}}
+            {{- partial "navbar.html" . -}}
+        {{- end -}}
         {{- partial "header.html" . -}}
         <div id="parent">
             <div id="child">

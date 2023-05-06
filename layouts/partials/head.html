@@ -9,6 +9,12 @@
 
 	<link rel="alternate" type="application/rss+xml" href="/posts/index.xml">
 
+	{{ if .Site.Params.nav }}
+		{{ $navsass := resources.Get "sass/enable_nav.sass" }}
+		{{ $navstyle := $navsass | resources.ToCSS | resources.Minify }}
+		<link rel="stylesheet" href="{{ $navstyle.Permalink }}">
+	{{ end }}
+
 	{{ $profile := resources.Get (printf "%s%s" "img/" .Site.Params.favicon) }}
 	{{ $profile = $profile.Resize "128x" }}
 	<link rel="icon" href="{{ $profile.Permalink }}">
