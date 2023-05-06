@@ -64,10 +64,19 @@ div.footnote-definition
 footer
   opacity: 0.5
 
-pre
-  padding: 0.5em
+pre, code
   border-radius: 5px
   box-shadow: 0 0 1em rgba(0, 0, 0, 0.25)
+  color: #ebdbb2
+  background-color: #3c3836
+
+code
+  padding: 2px
+
+pre
+  padding: 1em
+  > code
+    padding: 0
 
 // Blinking '_' after "whoami" title in about page
 @keyframes blink
