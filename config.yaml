@@ -17,3 +17,4 @@ menu:
 params:
   favicon: "profile.png"
   nav: true
+  description: "Programming, Linux, self-hosting, ergo keyboards..."
