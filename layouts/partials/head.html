@@ -1,7 +1,13 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>{{ .Page.Title }} - {{ .Site.Title }}</title>
+	<title>
+		{{ if .Page.Title }}
+			{{ .Page.Title }} - {{ .Site.Title }}
+		{{ else }}
+			{{ .Site.Title }}
+		{{ end }}
+	</title>
 
 	{{ $sass := resources.Get "sass/main.sass" }}
 	{{ $style := $sass | resources.ToCSS | resources.Minify }}
