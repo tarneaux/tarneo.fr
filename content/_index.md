@@ -9,3 +9,5 @@ I am a college student and computer science enthusiast. I just make any project 
 **Also me**:
 - **email**: tarneo@renn.es
 - **github**: [tarneaux](https://github.com/tarneaux)
+
+I am the administrator of [renn.es](https://renn.es), and this website is hosted there.
