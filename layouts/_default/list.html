@@ -1,5 +1,5 @@
 {{ define "main" }}
-    <h1>{{ .Title }}</h1>
+    <h1>{{ title .Title }}</h1>
     {{ .Content }}
     <strong>Posts:</strong>
     <ul>
@@ -7,13 +7,13 @@
             <li class="post-in-list">
                 <div>
                     <strong>{{ .Date.Format "January 2, 2006" }}:</strong>
-                    <a href="{{ .Permalink }}">{{ .Title }}</a><br>
+                    <a href="{{ .Permalink }}">{{ title .Title }}</a><br>
                     {{ .Summary | truncate 200 }}
                 </div>
                 {{ if .Params.image }}
                     {{ $image := .Resources.GetMatch .Params.image }}
                     {{ $image = $image.Resize "300x" }}
-                    <img src="{{ $image.Permalink }}" alt="{{ .Title }}">
+                    <img src="{{ $image.Permalink }}" alt="{{ title .Title }} - post image">
                 {{ end }}
             </li>
         {{ end }}

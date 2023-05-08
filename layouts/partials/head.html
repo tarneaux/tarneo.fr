@@ -3,7 +3,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>
 		{{ if .Page.Title }}
-			{{ .Page.Title }} - {{ .Site.Title }}
+			{{ title .Page.Title }} - {{ .Site.Title }}
 		{{ else }}
 			{{ .Site.Title }}
 		{{ end }}
