@@ -24,7 +24,7 @@ We need to bring back the minimal web.
 
 # How can we achieve this?
 
-The first thing we need is an easy way for people to host their own sites or blogs. One way to do this is to use the [tildeverse](https://tildeverse.org), which is a network of servers that host user sites for free, and started with exactly this goal in mind: bring back personal and minimal websites. There are of course other ways of hosting websites, and we should tell everyone to get one, but this is beyond the scope of this article.
+The first thing we need is an easy way for people to host their own sites or blogs. One way to do this is to use the [tildeverse](https://tildeverse.org) (check out the [indieweb](https://indieweb.org/Getting_Started) too), which is a network of servers that host user sites for free, and started with exactly this goal in mind: bring back personal and minimal websites. There are of course other ways of hosting websites, and we should tell everyone to get one, but this is beyond the scope of this article.
 
 The second thing we need is a way to find those sites. We need to make a search engine with the same idea as Wiby, but that doesn't need user submissions to work: it should crawl the web and index sites automatically. It should be free and open source, and everyone should be able to host their own instance of it. Of course, it should also be possible to submit sites, without it being mandatory for finding results.
 
@@ -59,3 +59,6 @@ Servers should also have a limit of stored data and query each other regularly t
 # Conclusion
 
 Creating this kind of search engine would greatly improve the state of the web. If you are ready to help this project, I will be happy to add ways to contact you or to see the project at the bottom of this article, and if you have any ideas, please email me too at [tarneo@renn.es](mailto:tarneo@renn.es).
+
+
+(This article was first edited on may 9th, 2023)
