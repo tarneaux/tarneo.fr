@@ -11,5 +11,5 @@ I am in high school in Paris and make little projects that, most of the time, ar
 
 Most of my projects are on my <a href="https://github.com/tarneaux" target="_blank">github</a>.
 
-One project I really enjoyed making is my split keyboard, the [supersplit](/~tarneo/blog/split-keyboard).
+One project I really enjoyed making is my split keyboard, the [supersplit](/posts/split_keyboard).
 
