@@ -45,7 +45,7 @@ Each web page should have a score, determined by the search engine, that will be
     - The size of the page (in bytes)
     - The number of external resources (images, scripts, etc.)
 - Bonus factors:
-    - ~~The number of links to the page/site~~: this is a bad idea, because big sites will have more links to them, and thus will be prioritized over smaller sites. We don't want another google.
+    - ~~The number of links to the page/site~~: this is a bad idea, because big sites will have more links to them, and thus will be prioritized over smaller sites. We don't want another google. This *may* be used to promote non-minimal sites popular among minimal sites.
     - The fact that it is a personal site: this would make it so that personal sites are prioritized over big sites, which is exactly what we want.
 
 The score should be calculated by servers when crawling pages, and should be stored in a public database with all the parts of the score (size, number of external resources, etc.) so that it can be recalculated very fast when a client asks for it. We want this because clients should be able to specify the weights of these parameters, and maybe even add "modules" that would need to be added on the server too.
