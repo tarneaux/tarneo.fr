@@ -1,4 +1,4 @@
 deploy:
 	hugo
-	rsync -avx --delete public/ deploy:./www/tarneo.fr/
+	rsync -avx --delete public/ cocinero-tarneo:./www/
 
