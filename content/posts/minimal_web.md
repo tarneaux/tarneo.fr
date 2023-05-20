@@ -60,5 +60,3 @@ Servers should also have a limit of stored data and query each other regularly t
 
 Creating this kind of search engine would greatly improve the state of the web. If you are ready to help this project, I will be happy to add ways to contact you or to see the project at the bottom of this article, and if you have any ideas, please email me too at [tarneo@renn.es](mailto:tarneo@renn.es).
 
-
-(This article was first edited on may 9th, 2023)
