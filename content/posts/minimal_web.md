@@ -6,9 +6,9 @@ summary: "A call to action to bring back the minimal web and how we can achieve 
 
 The internet, once a space of endless possibility and discovery, has become increasingly dominated by a few massive platforms, making it difficult to find smaller, personal and more authentic websites. This shift has led to a homogenization of the web, with many unique and interesting sites being buried beneath the overwhelming weight of larger, more profit-driven platforms.
 
-In this article, we'll explore ways to bring back the minimal web, including the development of a new search engine that would prioritize minimal sites over larger ones, and the promotion of a federated system that allows instances to communicate with one another.
+In this article, we'll explore ways to bring back that version of the web, including the development of a new, federated search engine that would prioritize minimal sites over larger ones.
 
-We'll delve into the specifics of how this search engine would work, including its scoring system used for page ranking. We'll also discuss how a lightweight search query and data storage system could help keep the search engine efficient and prevent duplication of content across servers.
+We'll delve into the specifics of how this search engine would work, including its scoring system used for page ranking and methods to prevent duplication of data across servers.
 
 # What is the problem?
 
