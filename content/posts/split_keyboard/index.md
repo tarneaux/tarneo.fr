@@ -2,16 +2,18 @@
 title: Making A Split Keyboard From Scratch With Ergogen And QMK
 date: 2023-02-27
 summary: This post is about my journey to make my own (highly inefficient, but already better than standard) split keyboard.
-image: supersplit.webp
+image: monkeyboard.webp
 ---
 
 # Introduction
 
 This post is about my journey to make my own (highly inefficient, but already better than standard) split keyboard, which looks like this:
 
-![The supersplit keyboard](supersplit.webp)
+![The monkeyboard keyboard](monkeyboard.webp)
 
 It is a 4x6 split keyboard with an **enormous** 9-key thumbfan, and I'll go into all the details about what that it is and how I made it in this article.
+
+I call it the monkeyboard and sometimes the supersplit.
 
 # Building the keyboard
 
