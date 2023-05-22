@@ -36,7 +36,7 @@ One popular option for people to host their own sites or blogs is by using [Neoc
 
 If you want something more community-oriented, you can explore the [Tildeverse](https://tildeverse.org). It is a collection of personal servers and communities which offer various services such as web hosting, email, IRC, and more. The [IndieWeb](https://indieweb.org/) is also worth a look. 
 
-Another option for more tech-savvy users is to host their sites on a VPS or even their own server, but this means that you will have to maintain it and it may not stay up all the time. Still, this is what I do for this site (see [renn.es](https://renn.es))
+Another option for more tech-savvy users is to host their sites on a VPS or even their own server, but this means that you will have to maintain it and it may not stay up all the time. Still, this is what I do for this site (see [renn.es](https://renn.es)).
 
 As you can see, hosting minimal websites is not really such a big problem. The problem is finding them.
 
