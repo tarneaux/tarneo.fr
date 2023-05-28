@@ -4,11 +4,11 @@ date: 2023-05-22T21:50:01+02:00
 summary: "Yes it is"
 ---
 
-# Umm... what is Qutebrowser?
+## Umm... what is Qutebrowser?
 
 Qutebrowser is basically "just" a web browser that has a vim-like interface, plus it's one of the few web browsers that are actually not spyware (yes, there are only a few, see [this](https://spyware.neocities.org/articles/)).
 
-# Why is it so cool?
+## Why is it so cool?
 
 I quite frequently go looking through random web pages from the indieweb (which I will eventually post a selection of on this blog), and very often find myself in a situation where I want to do something else but not loose my open tabs (even though I write down the nice stuff in an orgmode document). I realized that Qutebrowser had a very simple feature which just seems like the only right way to do this: just hit `:w cool-stuff` and then I can see it again whenever I want by just running `:session-load cool-stuff`. I guess the time of having 1000 open tabs at once is over now :-)
 
