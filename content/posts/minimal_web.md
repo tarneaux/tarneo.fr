@@ -82,3 +82,7 @@ We could also add some features to the search engine to make it more useful:
 # Conclusion
 
 While solutions to host personal sites already exist, there is no good way to find them. Creating this kind of search engine would greatly improve the situation of the web. It would help a bit to bring back and promote that kind of internet where sites are owned by people (which was the internet's initial goal) and not tech giants.
+
+# Notes
+
+- There is a pair of articles on Anil Dash's blog that are worth a read: [The web we lost](https://www.anildash.com/2012/12/13/the_web_we_lost/) and [Rebuilding the web we lost](https://www.anildash.com/2012/12/18/rebuilding_the_web_we_lost/).
