@@ -43,8 +43,5 @@ First things off: making your own keyboard takes time, and I almost made a mista
 - You can just buy another keyboard. I think the [corne](https://github.com/foostan/crkbd) can be the right keyboard for anyone willing to take a bit of time learning a new layout, even if the pinky stagger is maybe not aggressive enough for my hands, plus it's **cheap**.
 
 
-[^1]:On a traditional keyboard, both thumbs press only one key. This is highly inefficient as, well, you don't need two fingers to press one key. Have you never noticed the fact that one of your thumbs is never doing anything? Ergonomic keyboards have two main ways of mitigating this problem, mainly:
-- Thumb clusters, sections which make you stretch your thumb to reach many keys. For example, here is the layout for the ergodox:
-  ![the ergodox layout with the thumb keys highlighted](ergodox-thumb-keys.webp)
-- Thumb fans use the main ability of your thumbs: they can move in an arc, and so a thumbfan is just an arc of keys. Thumbfans sometimes also have multiple rows of keys, just like I did.
+[^1]:On a traditional keyboard, both thumbs press only one key. This is highly inefficient as, well, you don't need two fingers to press one key. Have you never noticed the fact that one of your thumbs is never doing anything? Ergonomic keyboards have two main ways of mitigating this problem, mainly thumb clusters (typically multiple keys on multiple rows, which I don't really like because the outer keys are typically too far) and thumb fans (just an arc of keys).
 
