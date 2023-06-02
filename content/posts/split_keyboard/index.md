@@ -2,7 +2,6 @@
 title: Making A Split Keyboard From Scratch With Ergogen And QMK
 date: 2023-02-27
 summary: This post is about my journey to make my own (highly inefficient, but already better than standard) split keyboard.
-image: monkeyboard.webp
 ---
 
 ## Introduction

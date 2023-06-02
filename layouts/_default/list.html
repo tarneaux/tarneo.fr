@@ -10,11 +10,6 @@
                     <a href="{{ .Permalink }}">{{ title .Title }}</a><br>
                     {{ .Summary | truncate 200 }}
                 </div>
-                {{ if .Params.image }}
-                    {{ $image := .Resources.GetMatch .Params.image }}
-                    {{ $image = $image.Resize "300x" }}
-                    <img src="{{ $image.Permalink }}" alt="{{ title .Title }} - post image">
-                {{ end }}
             </li>
         {{ end }}
     </ul>
