@@ -4,8 +4,6 @@ date: 2023-02-27
 summary: This post is about my journey to make my own (highly inefficient, but already better than standard) split keyboard.
 ---
 
-## Introduction
-
 This post is about my journey to make my own (highly inefficient, but already better than standard) split keyboard, which looks like this:
 
 ![The monkeyboard keyboard](monkeyboard.webp)
