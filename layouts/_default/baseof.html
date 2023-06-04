@@ -2,9 +2,7 @@
 <html lang="{{ .Site.LanguageCode }}">
     {{- partial "head.html" . -}}
     <body>
-        {{ if .Site.Params.nav -}}
-            {{- partial "navbar.html" . -}}
-        {{- end -}}
+        {{- partial "navbar.html" . -}}
         <div id="parent">
             <div id="child">
                 {{- partial "header.html" . -}}
