@@ -1,9 +1,13 @@
-<div id="navbar">
-	<nav id="navbar-nav">
-		{{ range .Site.Menus.main }}
-			<a href="{{ .URL }}" class="nav-item{{ if .HasChildren }} nav-dropdown-toggle{{ end }}">
-				{{ .Name }}
-			</a>
-		{{ end }}
-	</nav>
-</div>
+<center>
+	<div id="navbar">
+		<h1>
+			{{ .Site.Title }}
+		</h1>
+		<hr>
+		<nav id="navbar-nav">
+			{{ range .Site.Menus.main }}
+				<a href="{{ .URL }}">{{ .Name }}</a>
+			{{ end }}
+		</nav>
+	</div>
+</center>

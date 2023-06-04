@@ -5,12 +5,12 @@
         {{ if .Site.Params.nav -}}
             {{- partial "navbar.html" . -}}
         {{- end -}}
-        {{- partial "header.html" . -}}
         <div id="parent">
             <div id="child">
+                {{- partial "header.html" . -}}
                 {{- block "main" . }}{{- end }}
+                {{- partial "footer.html" . -}}
             </div>
         </div>
-        {{- partial "footer.html" . -}}
     </body>
 </html>
