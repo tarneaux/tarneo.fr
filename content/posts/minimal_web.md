@@ -10,7 +10,7 @@ In this article, we'll explore ways to bring back that version of the web, inclu
 
 We'll delve into the specifics of how this search engine would work, including its scoring system used for page ranking and methods to prevent duplication of data across servers.
 
-## What is the problem?
+## What's the problem?
 
 I'm sure you're familiar with this problem: you search for something on the web, and you end up on those terrible, search engine optimized sites that are just stuffed with a bunch of keywords, ads, and other kinds of bloat, and most of the time you can't even find the solution to the problem. In the search results given by the search engine, most were just written by AI's to make money, and just a few are actually handcrafted by humans who want to help people out.
 
