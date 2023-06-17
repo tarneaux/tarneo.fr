@@ -7,12 +7,18 @@ h1, h2, h3, h4, h5, h6
   margin: 0
   font-weight: bold
   color: var(--emphasis-color)
-  border: 1px solid var(--emphasis-color)
-  border-bottom: none
+  border-bottom: 1px solid var(--emphasis-color)
   font-size: 1em
   text-transform: uppercase
   padding: 0.25em
   width: fit-content
+
+#child
+  h1, h2, h3, h4, h5, h6
+    width: 100%
+
+  h1
+    border-bottom: 5px double var(--emphasis-color)
 
 b, strong
   color: var(--emphasis-color)
