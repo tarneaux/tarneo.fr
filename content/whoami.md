@@ -27,3 +27,9 @@ I believe everyone should have the right to not be tracked or have their data so
 
 I don't like most of "social" media platforms: Instagram or TikTok, in my very humble opinion, do not provide any value to the user. I am also not a user of any google service apart from YouTube, which I always access through NewPipe or mpv(1).
 
+
+## License
+
+All articles on this website are licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License (CC-BY-SA)](https://creativecommons.org/licenses/by-sa/4.0/).
+
+The code (HTML & CSS) is licensed under the [GNU General Public License v2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html).
