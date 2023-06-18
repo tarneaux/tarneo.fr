@@ -5,7 +5,7 @@ date = 2023-03-25
 
 # whoami
 
-I started programming with MIT's [Scratch](https://scratch.mit.edu) in primary school at the age of 9. Two years later I started programming in Python, which was my go-to programming language for a few years. I then started using other languages: HTML and CSS, Arduino C, C itself, Javascript, and Go. I write configuration files in Lua wherever I can (NeoVim, AwesomeWM), and I do my scripting with Bash. I now use Rust for more complicated projects, mainly because of its great developer experience.
+I started programming with MIT's [Scratch](https://scratch.mit.edu) in primary school at the age of 9. Two years later I switched to Python, which was my go-to programming language for a few years. I then started using other languages: HTML and CSS, Arduino C, C itself, Javascript, and Go. I write configuration files in Lua wherever I can (NeoVim, AwesomeWM), and I do my scripting with Bash. I now use Rust for more complicated projects, mainly because of its great developer experience.
 
 I am the administrator of [Renn.es](https://renn.es) and every service there runs inside a Docker container.
 
