@@ -74,9 +74,17 @@ pre
     padding: 0
 
 blockquote
-  p::before, p::after
-    content: "\""
-    display: inline-block
+  p
+    margin: 0
+  cite
+    // Align the citation to the right
+    width: 100%
+    text-align: right
+    font-size: 0.8em
+    font-style: normal
+    color: var(--emphasis-color)
+  cite::before
+    content: "— "
 
 // Blinking '_' after "whoami" title in about page
 @keyframes blink

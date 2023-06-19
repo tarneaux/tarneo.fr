@@ -13,13 +13,15 @@ I am in high school in Paris and make little projects that, most of the time, ar
 
 Most of my projects are on [my github](https://github.com/tarneaux) and/or on the [renn.es git server](https://git.renn.es/). One I really enjoyed making is my split keyboard, the [monkeyboard](/posts/split_keyboard).
 
-> I use arch BTW
+> "I use arch BTW"
 
 I use Arch Linux as my daily driver and I don't plan to go back to windows anytime soon. I just think Free Software is the only way to get good programs that are designed for the best user experience instead of just making money. I managed to get rid of most of the proprietary software I once used: I will never regret doing that and I do think you should too.
 
 I think one could sum up my thoughts on proprietary software with this quote from John Maynard Keynes:
 
-> Capitalism is the extraordinary belief that the nastiest of men for the nastiest of motives will somehow work together for the benefit of all.
+> "Capitalism is the extraordinary belief that the nastiest of men for the nastiest of motives will somehow work together for the benefit of all."
+>
+> <cite>John Maynard Keynes</cite>
 
 I also like to use programs which adhere to the Unix philosophy, namely: do one thing and do it well. This is why I do not use things like Nextcloud or an office suite.
 

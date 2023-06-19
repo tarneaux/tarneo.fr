@@ -5,6 +5,11 @@ author:
   name: "Tarneo"
   email: "tarneo@renn.es"
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
 menu:
   main:
     - name: "Home"

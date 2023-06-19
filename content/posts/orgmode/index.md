@@ -10,7 +10,7 @@ I use it primarily for notes and to do lists, and sync the files between my phon
 
 ## The notes
 
-> Choose the right tool for the job, not the right job for the tool.
+> "Choose the right tool for the job, not the right job for the tool."
 
 My workflow with orgmode is very simple: It is organized like a tree of headings which describe one thing each: if I want to outline a project and its features, I'll put a heading with the name of the project in one of my org files, say `IT.org` (which right now is a 500-line tree with only 6 top-level headings). This heading will probably be a second-level heading inside of my "projects" top-level heading. Then I will list out the main features of my project.
 
