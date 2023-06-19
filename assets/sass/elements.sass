@@ -65,16 +65,17 @@ pre, code
   background-color: #3c3836
   white-space: pre-wrap
 
-code
+*:not(pre) > code
   padding: 0px 4px
-
-img
-  border: 1px solid var(--emphasis-color)
+  font-size: 0.9em // To prevent lines from overlapping
 
 pre
   padding: 1em
   > code
     padding: 0
+
+img
+  border: 1px solid var(--emphasis-color)
 
 blockquote
   p
