@@ -3,6 +3,10 @@ body
   color: var(--fg-color)
   font-family: monospace
 
+::selection
+  background-color: var(--selection-background-color)
+  color: var(--selection-foreground-color)
+
 h1, h2, h3, h4, h5, h6
   margin: 0
   font-weight: bold
@@ -35,11 +39,6 @@ ul > li::marker
 sup
   line-height: 0
 
-
-::selection
-  background-color: var(--selection-background-color)
-  color: var(--selection-foreground-color)
-
 footer
   opacity: 0.5
 
@@ -55,6 +54,8 @@ pre, code
 pre
   padding: 1em
 
+// Pre's surround are parents of non-inline code blocks.
+// This rule prevents them from showing an orange outline when clicked.
 pre:focus
   outline: none
 
