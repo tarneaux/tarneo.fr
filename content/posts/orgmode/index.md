@@ -6,13 +6,15 @@ summary: "Why I think Orgmode is the best way to take notes, and how I use it."
 
 For the past few months, I've been using [Orgmode](https://orgmode.org/) to take notes. Just in case you've never heard of it, it's kind of like Markdown on steroids for "organizing your life" (hence the name). It was originally made for use in GNU Emacs but also has a [plugin](https://github.com/nvim-orgmode/orgmode) for Neovim and even an Android app, [Orgzly](https://orgzly.com/). I would also describe it as the "everything markup language": you can do anything you want with it, including documentation, literate programming[^1] and notes.
 
+[^1]: [wikipedia](https://en.wikipedia.org/wiki/Literate_programming): "Literate programming is a programming paradigm introduced in 1984 by Donald Knuth in which a computer program is given as an explanation of how it works in a natural language, such as English, interspersed (embedded) with snippets of macros and traditional source code, from which compilable source code can be generated. The approach is used in scientific computing and in data science routinely for reproducible research and open access purposes. Literate programming tools are used by millions of programmers today."
+
 I use it primarily for notes and to do lists, and sync the files between my phone and computer, and that's what I am going to talk about in this article.
 
 ## The notes
 
 > "Choose the right tool for the job, not the right job for the tool."
 
-My workflow with orgmode is very simple: It is organized like a tree of headings which describe one thing each: if I want to outline a project and its features, I'll put a heading with the name of the project in one of my org files, say `IT.org` (which right now is a 500-line tree with only 6 top-level headings). This heading will probably be a second-level heading inside of my "projects" top-level heading. Then I will list out the main features of my project.
+My workflow with orgmode is very simple: It is organized like a tree of headings which describe one thing each: if I want to outline a project and its features, I'll put a heading with the name of the project in one of my org files, say `IT.org` (which right now is a 500-line abomination of a tree with only 6 top-level headings). This heading will probably be a second-level heading inside of my "projects" top-level heading. Then I will list out the main features of said project.
 
 Let's see an example:
 
@@ -65,7 +67,10 @@ Having this plain text syntax does not mean it it's ugly; look at how I configur
 
 ![Screenshot of an orgmode document in neovim](nvim_open.png)
 
-To make the syntax prettier, I just installed the orgmode plugin already mentioned above, and then told it to hide leading stars, and also to hide emphasis markers (=hide characters that change the formatting, but still show them when the cursor is on that line).
+To make the syntax prettier, I just installed the orgmode plugin I already mentioned above, and then configured it to hide leading stars[^2] and emphasis markers[^3].
+
+[^2]: On each line, replace all stars but the last one by spaces, making the text look indented.
+[^3]: Hide symbols that change the formatting (like `*` `*bold text*` or `/` for `/italicized text/`). Though we still want to be able to edit the text easily, so we show those symbols anyway when the cursor is on the same line.
 
 ## Using it on the go
 
@@ -73,15 +78,15 @@ Very often I want to add something to my notes while on the go, and that's why I
 
 ## What about [insert feature]?
 
-Orgmode has just too much features, and I think it would just take far too much time to even only read the entire documentation once. However I can list out some of these here:
+Orgmode has too much features, which can be well illustrated by the length of the documentation[^4]. However I can list out some of these here:
 - TODO keywords: Org can highlight and autocomplete any keywords you'd like. Most people will have something like "TODO", "NEXT", and "DONE", and I added "TOREAD" and "TOWRITE" onto these.
 - URLs: `[[https://tarneo.fr]]` makes a link to this site. `[[https://tarneo.fr/][really nice site]]` adds a title to it.
 - Tags: Each heading can have tags, and I mainly use them for things I still need to think about, e.g. "Do I really need this"?
 
+[^4]: I ran a script on the [documentation index page](https://orgmode.org/manual/Main-Index.html) and it counted over a thousand links. That's a thousand documentation pages!
+
 ## Conclusion
 
-What else is there left to say? Basically, most other note-taking apps only allow you to take linear (=non-hierarchical) notes, which I think is a shame. Orgmode even supports due dates, times and REPEAT. I actually used this one recently. Also most other note-taking apps will either be proprietary, work only on your phone or only on your computer, or have bad syncing or even a standalone service for your server (looking at you, Joplin).
+What else is there left to say? Most other note-taking apps only allow you to take linear (=non-hierarchical) notes, which I think is a shame. Orgmode, on the other hand, lets you work however you want (in my case with trees of notes) and supports many features, such as very rich links. Most other note-taking apps will also either be proprietary, work only on your phone or only on your computer, have a bad syncing mechanism or even a server component that needs to be run somewhere (looking at you, Joplin).
 
 Anyway, I don't think I'll switch away from it soon as it allows me to use the editor I want (unlike things like Obsidian which have their own bloated editor) and lets me organize my stuff how I want without making me spend hours on customizing (Notion).
-
-[^1]: Literate programming is what we normally do with code, flipped around: normally we write comments inside of code, but with literate programming, the code is in the form of snippets inside of another document written in natural language.
