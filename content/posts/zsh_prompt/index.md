@@ -1,6 +1,6 @@
 ---
 title: "Adding git status information to the ZSH prompt"
-date: 2023-06-20T20:13:45+02:00
+date: 2023-06-21T10:20:00+02:00
 summary: ""
 ---
 
