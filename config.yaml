@@ -3,7 +3,7 @@ languageCode: 'en'
 title: "Tarneo's blog"
 author:
   name: "Tarneo"
-  email: "tarneo@renn.es"
+  email: "tarneo@tarneo.fr"
 
 markup:
   goldmark:
