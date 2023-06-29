@@ -12,3 +12,5 @@ I am a college student and computer science enthusiast. I just make any project 
 - **matrix**: @tarneo:matrix.renn.es
 
 Make sure to encrypt emails with my [PGP key](/tarneo.key).
+
+I am the administrator of [renn.es](https://renn.es), where this blog is hosted.
