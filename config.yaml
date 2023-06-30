@@ -18,9 +18,12 @@ menu:
     - name: "Posts"
       url: "/posts/"
       weight: 2
+    - name: "Links"
+      url: "/links/"
+      weight: 3
     - name: "About me"
       url: "/whoami/"
-      weight: 3
+      weight: 4
 
 params:
   favicon: "profile.png"
