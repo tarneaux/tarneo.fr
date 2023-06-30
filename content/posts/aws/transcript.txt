@@ -1,0 +1,149 @@
+Hello, how do I delete my account without giving my credit card information?
+The web interface wants me to give it when I go into "my account".
+My email address is ****.
+3:32 PM
+
+I seriously do not appreciate having to go in here and talk to someone for something as trivial as deleting my account.
+As a european citizen, I also want my entire data deleted (GDPR).
+3:33 PM
+
+
+Hello, my name is ***** and I am here to assist you today. While I review your case details, would you please share your name with me?
+3:36 PM
+
+
+The thing is  the following I just review the account information, the account is in created status
+3:39 PM
+
+
+so you need to finish the activation process to be able to close it, if you do not finish the process of activation by adding a valid card, the account will remain in that status, but it does not generate any charge to you  in case you can not add a card.
+3:40 PM
+
+I don't care.
+I just want my account deleted and that is my right.
+The name I registered as is tarneo.
+3:40 PM
+
+Yes, that is what I am confirming, an account can not be deleted and closed until you finish the activation process.
+
+That would be the way it works.
+3:42 PM
+
+It can, it is in the law. Did nobody at amazon read GDPR?
+3:42 PM
+
+because in that it is clearly stated that any european citizen can delete information at a company if he wants to, and amazon does not have the right to change that or force people into giving them more personal information.
+3:43 PM
+
+
+
+
+Please note, all the details in your use case has been considered carefully and in line with our Service Agreement: https://aws.amazon.com/agreement  
+
+We'd also like to remind you that as part of our agreement, you are responsible for all activities that occur under your account, including all applicable fees and charges for use of our services. We also ask that you please review our Shared Responsibility Model here: https://aws.amazon.com/compliance/shared-responsibility-model/
+
+3:43 PM
+
+You have the right to have your data erased, without undue delay, by the data controller, if one of the following grounds applies: Where your personal data are no longer necessary in relation to the purpose for which it was collected or processed.
+
+I'm sorry but it is my right.
+My personal information is not at all necessary because I have not used any of amazon's services.
+3:45 PM
+
+
+By now you can delete the information as I said, but you need to finish the activation process, if you don't the account will remain as that, but as I mentioned this does not cause any issue, but if you rally need to terminate it, you have to go and finish the acivation process. I would like to say there is other way, but AWS can not close an account that has not been activate yet.
+3:45 PM
+
+
+By now I already informed you about the process needed to accomplish your request, so you would need to follow the steps as needed. By now is there any other question that I can help you with?
+3:46 PM
+
+This does cause an issue because I do not have to trust amazon.
+
+There is no reason why I would have to give my credit card info because I have nothing due.
+3:46 PM
+
+If you can't do anything please forward this to someone else who can actually delete the account.
+3:47 PM
+
+by the way "that's the way it is" is not something you can say. I don't have to comply to what a company wants to do with my data, but it is the company that has to comply to the law if I want my data deleted.
+3:48 PM
+
+
+You don't have to, but the account is not active, for accomplishing your request, an account needs to be active, we can not close something is not active, so we already provided you the steps to follow. We have not provide you any charge and you where the one responsible of the activity on the account, so at this point we are going over the same question. For quality I will proceed to disconnect this chat if no further questions comes up besides what we already explained.
+3:49 PM
+
+I am sorry, but the GDPR clearly states that I have the right to delete my account, even if it is not "active". What I see is there is an account that I can log into, and some of my personal information is stored in your data centers (even though it's not a lot). If you have some of my personal information I have the right to delete it without giving you more.
+3:52 PM
+
+This is the contents of the first part of art. 17 of GDPR:
+
+The data subject shall have the right to obtain from the controller the erasure of personal data concerning him or her without undue delay and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies:
+a) the personal data are no longer necessary in relation to the purposes for which they were collected or otherwise processed;
+[other points]
+
+That is why I am wanting to delete my account, and if I cannot amazon is doing something illegal (which they already do quite a lot :d)
+3:54 PM
+
+What I am saying is that my data is no longer necessary. This is why I have the right to delete it *without undue delay*
+3:55 PM
+
+
+We can't delete something that has not been fully activated, I would like to state that we have other option, there is not other option as this account is not active. We do not have any further action besides what we have indicated you.
+3:55 PM
+
+
+If you do not want to finish, it is OK, the account would be in pending activation status and you do not have to add anything. But you can not delete it as it has not completed the activation process, we appreciate your understanding on this.
+3:56 PM
+
+Can you explain to me why I would have to enter a means to give money somewhere I don't need to give money?
+3:56 PM
+
+That's as if I had to show that I have money just to be able to get out of somewhere (I don't have a better comparison)
+3:57 PM
+
+"it's OK": it may be OK to one of the big tech companies but it is not OK to me. Again, I have the right to delete my account and that's it, you have nothing you can say about that.
+Now please do something or we will be chatting here for the rest of the evening
+3:58 PM
+
+
+Because a requirement to use the AWS services is to have a valid card, we understand you don't need it, but is part of the process as you previously requested to get it.
+4:02 PM
+
+OK, what do I have to say for you to listen?
+4:02 PM
+
+
+I understand your needs, but I am not able modify the process.
+4:03 PM
+
+It must be the tenth time in a row you bring up the same argument, if you can't do anything about my problem please forward it to someone who can.
+And if there is nobody who can do anything then this support is just broken.
+4:03 PM
+
+To close your AWS account
+
+    Open the Billing and Cost Management console at https://console.aws.amazon.com/billing/home#/
+
+.
+
+On the navigation bar in the upper-right corner, choose your account name (or alias), and choose Account.
+
+Scroll to the end of the page to the Close Account section. Read and ensure that you understand the text next to the check box. After you close an AWS account, you can no longer use it to access AWS services.
+
+If the account has a multi-factor authentication (MFA) device turned on, keep your MFA device until the 90 day post-closure period expires, or turn off before closing the account.
+
+Select the check box to accept the terms, and choose Close Account.
+
+In the confirmation box, choose Close Account.
+
+I just requested assistance from the service team, please proceed to close the account now.
+4:07 PM
+
+Thanks!
+Have a nice day, thanks for finally letting me do that.
+and sorry for the rant
+4:08 PM
+
+Sure, feel free to resolve the case from your console if there are no other concerns, I hope you have a great weekend'
+4:08 PM
