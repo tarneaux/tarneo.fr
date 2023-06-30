@@ -1,7 +1,7 @@
 ---
 title: "Getting my AWS account deleted"
 date: 2023-06-30T12:08:07+02:00
-summary: ""
+summary: "Recently I have tried to delete as many of my online accounts as possible to reduce my personal data footprint. A few weeks ago, I wanted to delete an AWS account. Here's how it went."
 ---
 
 Recently I have tried to delete as many of my online accounts as possible to reduce my personal data footprint. A few weeks ago, I wanted to delete an AWS account. Here's how it went.

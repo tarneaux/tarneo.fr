@@ -1,7 +1,7 @@
 ---
 title: "Adding git status information to the ZSH prompt"
 date: 2023-06-21T10:20:00+02:00
-summary: ""
+summary: "I thought I would share my Zsh prompt here, mainly the part that shows the git status."
 ---
 
 I thought I would share my Zsh prompt here, mainly the part that shows the git status:
