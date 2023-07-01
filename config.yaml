@@ -21,7 +21,7 @@ menu:
     - name: "Links"
       url: "/links/"
       weight: 3
-    - name: "About me"
+    - name: "About"
       url: "/whoami/"
       weight: 4
 
