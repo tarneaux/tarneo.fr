@@ -5,17 +5,13 @@ date = 2023-03-25
 
 # whoami
 
-I started programming with MIT's [Scratch](https://scratch.mit.edu) in primary school at the age of 9. Two years later I switched to Python, which was my go-to programming language for a few years. I then started using other languages: HTML and CSS, Arduino C, C itself, Javascript, and Go. I write configuration files in Lua wherever I can (NeoVim, AwesomeWM), and I do my scripting with Bash. I now use Rust for more complicated projects, mainly because of its great developer experience.
+I'm tarneo, a high school student, but also a computer programmer, Free Software advocate and sysadmin at [Renn.es](https://renn.es), a 90s-style [tilde community](https://tildeverse.org). Some projects I made include [Shlonk](https://github.com/tarneaux/shlonk), a very simple URL shortener, and my split keyboard, the [Monkeyboard](/posts/split_keyboard/). You can also check out my GNU/Linux [dotfiles](https://github.com/tarneaux/.f) or my [wallpaper selection](https://github.com/tarneaux/wallpapers). If for some reason you want to see how this blog is made, you can see its [source code](https://github.com/tarneaux/tarneo.fr).
 
-I am the administrator of [Renn.es](https://renn.es) and every service there runs inside a Docker container.
-
-I am in high school in Paris and make little projects that, most of the time, are just for my personal use.
-
-Most of my projects are on [my github](https://github.com/tarneaux) and/or on the [renn.es git server](https://git.renn.es/). One I really enjoyed making is my split keyboard, the [monkeyboard](/posts/split_keyboard).
+I started programming with MIT's [Scratch](https://scratch.mit.edu) in primary school at the age of 9 (my account was created on August 24, 2016). Two years later I switched to Python, which was my go-to programming language for a few years. I then started using other languages: HTML and CSS, Arduino C, C itself, Javascript, and Go. I write configuration files in Lua wherever I can (NeoVim, AwesomeWM), and I do my scripting with Bash. These days I write most of my software in Rust, mainly because of its great developer experience.
 
 > "I use arch BTW"
 
-I use Arch Linux as my daily driver and I don't plan to go back to windows anytime soon. I just think Free Software is the only way to get good programs that are designed for the best user experience instead of just making money. I managed to get rid of most of the proprietary software I once used: I will never regret doing that and I do think you should too.
+I use Arch Linux as my daily driver OS and I don't plan to go back to windows anytime soon. I just think Free Software is the only way to get good programs that are designed for the best user experience instead of just making money. I managed to get rid of most of the proprietary software I once used: I will never regret doing that and I do think you should too.
 
 I think one could sum up my thoughts on proprietary software with this quote from John Maynard Keynes:
 
