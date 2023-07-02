@@ -21,7 +21,7 @@ I think one could sum up my thoughts on proprietary software with this quote fro
 
 I also like to use programs which adhere to the Unix philosophy, namely: do one thing and do it well. This is why I do not use things like Nextcloud or an office suite.
 
-I believe everyone should have the right to not be tracked or have their data sold to third parties without their ACTUAL consent (which I'd hope nobody would be dumb enough to give). If you think "I have nothing to hide", check out Glenn Greenwald's Ted Talk ["Why Privacy Matters"](https://yewtu.be/watch?v=pcSlowAhvUk). For this matter I also recommend you read [the Wikipedia article about mass surveillance](https://en.wikipedia.org/wiki/Mass_surveillance).
+I believe everyone should have the right to not be tracked or have their data sold to third parties without their ACTUAL consent (which I'd hope nobody would be dumb enough to give). If you think "I have nothing to hide", check out Glenn Greenwald's Ted Talk ["Why Privacy Matters"](https://iv.renn.es/watch?v=pcSlowAhvUk). For this matter I also recommend you read [the Wikipedia article about mass surveillance](https://en.wikipedia.org/wiki/Mass_surveillance).
 
 I don't like most of "social" media platforms: Instagram or TikTok, in my very humble opinion, do not provide any value to the user. I am also not a user of any google service apart from YouTube, which I always access through NewPipe or mpv(1).
 
