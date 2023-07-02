@@ -12,5 +12,6 @@ If you're here, you probably want to see my latest [posts](/posts/).
 - **email**: tarneo@tarneo.fr
 - **github**: [tarneaux](https://github.com/tarneaux)
 - **matrix**: @tarneo:matrix.renn.es
+- **mastodon**: <a rel="me" href="https://toot.renn.es/@tarneo">@tarneo@toot.renn.es</a>
 
 Make sure to encrypt emails with my [PGP key](/tarneo.key).
