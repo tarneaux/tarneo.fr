@@ -36,6 +36,7 @@ I don't like most of "social" media platforms: Instagram or TikTok, in my very h
     - It supports extensions. Big plus because that way I can use uMatrix for blocking scripts and other nasty stuff.
     - Bottom address bar that does not require you to awkwardly stretch your thumb to the top! yaaay!
 - Search engine: [SearXNG](https://docs.searxng.org/) ([find an instance](https://searx.space/)). This is the best meta search engine[^1] I could find. I enabled Google, Duckduckgo, Qwant and [Wiby](https://wiby.me/)[^2].
+- Audio editor: [Tenacity](https://tenacityaudio.org/), a fork of Audacity without non-free blobs.
 - Terminal emulator: [Alacritty](https://github.com/alacritty/alacritty). I find it better than [Kitty](https://sw.kovidgoyal.net/kitty/) (even though Kitty has ligatures support) because it isn't spyware by default (most Linux distros have kitty packaged with telemetry disabled though).
 - Linux distribution: Arch Linux, as already explained above. I won't say it is the best because it's not for everyone: you need some serious command-line knowledge to get it working. But once that's done you will have a fantastic package manager along with the number of packages in the AUR. For non tech savvy people I have always recommended Fedora's KDE spin. I am also not blue-pilled enough to accept using Microsoft Windows anywhere.
 - File syncing, along with anything that runs on servers: see information at [Renn.es](https://renn.es/).
