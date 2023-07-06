@@ -48,7 +48,7 @@ I don't like most of "social" media platforms: Instagram or TikTok, in my very h
 - Phone OS: [LineageOS](https://lineageos.org/) to escape all of that Google crap.
 - Email client: [aerc](https://aerc-mail.org/) for PC and [FairEmail](https://email.faircode.eu/) for Android.
 
-For a few of those pieces of software, you can find my config files [here](https://git.renn.es/.f-tarneo).
+For a few of those pieces of software, you can find my config files [here](https://github.com/tarneaux/.f).
 
 [^1]: a meta search engine takes results from others and makes a single result page.
 [^2]: Wiby is a search engine for the minimal web. Unfortunately it is curated, which limits the number of results a lot, but this still allows me to find random blogs and sites when looking for things. Usually it shows me a second result that has nothing to do with my search query, but sometimes it's actually interesting.

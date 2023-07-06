@@ -148,4 +148,4 @@ function _git_info() {
 
 Now we have a *relatively* simple prompt in plain shell which will work anywhere git and Zsh do. I originally wrote it for my Gentoo [server](https://renn.es/) where I didn't want to install the [starship](https://starship.rs/) prompt I was using at the time. These days I ditched starship and only use this prompt everywhere!
 
-The entire code is available [here](https://git.renn.es/.f-servers/blob/main/zsh/.zshrc#L141), in the "Prompt" section.
+The entire code is available [here](https://github.com/tarneaux/.f/blob/master/zsh/.zshrc#L183), in the "Prompt" section.
