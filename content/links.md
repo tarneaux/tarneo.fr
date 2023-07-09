@@ -74,6 +74,8 @@ From [Fabien Sanglard](https://fabiensanglard.net/) too ~> [USB Cheat Sheet](htt
 
 ## Articles / wikis / fun stuff
 
+[Index 1,600,000,000 Keys with Automata and Rust](https://blog.burntsushi.net/transducers/): A great article from Andrew Gallant, the developer of [ripgrep](https://github.com/BurntSushi/ripgrep), about "using finite state machines as a data structure, which enable storing a large number of keys in a small amount of space while remaining easily searchable."
+
 Paul Ford - [I had a couple drinks and woke up with 1,000 nerds](https://medium.com/message/tilde-club-i-had-a-couple-drinks-and-woke-up-with-1-000-nerds-a8904f0a2ebf): how the tildeverse started
 
 [SDF Tutorials](https://sdf.org/?tutorials): emails, website hosting and much more
