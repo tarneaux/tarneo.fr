@@ -36,7 +36,7 @@ I don't like most of "social" media platforms: Instagram or TikTok, in my very h
     - It supports extensions. Big plus because that way I can use uMatrix for blocking scripts and other nasty stuff.
     - Bottom address bar that does not require you to awkwardly stretch your thumb to the top! yaaay!
 - Search engine: [SearXNG](https://docs.searxng.org/) ([find an instance](https://searx.space/)). This is the best meta search engine[^1] I could find. I enabled Google, Duckduckgo, Qwant and [Wiby](https://wiby.me/)[^2].
-- Audio editor: [Tenacity](https://tenacityaudio.org/), a fork of Audacity without non-free blobs.
+- Audio editor: [Audacity](https://www.audacityteam.org/), with telemetry makeopts turned OFF (you should be fine if you install it from your distro's repository).
 - Video editor: [Kdenlive](https://kdenlive.org/en/).
 - Photo viewer: [nsxiv](https://codeberg.org/nsxiv/nsxiv) with [a decent key handler](https://raw.githubusercontent.com/tarneaux/.f/master/nsxiv/.config/nsxiv/exec/key-handler).
 - Photo organizer: [DigiKam](https://www.digikam.org/).
