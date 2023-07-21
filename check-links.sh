@@ -3,7 +3,7 @@
 links=$(find content/ -type f -name "*.md" -exec cat '{}' \; | grep -oE "https?://[a-zA-Z0-9./?=_-]*")
 
 check_url() {
-	http_code=$(curl -s -m 5 -o /dev/null -w "%{http_code}" "$line")
+	http_code=$(curl -s -m 20 -o /dev/null -w "%{http_code}" "$line")
 	if [ "$http_code" -eq 200 ]; then
 		echo -e "\e[32m[OK]\e[0m $line"
 	elif [ "$http_code" -eq 301 ] || [ "$http_code" -eq 302 ]; then
