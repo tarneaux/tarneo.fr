@@ -1,0 +1,33 @@
+ => ERROR [internal] booting buildkit                                                                                                                                                                                   14.9s
+ => => starting container buildx_buildkit_default                                                                                                                                                                       14.9s
+------
+ > [internal] booting buildkit:
+#0 14.89 time="2023-07-22T13:45:34Z" level=warning msg="using host network as the defaultime="2023-07-22T13:45:34Z" level=warning msg="using host network as the default"
+#0 14.89 time="2023-07-22T13:45:34Z" level=warning msg="skipping containerd worker, as \"/run/containerd/containerd.sock\" does not exist"
+#0 14.89 dtime="2023-07-22T13:45:34Z" level=info msg="found 1 workers, default=\"oi001u4qm1cbmh5zo4mdrm0yx\""
+#0 14.89 `time="2023-07-22T13:45:34Z" level=warning msg="currently, only the default worker can be used."
+#0 14.89 \time="2023-07-22T13:45:34Z" level=info msg="running server on /run/buildkit/buildkitd.sock"
+#0 14.89 =time="2023-07-22T15:43:09time="2023-07-22T13:45:34Z" level=warning msg="skipping containerd worker, as \"/run/containerd/containerd.sock\" does not exist"
+#0 14.89 time="2023-07-22T13:45:34Z" level=warning msg="currently, only the default worker can be used."
+#0 14.89 time="2023-07-22T13:45:34Z" level=warning msg="currently, only the default worker can be used."
+#0 14.89 time="2023-07-22T15:43:09Z" level=info msg="stopping server"
+#0 14.89 buildkitd: context canctime="2023-07-22T15:43:09Z" level=info msg="stopping server"
+#0 14.89 time="2023-07-22T15:47:15Z" time="2023-07-22T15:47:15Z" level=info msg="auto snapshotter: using overlayfs"
+#0 14.89 time="2023-07-22T15:47:15Z" level=info msg="found worker \"oi001u4qm1cbmh5zo4mdrm0time="2023-07-22T15:47:15Z" level=info msg="found worker \"oi001u4qm1cbmh5zo4mdrm0yx\", labels=map[org.mobyproject.buildkit.worker.executor:oci org.mobyproject.buildkit.worker.hostname:6e6440cd90f6 org.mobyproject.buildkit.worker.network:host org.mobyproject.buildkit.worker.oci.process-mode:sandbox org.mobyproject.buildkit.worker.selinux.enabled:false org.mobyproject.buildkit.worker.snapshotter:overlayfs], platforms=[linux/amd64 linux/amd64/v2 linux/amd64/v3 linux/386]"
+#0 14.89 time="2023-07-22T15:47:15Z" level=info msg="found 1 workers, default=\"oi001u4qm1cbmh5zo4mdrm0yx\""
+#0 14.89 `time="2023-07-22T15:47time="2023-07-22T15:47:15Z" level=info msg="found 1 workers, default=\"oi001u4qm1cbmh5zo4mdrm0yx\""
+#0 14.89 time="2023-07-22T15:47:15Z" level=info msg="running server on /run/buildkit/buildkitd.sock"
+#0 14.89 time="2023-07-22T15:47:15Z" level=info msg="running server on /run/buildkit/buildkitd.sock"
+#0 14.89 buildkitd: context canceled
+#0 14.89 Otime="2023-07-22T15:48:51buildkitd: context canceled
+#0 14.89 time="2023-07-22T15:48:51Z" level=warning msg="using host network as the defaultime="2023-07-22T15:48:51Z" level=warning msg="using host network as the default"
+#0 14.89 time="2023-07-22T15:48:51Z" level=warning msg="skipping containerd worker, as \"/run/containerd/containerd.sock\" does not exist"
+#0 14.89 dtime="2023-07-22T15:48:51Z" level=info msg="found 1 workers, default=\"oi001u4qm1cbmh5zo4mdrm0yx\""
+#0 14.89 `time="2023-07-22T15:48:51Z" level=warning msg="currently, only the default worker can be used."
+#0 14.89 \time="2023-07-22T15:48:51Z" level=info msg="running server on /run/buildkit/buildkitd.sock"
+#0 14.89 time="2023-07-22T15:48:51Z" level=warning msg="skipping containerd worker, as \"/run/containerd/containerd.sock\" does not exist"
+#0 14.89 time="2023-07-22T15:48:51Z" level=warning msg="currently, only the default worker can be used."
+#0 14.89 time="2023-07-22T15:48:51Z" level=warning msg="currently, only the default worker can be used."
+#0 14.89
+------
+http: invalid Host header
