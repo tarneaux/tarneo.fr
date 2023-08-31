@@ -68,7 +68,7 @@ Dear Amazon employee, if you could have seen the size of the smile I had on my f
 
 What I knew is they just couldn't close the support ticket, and were just trying to get me to leave. But I knew my rights and said this:
 
-> There is no reason why I would have to give my credit card info because I have nothing due.
+> **me:** There is no reason why I would have to give my credit card info because I have nothing due.
 > 
 > If you can't do anything please forward this to someone else who can actually delete the account.
 
@@ -101,7 +101,7 @@ I knew they wouldn't forward this to anybody. What I think is they are just paid
 > "it's OK": it may be OK to one of the big tech companies but it is not OK to me. Again, I have the right to delete my account and that's it, you have nothing you can say about that.
 Now please do something or we will be chatting here for the rest of the evening
 
-> Because a requirement to use the AWS services is to have a valid card, we understand you don't need it, but is part of the process as you previously requested to get it.
+> **them:** Because a requirement to use the AWS services is to have a valid card, we understand you don't need it, but is part of the process as you previously requested to get it.
 
 Sigh. This is where I abandoned respect:
 
