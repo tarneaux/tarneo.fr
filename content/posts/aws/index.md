@@ -35,7 +35,7 @@ I was already pretty angry, and here's what I replied:
 >
 > That would be the way it works.
 
-Here, what they are really saying is this: "we don't want to delete your account until you gave us your credit card, because doing that will already make it easier for us to start offering 'services' to you, and so you will probably not want to delete your account anymore." Or it's: "You never gave us enough information, why would we delete it?"
+Here, what they are really saying is this: "we don't want to delete your account until you give us your credit card, because doing that will already make it easier for us to start offering 'services' to you, and so you will probably not want to delete your account anymore." Or it's: "You never gave us enough information, why would we delete it?"
 
 > **me:** It can, it is in the law. Did nobody at amazon read GDPR?
 >
