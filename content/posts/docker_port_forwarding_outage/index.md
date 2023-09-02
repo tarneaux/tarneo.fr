@@ -57,5 +57,6 @@ As of writing, there's still one thing that doesn't work: building docker images
 
 I don't really have the time to do this the right way[^2] at the moment but I'll make sure to do it when I can if it's not already fixed then. For now my workaround was using `docker build --tag <image-name> .` for this image, and then changing the docker-compose file to read from that. This causes docker to use the "legacy" build tool which actually works perfectly.
 
+**July update**: building images with buildx is working again. Yaay!
 
 [^2]: The right way to handle this would be to find which piece of software the issue comes from (docker, containerd, buildkit, or maybe just the Gentoo package), and then reporting an issue to that project so that it'd be fixed for everyone.
