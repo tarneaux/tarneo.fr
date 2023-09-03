@@ -14,4 +14,7 @@ If you're here, you probably want to see my latest [posts](/posts/).
 - **matrix**: [@tarneo:matrix.renn.es](https://matrix.to/#/@tarneo:matrix.renn.es)
 - **mastodon**: <a rel="me" href="https://toot.renn.es/@tarneo">@tarneo@toot.renn.es</a>
 
-Make sure to encrypt emails with my [PGP key](/tarneo.key).
+Make sure to encrypt emails with my PGP Key, which you can either [directly download](/.well-known/openpgpkey/hu/twnxbp33gur4nwext9bzmm6mahjw44hr) and manually import or download automatically:
+```sh
+gpg --locate-keys tarneo@tarneo.fr
+```
