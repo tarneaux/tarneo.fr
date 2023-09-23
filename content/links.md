@@ -36,6 +36,8 @@ From [Fabien Sanglard](https://fabiensanglard.net/) too ~> [USB Cheat Sheet](htt
 
 [Jes Olson](https://j3s.sh/) ~> [My Website Is One Binary](https://j3s.sh/thought/my-website-is-one-binary.html)
 
+[Technoblogy](http://www.technoblogy.com/) ~> [Lisp Badge [Updated]](http://www.technoblogy.com/show?2AEE), [Tiny Time 2 Watch](http://www.technoblogy.com/show?1MG3)
+
 [0x19](https://0x19.org/index.php) ~> [Why Social Media Is Bad](https://0x19.org/posts/2021-11-25.php)
 
 [mntn](https://mntn.xyz) ~> [Hello world](https://mntn.xyz/posts/2021-08-22-hello-world/) (website with Hugo -> Gemini), [The Eye Of Sauron](https://mntn.xyz/posts/2021-09-12-the-eye-of-sauron/) (about search engines and why he denies every one of them but [Wiby](https://wiby.me))
