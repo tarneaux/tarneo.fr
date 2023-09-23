@@ -47,6 +47,7 @@ I don't like most of "social" media platforms: Instagram or TikTok, in my very h
 - Password manager: Bitwarden because I tend to loose my files. If that wasn't the case I would use GNU Pass or KeepassXC.
 - Phone OS: [LineageOS](https://lineageos.org/) to escape all of that Google crap.
 - Email client: [aerc](https://aerc-mail.org/) for PC and [FairEmail](https://email.faircode.eu/) for Android.
+- Mobile navigation/maps: [Organic maps](https://organicmaps.app/).
 
 For a few of those pieces of software, you can find my config files [here](https://github.com/tarneaux/.f).
 
