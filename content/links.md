@@ -42,6 +42,10 @@ From [Fabien Sanglard](https://fabiensanglard.net/) too ~> [USB Cheat Sheet](htt
 
 [mntn](https://mntn.xyz) ~> [Hello world](https://mntn.xyz/posts/2021-08-22-hello-world/) (website with Hugo -> Gemini), [The Eye Of Sauron](https://mntn.xyz/posts/2021-09-12-the-eye-of-sauron/) (about search engines and why he denies every one of them but [Wiby](https://wiby.me))
 
+[Ali Reza Hayati](https://alirezahayati.com/) ~> [Bugs of social networks!](https://alirezahayati.com/2023/08/21/bugs-of-social-networks/), [Not a browser war but a Web war](https://alirezahayati.com/2023/08/06/not-a-browser-war-but-a-web-war/)
+
+[mrus](https://xn--gckvb8fzb.com/) ~> [Gemini is Solutionism at its Worst](https://xn--gckvb8fzb.com/gemini-is-solutionism-at-its-worst#site-main), [Git on Roids](https://xn--gckvb8fzb.com/git-on-roids/#site-main), [MailMan3 on OpenBSD 7.1](https://xn--gckvb8fzb.com/mailman3-on-openbsd-71/#site-main), [Linux on the Phone: Part One](https://xn--gckvb8fzb.com/linux-on-the-phone-part-one/#site-main)
+
 [~bt](https://bt.ht/) ~> [Better Search Results](https://search.bt.ht/), [My coffe maker just makes coffee](https://bt.ht/one-thing/), [Switching to suckless software](https://bt.ht/suckless/), [Do you have an extra $10?](https://bt.ht/$10/), [Stop using custom webfonts](https://bt.ht/webfonts/)
 
 > "Alpine Linux is one of the best distributions available. If you disagree, you clearly haven't achieved galaxy-brain levels of intelligence and I feel sorry for you."
@@ -120,6 +124,12 @@ Paul Ford - [I had a couple drinks and woke up with 1,000 nerds](https://medium.
 [blacklight](https://themarkup.org/blacklight): see what trackers are on a website
 
 [PRISM break](https://prism-break.org/en/)
+
+[switching.software](https://switching.software/): "Ethical, easy-to-use and privacy-conscious alternatives to well-known software"
+
+[redecentralize/alternative-internet](https://github.com/redecentralize/alternative-internet): "A collection of interesting new networks and tech aiming at decentralisation (in some form)"
+
+[Surveillance Self-Defense](https://ssd.eff.org/)
 
 Wikipedia - [Global surveillance](https://en.wikipedia.org/wiki/Global_surveillance)
 
