@@ -133,10 +133,10 @@ Paul Ford - [I had a couple drinks and woke up with 1,000 nerds](https://medium.
 
 Wikipedia - [Global surveillance](https://en.wikipedia.org/wiki/Global_surveillance)
 
-## Talks
+## Talks / Videos
 
 Glenn Greenwald - [Why Privacy Matters](https://iv.renn.es/watch?v=pcSlowAhvUk)
 
 Mattia Dal Ben - [34 Keys Is All You Need](https://iv.renn.es/watch?v=unMXQTSQEak)
 
-
+Ultimateeick - [Why Calvin and Hobbes is the Greatest Comic Strip Ever Made](https://iv.renn.es/watch?v=vMD3casO_q4)
