@@ -8,13 +8,13 @@ This post is about my journey to make my own (highly inefficient, but already be
 
 ![The monkeyboard](./monkeyboard.webp)
 
-It is a 4x6 split keyboard with an **enormous** 9-key thumbfan, and I'll go into all the details about what that it is and how I made it in this article.
+It is a 4x6 split keyboard with an **enormous** 9-key thumbfan, and I'll go into all the details about what it is and how I made it in this article.
 
 I call it the monkeyboard and sometimes the supersplit.
 
 ## Building the keyboard
 
-Around a year ago, I was looking for the best mechanical keyboard I could find. I stumbled on [Ben Vallack's channel](https://www.youtube.com/channel/UC4NNPgQ9sOkBjw6GlkgCylg), more specifically on [this video about making a fully custom keyboard using Ergogen](https://www.youtube.com/watch?v=UKfeJrRIcxw).
+Around a year ago, I was looking for a good mechanical keyboard. I eventually stumbled on [Ben Vallack's channel](https://www.youtube.com/channel/UC4NNPgQ9sOkBjw6GlkgCylg), more specifically on [this video about making a fully custom keyboard using Ergogen](https://www.youtube.com/watch?v=UKfeJrRIcxw).
 
 When I first watched the video, I immediately opened a terminal and started copying what Ben said. The start was pretty easy: to define your layout, just make a first column, and then add some other columns to it, to make a main matrix. Then add a thumb fan[^1] and boom, you have your layout. But then came the hard part: He just said "and then obviously start adding all the other bits that you need". I was incredibly overwhelmed by what that meant, and looked at the Ergogen documentation for the next few hours. I then had a first PCB prototype that I could open in KiCad and that would theoretically work. But I wasn't over yet, and changed my config file for the next few days. Eventually I stumbled upon [this repository](https://github.com/scipioni/clavis) that was almost perfect: I just needed to add a few keys to the main matrix and the thumb fan to get the layout I wanted.
 
