@@ -34,6 +34,8 @@ From [Fabien Sanglard](https://fabiensanglard.net/) too ~> [USB Cheat Sheet](htt
 
 [Julia Evans](https://jvns.ca/) ~> [Monitoring Small Web Services](https://jvns.ca/blog/2022/07/09/monitoring-small-web-services/)
 
+[Ersei 'n Stuff](https://ersei.net/en/blog) ~> [It's Nix All The Way Down](https://ersei.net/en/blog/nix-all-the-way-down), [NixOS and my Descent into Insanity](https://ersei.net/en/blog/its-nixin-time), [Basics of RSA](https://ersei.net/en/blog/rsa-basics) (LaTeX without client JavaScript), [Notes](https://ersei.net/en/notes)
+
 [Jes Olson](https://j3s.sh/) ~> [My Website Is One Binary](https://j3s.sh/thought/my-website-is-one-binary.html)
 
 [Technoblogy](http://www.technoblogy.com/) ~> [Lisp Badge [Updated]](http://www.technoblogy.com/show?2AEE), [Tiny Time 2 Watch](http://www.technoblogy.com/show?1MG3)
@@ -60,13 +62,13 @@ From [Fabien Sanglard](https://fabiensanglard.net/) too ~> [USB Cheat Sheet](htt
 
 [Giles Orr](https://www.gilesorr.com/): window managers, Bash prompts, Vim, Raspberry Pis...
 
-[Martin Tournoij / arp242](https://www.arp242.net/): Vim, software freedom
+[Martin Tournoij / arp242](https://www.arp242.net/): Vim, software freedom ~> [The Art of Unix Programming](https://www.arp242.net/the-art-of-unix-programming/)
 
 [Icyphox](https://icyphox.sh): made Legit (one of the easiest Git frontends to host).
 
 [Liam Heinicke](https://heinicke.xyz/)
 
-[ari-web](https://blog.ari-web.xyz/) (Want to see the matrix? See [this page](https://ari-web.xyz/page/novpn#!).)
+[ari-web](https://blog.ari-web.xyz/) ~> [novpn](https://ari-web.xyz/page/novpn#!), [DuckDuckGo? More like DuckDuckNo](https://legacy.blog.ari-web.xyz/blogs/DuckDuckGo_-more-like-DuckDuckNo.html), [Why is GNU/Linux better than microsoft windows (winshit)](https://legacy.blog.ari-web.xyz/blogs/Why-is-GNU_Linux-better-than-microsoft-windows-(winshit))
 
 [Tom](https://tfaz.xyz/) ~> [links](https://tfaz.xyz/links/)
 
@@ -78,7 +80,43 @@ From [Fabien Sanglard](https://fabiensanglard.net/) too ~> [USB Cheat Sheet](htt
 
 [Jake Gines](https://jakegines.in): another good example of a minimal site, although it's a bit hard to navigate. I don't think the best part of it is the blog, but rather the [notes](https://jakegines.in/notes) (a personal wiki), and an *enormous* list of [favourites](https://jakegines.in/favorites) (links). Also check out the [dots](https://github.com/JakeGinesin/dotfiles).
 
-## Articles / wikis / fun stuff
+[Wesley Aptekar-Cassels](https://blog.wesleyac.com/) ~> [How I run my servers](https://blog.wesleyac.com/posts/how-i-run-my-servers)
+
+[0xdstn](https://0xdstn.site/) ~> [Digital Minimalism](https://0xdstn.site/writing/digital-minimalism/)
+
+[Thib](https://ergaster.org/blog/1/) ~> [My server can burn, my services will run](https://ergaster.org/posts/2023/10/05-my-server-can-burn/), [Syncing Notes with Obsidian](https://ergaster.org/posts/2023/08/23-syncing-notes-with-obsidian/), [I don't want to host services (but I do)](https://ergaster.org/posts/2023/08/09-i-dont-want-to-host-services-but-i-do/)
+
+[Jacob's Unnamed Blog](https://jacobwsmith.xyz/) ~> [My Philosophy on Software](https://jacobwsmith.xyz/stories/software_philosophy.html)
+
+[Vivek Haldar](https://blog.vivekhaldar.com/start) ~> [Productivity porn](https://blog.vivekhaldar.com/post/28465017852/productivity-porn), [GUI vs CLI: Operation vs Expression](https://blog.vivekhaldar.com/post/8950163616/gui-vs-cli-operation-vs-expression)
+
+[Ham Vocke](https://www.hamvocke.com/blog/) ~> [Remote Pair Programming Made Easy with SSH and tmux](https://www.hamvocke.com/blog/remote-pair-programming-with-tmux/), [Using 'make' to Make Your Code Easy to Work With](https://www.hamvocke.com/blog/makefiles-for-accessibility/), [Distraction-free writing with vim](https://www.hamvocke.com/blog/distraction-free-writing/)
+
+[Geoffrey Huntley](https://ghuntley.com/) ~> [Computers Notes](https://ghuntley.com/notes/computers/), [/new convention: think of it as "dotfiles" but "for computers"](https://ghuntley.com/slash-new/), [Visual Studio Code is designed to fracture](https://ghuntley.com/fracture/)
+
+[tonsky.me](https://tonsky.me/) ~> [The Absolute Minimum Every Software Developer Must Know About Unicode in 2023 (Still No Excuses!)](https://tonsky.me/blog/unicode/)
+
+[Scott Jenson](https://jenson.org/) ~> [The invisible problem](https://jenson.org/text/), [The future needs files](https://jenson.org/files/), [Small is Beautiful: Why Desktop UX still has something to teach Mobile](https://jenson.org/small/)
+
+[Stefan Zweifel](https://stefanzweifel.dev/) ~> [An Opinionated Personal Folder Structure](https://stefanzweifel.dev/posts/2023/09/16/an-opinionated-personal-folder-structure), [Things 3 Setup](https://stefanzweifel.dev/posts/2019/12/26/things-3-setup)
+
+[Benedict Evans](https://www.ben-evans.com/) ~> [Generative AI and intellectual property](https://www.ben-evans.com/benedictevans/2023/8/27/generative-ai-ad-intellectual-property)
+
+[Orhun's Blog](https://blog.orhun.dev/)
+
+[sadgrl.online](https://sadgrl.online/) ~> [Internet Manifesto](https://sadgrl.online/cyberspace/internet-manifesto)
+
+[Paulo Roger](https://pauloroger.dev/) ~> [Take Back the Web](https://pauloroger.dev/post/take-back-the-web/)
+
+[Fredrb's Blog](https://blog.fredrb.com/) ~> [Solving the same problem multiple times](https://blog.fredrb.com/2023/09/08/same-problem-multiple-times/)
+
+[Edwin Wenink](https://www.edwinwenink.xyz/) ~> [Web Paleontology: An Ode to the Hyperlink](https://www.edwinwenink.xyz/etc/web_paleontology/)
+
+> Surf instead of search: click away and follow that hyperlink.
+>
+> <cite>Edwin Wenink</cite>
+
+## Articles / wikis / papers / fun stuff
 
 [Index 1,600,000,000 Keys with Automata and Rust](https://blog.burntsushi.net/transducers/): A great article from Andrew Gallant, the developer of [ripgrep](https://github.com/BurntSushi/ripgrep), about "using finite state machines as a data structure, which enable storing a large number of keys in a small amount of space while remaining easily searchable."
 
@@ -117,6 +155,18 @@ Paul Ford - [I had a couple drinks and woke up with 1,000 nerds](https://medium.
 
 [Let's Design A Keyboard With Ergogen v4](https://flatfootfox.com/ergogen-introduction/)
 
+[Energy Conservation with Open Source Ad Blockers](https://www.mdpi.com/2227-7080/8/2/18)
+
+[Generative AI like Midjourney creates images full of stereotypes - Rest of World](https://restofworld.org/2023/ai-image-stereotypes/)
+
+[The role of keyboard design in advanced shell programs](https://nyxt.atlas.engineer/article/keyboard.org)
+
+[E-ink is so Retropunk](https://rmkit.dev/eink-is-so-retropunk/)
+
+[FediPrimer - Chatty, Basic, Easy To Understand Explanations Of Fediverse Concepts](http://fediprimer.org/index.php)
+
+[Google vs. the Open Web](https://interpeer.io/blog/2023/07/google-vs-the-open-web/)
+
 ## For the red-pilled
 
 [spyware index](https://spyware.neocities.org/) (mostly web browsers)
@@ -132,6 +182,8 @@ Paul Ford - [I had a couple drinks and woke up with 1,000 nerds](https://medium.
 [Surveillance Self-Defense](https://ssd.eff.org/)
 
 Wikipedia - [Global surveillance](https://en.wikipedia.org/wiki/Global_surveillance)
+
+[Don't Hex the Water](https://iv.renn.es/watch?v=Fzhkwyoe5vI)
 
 ## Talks / Videos
 
