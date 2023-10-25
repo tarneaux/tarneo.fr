@@ -140,3 +140,7 @@ Glenn Greenwald - [Why Privacy Matters](https://iv.renn.es/watch?v=pcSlowAhvUk)
 Mattia Dal Ben - [34 Keys Is All You Need](https://iv.renn.es/watch?v=unMXQTSQEak)
 
 Ultimateeick - [Why Calvin and Hobbes is the Greatest Comic Strip Ever Made](https://iv.renn.es/watch?v=vMD3casO_q4)
+
+# Useful tools
+
+[explainshell.com - match command-line arguments to their help text](https://explainshell.com/)
