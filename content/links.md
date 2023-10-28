@@ -193,6 +193,6 @@ Mattia Dal Ben - [34 Keys Is All You Need](https://iv.renn.es/watch?v=unMXQTSQEa
 
 Ultimateeick - [Why Calvin and Hobbes is the Greatest Comic Strip Ever Made](https://iv.renn.es/watch?v=vMD3casO_q4)
 
-# Useful tools
+## Useful tools
 
 [explainshell.com - match command-line arguments to their help text](https://explainshell.com/)
