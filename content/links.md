@@ -46,7 +46,7 @@ From [Fabien Sanglard](https://fabiensanglard.net/) too ~> [USB Cheat Sheet](htt
 
 [Ali Reza Hayati](https://alirezahayati.com/) ~> [Bugs of social networks!](https://alirezahayati.com/2023/08/21/bugs-of-social-networks/), [Not a browser war but a Web war](https://alirezahayati.com/2023/08/06/not-a-browser-war-but-a-web-war/)
 
-[mrus](https://xn--gckvb8fzb.com/) ~> [Gemini is Solutionism at its Worst](https://xn--gckvb8fzb.com/gemini-is-solutionism-at-its-worst#site-main), [Git on Roids](https://xn--gckvb8fzb.com/git-on-roids/#site-main), [MailMan3 on OpenBSD 7.1](https://xn--gckvb8fzb.com/mailman3-on-openbsd-71/#site-main), [Linux on the Phone: Part One](https://xn--gckvb8fzb.com/linux-on-the-phone-part-one/#site-main)
+[mrus](https://xn--gckvb8fzb.com/) ~> [Gemini is Solutionism at its Worst](https://xn--gckvb8fzb.com/gemini-is-solutionism-at-its-worst#site-main), [Git on Roids](https://xn--gckvb8fzb.com/git-on-roids/#site-main), [MailMan3 on OpenBSD 7.1](https://xn--gckvb8fzb.com/mailman3-on-openbsd-71/#site-main), [Linux on the Phone: Part One](https://xn--gckvb8fzb.com/linux-on-the-phone-part-one/#site-main), [How Do You Trust That Your Personal Machine Is Not Compromised?](https://xn--gckvb8fzb.com/how-do-you-trust-that-your-personal-machine-is-not-compromised/)
 
 [~bt](https://bt.ht/) ~> [Better Search Results](https://search.bt.ht/), [My coffe maker just makes coffee](https://bt.ht/one-thing/), [Switching to suckless software](https://bt.ht/suckless/), [Do you have an extra $10?](https://bt.ht/$10/), [Stop using custom webfonts](https://bt.ht/webfonts/)
 
