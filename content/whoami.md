@@ -21,39 +21,35 @@ I think one could sum up my thoughts on proprietary software with this quote fro
 
 I also like to use programs which adhere to the Unix philosophy, namely: do one thing and do it well. This is why I do not use things like Nextcloud or an office suite.
 
-I believe everyone should have the right to not be tracked or have their data sold to third parties without their ACTUAL consent (which I'd hope nobody would be dumb enough to give). If you think "I have nothing to hide", check out Glenn Greenwald's Ted Talk ["Why Privacy Matters"](https://iv.renn.es/watch?v=pcSlowAhvUk). For this matter I also recommend you read [the Wikipedia article about mass surveillance](https://en.wikipedia.org/wiki/Mass_surveillance).
+I believe everyone should have a right to extensive privacy, both on the internet and in general. If you think "I have nothing to hide", check out Glenn Greenwald's Ted Talk ["Why Privacy Matters"](https://iv.renn.es/watch?v=pcSlowAhvUk). For this matter I also recommend you read [the Wikipedia article about mass surveillance](https://en.wikipedia.org/wiki/Mass_surveillance).
 
-I don't like most of "social" media platforms: Instagram or TikTok, in my very humble opinion, do not provide any value to the user. I am also not a user of any google service apart from YouTube, which I always access through NewPipe or mpv(1).
+I don't like most of "social" media platforms: Instagram or TikTok, in my very humble opinion, do not provide any value to the user. I am also not a user of any google service apart from YouTube, which I always access through NewPipe or Invidious.
 
 ## Software I use
 
 - Editor: [Neovim](https://neovim.io/) for everything: code, text, this website, and so on. I even make presentations in Markdown and convert them to HTML using [Marp](https://marp.app/).
-- Web browser: [Qutebrowser](https://qutebrowser.org/), mainly because of its Vim like keybindings. It is also one of the only web browsers that don't contain trackers: even those that claim they want to "protect your privacy" have them: [Firefox](https://digdeeper.neocities.org/articles/mozilla), [Brave](https://spyware.neocities.org/articles/brave), [Opera](https://spyware.neocities.org/articles/opera) (if you use Opera, please stop). If you want a REAL privacy browser, use LibreWolf or ungoogled chromium with some [privacy addons](https://digdeeper.neocities.org/articles/addons). Do note that they are still not perfect, see [here](https://spyware.neocities.org/articles/). Qutebrowser doesn't block Youtube ads very well, which leads us onto the next point:
-- Youtube players: mpv + youtube-dl for PC and [NewPipe](https://github.com/TeamNewPipe/NewPipe) for Android. You might also want to consider Invidious.
+- Web browser: [Qutebrowser](https://qutebrowser.org/), mainly because of its Vim-like keybindings.
+- Youtube players: My own [Invidious](https://invidious.io/) instance on PC and [NewPipe](https://github.com/TeamNewPipe/NewPipe) for Android.
 - Mobile web browser: [Iceraven](https://github.com/fork-maintainers/iceraven-browser). This is the best browser for android because it is the only one that is decent. Its features include:
-    - It is a fork of a real browser (firefox) and so most sites will work with it.
-    - It ACTUALLY doesn't track you, at least according to my research.
-    - It supports extensions. Big plus because that way I can use uMatrix for blocking scripts and other nasty stuff.
-    - Bottom address bar that does not require you to awkwardly stretch your thumb to the top! yaaay!
-- Search engine: [SearXNG](https://docs.searxng.org/) ([find an instance](https://searx.space/)). This is the best meta search engine[^1] I could find. I enabled Google, Duckduckgo, Qwant and [Wiby](https://wiby.me/)[^2].
-- Audio editor: [Audacity](https://www.audacityteam.org/), with telemetry makeopts turned OFF (you should be fine if you install it from your distro's repository).
+    - ACTUALLY not tracking you, at least according to my research.
+    - Extension support: I use UBlock Origin, Decentraleyes, Privacy Badger and CanvasBlocker.
+    - An address bar on the bottom of the screen
+- Search engine: [SearXNG](https://docs.searxng.org/) ([find an instance](https://searx.space/)), a "meta search engine". I enabled Google, Duckduckgo and Qwant.
+- Audio editor: [Audacity](https://www.audacityteam.org/).
 - Video editor: [Kdenlive](https://kdenlive.org/en/).
 - Photo viewer: [nsxiv](https://codeberg.org/nsxiv/nsxiv) with [a decent key handler](https://raw.githubusercontent.com/tarneaux/.f/master/nsxiv/.config/nsxiv/exec/key-handler).
 - Photo organizer: [DigiKam](https://www.digikam.org/).
 - RAW photo editor: [RawTherapee](http://rawtherapee.com/).
-- Terminal emulator: [Alacritty](https://github.com/alacritty/alacritty). I find it better than [Kitty](https://sw.kovidgoyal.net/kitty/) (even though Kitty has ligatures support) because it isn't spyware by default (most Linux distros have kitty packaged with telemetry disabled though).
-- Linux distribution: Arch Linux, as already explained above. I won't say it is the best because it's not for everyone: you need some serious command-line knowledge to get it working. But once that's done you will have a fantastic package manager along with the number of packages in the AUR. For non tech savvy people I have always recommended Fedora's KDE spin. I am also not blue-pilled enough to accept using Microsoft Windows anywhere.
-- File syncing, along with anything that runs on servers: see information at [Renn.es](https://renn.es/).
-- Password manager: Bitwarden because I tend to loose my files. If that wasn't the case I would use GNU Pass or KeepassXC.
-- Phone OS: [LineageOS](https://lineageos.org/) to escape all of that Google crap.
-- Email client: [aerc](https://aerc-mail.org/) for PC and [FairEmail](https://email.faircode.eu/) for Android.
+- Terminal emulator: [Alacritty](https://github.com/alacritty/alacritty).
+- Linux distribution: Arch Linux.
+- Password manager: [Bitwarden](https://bitwarden.com/).
+- "Smart"phone OS: [LineageOS](https://lineageos.org/) to get away from Google's crap on Android.
+- Email client: [aerc](https://aerc-mail.org/) on PC and [FairEmail](https://email.faircode.eu/) for Android.
 - Mobile navigation/maps: [Organic maps](https://organicmaps.app/).
 
 For a few of those pieces of software, you can find my config files [here](https://github.com/tarneaux/.f).
 
-[^1]: a meta search engine takes results from others and makes a single result page.
-[^2]: Wiby is a search engine for the minimal web. Unfortunately it is curated, which limits the number of results a lot, but this still allows me to find random blogs and sites when looking for things. Usually it shows me a second result that has nothing to do with my search query, but sometimes it's actually interesting.
-
+For the software I run on servers, see the [Renn.es](https://renn.es) website.
 
 ## License
 
