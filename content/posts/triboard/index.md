@@ -1,6 +1,6 @@
 ---
 title: "The Triboard, a tiny 34/36 key wired/wireless split keyboard"
-date: 2023-11-11T12:10:14+01:00
+date: 2023-11-15
 summary: "My second split keyboard, this time without bloat!"
 ---
 
