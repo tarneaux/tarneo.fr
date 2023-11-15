@@ -34,7 +34,7 @@ For this board, I chose pink Choc switches instead of the heavier red ones I had
 
 With a < 36-key board, it's just impossible to have modifiers on the thumb keys if you also want to access the secondary layers easily. My first attempt was to use combos: each hand would have a combo on the ring and index fingers, super on the left, control on the right. This worked just fine, but today I started using [Urob's timeless home row mods](https://github.com/urob/zmk-config#timeless-homerow-mods), which feel much better than basic home row mods. I think I'll be keeping them as it's what seems most usable.
 
-## Bluetooth & battery life
+## Bluetooth and battery life
 
 As already mentioned, I built the wireless version of this keyboard, which is why I'm using ZMK. For now I've noticed a single issue: sometimes (around once every two hours), the right controller goes to sleep while typing. When trying to check voltage on the 3.3v pin with a multimeter, it comes back and reconnects, just as when turning it off and on again. I'm not sure about why this happens yet.
 
