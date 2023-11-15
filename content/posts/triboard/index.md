@@ -15,6 +15,7 @@ This board:
 - Can be modified to fit your hands: the four stagger values (pinky to ring, ring to middle, middle to index, index to inner) are defined at the top of the ergogen YAML file and should be changeable without having to worry too much about the rest.
 - Supports Kailh Choc hotswap sockets for the switches.
 
+[Here is a link to the GitHub repo](https://github.com/tarneaux/triboard).
 
 ## Design
 
