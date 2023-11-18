@@ -18,3 +18,4 @@ Make sure to encrypt emails with my PGP Key, which you can either [directly down
 ```sh
 gpg --locate-keys tarneo@tarneo.fr
 ```
+Fingerprint: `7C56 89A0 383A 1228 2DCE 83D2 BA92 4E53 D0EB 3FCC`
