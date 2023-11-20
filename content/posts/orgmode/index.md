@@ -69,7 +69,7 @@ Having this plain text syntax does not mean it it's ugly; look at how I configur
 
 To make the syntax prettier, I just installed the orgmode plugin I already mentioned above, and then configured it to hide leading stars[^2] and emphasis markers[^3].
 
-[^2]: On each line, replace all stars but the last one by spaces, making the text look indented.
+[^2]: On each line, replace all stars but the last one with spaces, making the text look indented.
 [^3]: Hide symbols that change the formatting (like `*` `*bold text*` or `/` for `/italicized text/`). Though we still want to be able to edit the text easily, so we show those symbols anyway when the cursor is on the same line.
 
 ## Using it on the go
