@@ -1,6 +1,1 @@
-<h{{ .Level }} id="{{ .Anchor | safeURL }}">
-  {{ strings.Title .Text | safeHTML }}
-  {{ if compare.Gt .Level 1 }}
-    <a href="#{{ .Anchor | safeURL }}" style="text-decoration: none;">¶</a>
-  {{ end }}
-</h{{ .Level }}>
+<h{{ .Level }} id="{{ .Anchor | safeURL }}">{{ strings.Title .Text | safeHTML }}{{ if compare.Gt .Level 1 }} <a href="#{{ .Anchor | safeURL }}" style="text-decoration: none;">¶</a>{{ end }}</h{{ .Level }}>
