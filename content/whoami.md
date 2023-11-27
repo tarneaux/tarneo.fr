@@ -23,6 +23,10 @@ I also like to use programs which adhere to the Unix philosophy, namely: do one 
 
 I believe everyone should have a right to extensive privacy, both on the internet and in general. If you think "I have nothing to hide", check out Glenn Greenwald's Ted Talk ["Why Privacy Matters"](https://iv.renn.es/watch?v=pcSlowAhvUk). For this matter I also recommend you read [the Wikipedia article about mass surveillance](https://en.wikipedia.org/wiki/Mass_surveillance).
 
+> "Arguing that you don't care about the right to privacy because you have nothing to hide is no different than saying you don't care about free speech because you have nothing to say."
+> 
+> <cite>Edward Snowden</cite>
+
 I don't like most of "social" media platforms: Instagram or TikTok, in my very humble opinion, do not provide any value to the user. I am also not a user of any google service apart from YouTube, which I always access through NewPipe or Invidious.
 
 ## Software I use
