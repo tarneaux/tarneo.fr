@@ -116,6 +116,8 @@ From [Fabien Sanglard](https://fabiensanglard.net/) too ~> [USB Cheat Sheet](htt
 >
 > <cite>Edwin Wenink</cite>
 
+[Ploum](https://ploum.net/index_all.html) ~> [Splitting the Web](https://ploum.net/2023-08-01-splitting-the-web.html), [How to Kill a Decentralised Network (such as the Fediverse)](https://ploum.net/2023-06-23-how-to-kill-decentralised-networks.html)
+
 ## Articles / wikis / papers / fun stuff
 
 [Index 1,600,000,000 Keys with Automata and Rust](https://blog.burntsushi.net/transducers/): A great article from Andrew Gallant, the developer of [ripgrep](https://github.com/BurntSushi/ripgrep), about "using finite state machines as a data structure, which enable storing a large number of keys in a small amount of space while remaining easily searchable."
