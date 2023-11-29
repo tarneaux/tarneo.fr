@@ -1,0 +1,18 @@
+{{ define "main" }}
+    <h1>{{ title .Title }}</h1>
+    {{ .Content }}
+    {{ $dir := printf "assets/pictures/" }}
+    {{ $files := readDir $dir }}
+    {{ range $files }}
+        <div class="gallery-item">
+            <!--The current image file-->
+            {{ $image := resources.Get (printf "pictures/%s" .Name) }}
+
+            <!--The current image file's thumbnail-->
+            {{ $thumb := $image.Resize "800x" }}
+
+            <img src="{{ $thumb.RelPermalink }}" alt="{{ $image.Title }}" />
+            <a href="{{ $image.RelPermalink }}">Full image</a>
+        </div>
+    {{ end }}
+{{ end }}
