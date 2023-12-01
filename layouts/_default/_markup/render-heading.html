@@ -1,1 +1,7 @@
-<h{{ .Level }} id="{{ .Anchor | safeURL }}">{{ strings.Title .Text | safeHTML }}{{ if compare.Gt .Level 1 }} <a href="#{{ .Anchor | safeURL }}" style="text-decoration: none;">¶</a>{{ end }}</h{{ .Level }}>
+{{ if compare.Eq .Level 1}}
+<div id="flex-column-center">
+  <h1>{{ strings.Title .Text | safeHTML}}</h1>
+</div>
+{{ else }}
+<h{{ .Level }} id="{{ .Anchor | safeURL }}">{{ strings.Title .Text | safeHTML }} <a href="#{{ .Anchor | safeURL }}" style="text-decoration: none;">¶</a></h{{ .Level }}>
+{{ end }}

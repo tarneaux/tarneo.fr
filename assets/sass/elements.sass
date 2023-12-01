@@ -19,11 +19,19 @@ h1, h2, h3, h4, h5, h6
 
 #child
   h1, h2, h3, h4, h5, h6
-    width: 100%
     box-sizing: border-box // Prevents from overflowing the parent's width
 
   h1
     border-bottom: 5px double var(--emphasis-color)
+    text-align: center // matters for long titles
+
+#flex-column-center // Used to center level 1 headings and post titles
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  *
+    margin: 0
 
 b, strong
   color: var(--emphasis-color)
@@ -90,3 +98,10 @@ blockquote
 
 .gallery-item
   margin: 1rem 0
+
+.post-list
+  padding: 0
+  li
+    padding: 0.25ch 0
+  li::marker
+    content: ""

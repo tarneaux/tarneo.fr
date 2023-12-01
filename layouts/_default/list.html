@@ -1,9 +1,11 @@
 {{ define "main" }}
-    <h1>{{ title .Title }}</h1>
+    <div id="flex-column-center">
+        <h1>{{ title .Title }}</h1>
+    </div>
     {{ .Content }}
-    <ul>
+    <ul class="post-list">
         {{ range .Pages }}
-            <li class="post-in-list">
+            <li>
                 <div>
                     <strong>{{ .Date.Format "January 2, 2006" }}:</strong>
                     <a href="{{ .Permalink }}">{{ title .Title }}</a>

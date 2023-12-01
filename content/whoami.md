@@ -5,7 +5,7 @@ date = 2023-03-25
 
 # whoami
 
-I'm tarneo, a high school student, but also a computer programmer, Free Software advocate and sysadmin at [Renn.es](https://renn.es), a 90s-style [tilde community](https://tildeverse.org). Some projects I made include [Shlonk](https://github.com/tarneaux/shlonk), a very simple URL shortener, and my split keyboard, the [Monkeyboard](/posts/split_keyboard/). You can also check out my GNU/Linux [dotfiles](https://github.com/tarneaux/.f) or my [wallpaper selection](https://github.com/tarneaux/wallpapers). If for some reason you want to see how this blog is made, you can see its [source code](https://github.com/tarneaux/tarneo.fr).
+I'm tarneo, a high school student, computer programmer, Free Software advocate and sysadmin at [Renn.es](https://renn.es), a shared GNU/Linux system in the style of the public access computers of the 90's. Some projects I made include [Shlonk](https://github.com/tarneaux/shlonk), a very simple URL shortener, and my two split keyboards, the [Monkeyboard](/posts/split_keyboard/) and the [Triboard](/posts/triboard/). You can also check out my GNU/Linux [dotfiles](https://github.com/tarneaux/.f) or my [wallpaper selection](https://github.com/tarneaux/wallpapers). If for some reason you want to see how this blog is built, go see its [source code](https://github.com/tarneaux/tarneo.fr).
 
 I started programming with MIT's [Scratch](https://scratch.mit.edu) in primary school at the age of 9 (my account was created on August 24, 2016). Two years later I switched to Python, which was my go-to programming language for a few years. I then started using other languages: HTML and CSS, Arduino C, C itself, Javascript, and Go. I write configuration files in Lua wherever I can (NeoVim, AwesomeWM), and I do my scripting with Bash. These days I write most of my software in Rust, mainly because of its great developer experience.
 
@@ -31,9 +31,9 @@ I don't like most of "social" media platforms: Instagram or TikTok, in my very h
 
 ## Software I use
 
-- Editor: [Neovim](https://neovim.io/) for everything: code, text, this website, and so on. I even make presentations in Markdown and convert them to HTML using [Marp](https://marp.app/).
+- Editor: [Neovim](https://neovim.io/) for everything: code, text, this website, and so on. I even make presentations in Markdown and convert them to HTML using [reveal-md](https://github.com/webpro/reveal-md).
 - Web browser: [Qutebrowser](https://qutebrowser.org/), mainly because of its Vim-like keybindings.
-- Youtube players: My own [Invidious](https://invidious.io/) instance on PC and [NewPipe](https://github.com/TeamNewPipe/NewPipe) for Android.
+- Youtube players: My own [Invidious](https://invidious.io/) instance on PC's and [NewPipe](https://github.com/TeamNewPipe/NewPipe) for Android.
 - Mobile web browser: [Iceraven](https://github.com/fork-maintainers/iceraven-browser). This is the best browser for android because it is the only one that is decent. Its features include:
     - ACTUALLY not tracking you, at least according to my research.
     - Extension support: I use UBlock Origin, Decentraleyes, Privacy Badger and CanvasBlocker.

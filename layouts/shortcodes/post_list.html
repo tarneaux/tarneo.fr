@@ -1,0 +1,13 @@
+{{ $posts := site.GetPage "/posts" }}
+<ul class="post-list">
+  {{ range $posts.Pages }}
+  <li>
+      <div>
+          <strong>{{ .Date.Format "January 2, 2006" }}:</strong>
+          <a href="{{ .Permalink }}">{{ title .Title }}</a>
+          ~;~
+          {{ .Summary | truncate 200 }}
+      </div>
+  </li>
+  {{ end }}
+</ul>

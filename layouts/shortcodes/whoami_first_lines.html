@@ -1,0 +1,5 @@
+{{ $page := .Site.GetPage (.Get 0) }}
+{{/* Get first paragraph of the file, excluding title and front matter */}}
+{{ $firstparagraph := index (strings.FindRE `\n[a-zA-Z].*` $page.RawContent 1) 0 }}
+{{ $firstparagraph = strings.Trim $firstparagraph "\n"}}
+{{ $firstparagraph }}
