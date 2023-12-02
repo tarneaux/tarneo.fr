@@ -28,7 +28,7 @@ I found most of these completely randomly, with [Wiby](https://wiby.me), [Margin
 
 [Julius Plenz](https://blog.plenz.com/)
 
-This blog takes a lot of ideas from [Michał Sapka's website](https://michal.sapka.me/)...
+This blog takes a lot of ideas from [Michał Sapka's website](https://michal.sapka.me/) ~> [Charybdis](https://michal.sapka.me/2023/charybdis/), [Mastodon Has Already Won](https://michal.sapka.me/2023/mastodon-has-already-won/), [Mastodon and ActivityPub](https://michal.sapka.me/2023/mastodon-activity-pub/), [Reddit and the centralized Web](https://michal.sapka.me/2023/reddit-and-the-centralized-web/)
 
 From [Fabien Sanglard](https://fabiensanglard.net/) too ~> [USB Cheat Sheet](https://fabiensanglard.net/usbcheat/index.html)
 
@@ -117,6 +117,8 @@ From [Fabien Sanglard](https://fabiensanglard.net/) too ~> [USB Cheat Sheet](htt
 > <cite>Edwin Wenink</cite>
 
 [Ploum](https://ploum.net/index_all.html) ~> [Splitting the Web](https://ploum.net/2023-08-01-splitting-the-web.html), [How to Kill a Decentralised Network (such as the Fediverse)](https://ploum.net/2023-06-23-how-to-kill-decentralised-networks.html)
+
+[Arne Bahlo](https://arne.me/) ~> [We Need to Bring Back Webrings](https://arne.me/articles/we-need-to-bring-back-webrings)
 
 ## Articles / wikis / papers / fun stuff
 
