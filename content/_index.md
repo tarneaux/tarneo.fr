@@ -4,9 +4,9 @@ title = "Home"
 
 ## About me
 
-{{% whoami_first_lines whoami.md %}}
+{{% first_paragraph about.md %}}
 
-[>> More about me](/whoami)
+[>> More about me](/about)
 
 ## Contact
 

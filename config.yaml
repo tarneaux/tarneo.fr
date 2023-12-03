@@ -22,7 +22,7 @@ menu:
       url: "/links/"
       weight: 3
     - name: "About"
-      url: "/whoami/"
+      url: "/about/"
       weight: 4
 
 params:

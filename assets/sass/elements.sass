@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6
   color: var(--emphasis-color)
   border-bottom: 1px solid var(--emphasis-color)
   font-size: 1em
-  text-transform: uppercase
+  text-transform: capitalize
   padding: 0.25em
   width: fit-content
 
@@ -25,7 +25,7 @@ h1, h2, h3, h4, h5, h6
     border-bottom: 5px double var(--emphasis-color)
     text-align: center // matters for long titles
 
-#flex-column-center // Used to center level 1 headings and post titles
+.flex-column-center // Used to center level 1 headings and post titles
   display: flex
   flex-direction: column
   align-items: center
@@ -85,16 +85,6 @@ blockquote
     color: var(--emphasis-color)
   cite::before
     content: "— "
-
-// Blinking '_' after "whoami" title in about page
-@keyframes blink
-  50%
-    opacity: 0
-
-#whoami::after
-  content: "_"
-  animation: blink 1s steps(1) infinite
-  color: var(--emphasis-color)
 
 .gallery-item
   margin: 1rem 0

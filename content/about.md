@@ -1,9 +1,11 @@
-+++
-title = "About me (tarneo)"
-date = 2023-03-25
-+++
+---
+title: "About me (tarneo)"
+date: 2023-03-25
+aliases:
+    - /whoami
+---
 
-# whoami
+# About Me
 
 I'm tarneo, a high school student, computer programmer, Free Software advocate and sysadmin at [Renn.es](https://renn.es), a shared GNU/Linux system in the style of the public access computers of the 90's. Some projects I made include [Shlonk](https://github.com/tarneaux/shlonk), a very simple URL shortener, and my two split keyboards, the [Monkeyboard](/posts/split_keyboard/) and the [Triboard](/posts/triboard/). You can also check out my GNU/Linux [dotfiles](https://github.com/tarneaux/.f) or my [wallpaper selection](https://github.com/tarneaux/wallpapers). If for some reason you want to see how this blog is built, go see its [source code](https://github.com/tarneaux/tarneo.fr).
 
@@ -29,7 +31,7 @@ I believe everyone should have a right to extensive privacy, both on the interne
 
 I don't like most of "social" media platforms: Instagram or TikTok, in my very humble opinion, do not provide any value to the user. I am also not a user of any google service apart from YouTube, which I always access through NewPipe or Invidious.
 
-## Software I use
+## Software I Use
 
 - Editor: [Neovim](https://neovim.io/) for everything: code, text, this website, and so on. I even make presentations in Markdown and convert them to HTML using [reveal-md](https://github.com/webpro/reveal-md).
 - Web browser: [Qutebrowser](https://qutebrowser.org/), mainly because of its Vim-like keybindings.
@@ -55,8 +57,22 @@ For a few of those pieces of software, you can find my config files [here](https
 
 For the software I run on servers, see the [Renn.es](https://renn.es) website.
 
-## License
+---
+
+# About this site
+
+## Colophon
+
+This is a static site using the [Hugo](https://gohugo.io/) static site generator and hosted on [Renn.es](https://renn.es/). The theme is my own. The code is hosted on [the Renn.es Gitea instance](https://git.renn.es/tarneo/tarneo.fr) and on [Github](https://github.com/tarneaux/tarneo.fr). I use a custom Makefile to rsync the files automatically for publishing.
+
+Everything on this website is produced entirely by me, without the help of large language models ("artificial [ly lowered] intelligence").
+
+## Licensing
 
 All articles on this website are licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License (CC-BY-SA)](https://creativecommons.org/licenses/by-sa/4.0/).
 
 The code (HTML & CSS) is licensed under the [GNU General Public License v2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html).
+
+## Privacy
+
+This site is hosted at [Renn.es](https://renn.es/) and therefore follows its [privacy policy](https://renn.es/#privacy).
