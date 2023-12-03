@@ -1,6 +1,8 @@
 baseURL: 'https://tarneo.fr/'
-languageCode: 'en'
+languageCode: 'en-us'
 title: "Tarneo's blog"
+theme: renny
+
 author:
   name: "Tarneo"
   email: "tarneo@tarneo.fr"

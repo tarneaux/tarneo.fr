@@ -1,0 +1,3 @@
+[submodule "themes/renny"]
+	path = themes/renny
+	url = https://github.com/tarneaux/renny
