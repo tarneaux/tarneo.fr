@@ -2,6 +2,8 @@
 title = "Home"
 +++
 
+# Home
+
 ## About me
 
 {{% first_paragraph about.md %}}
