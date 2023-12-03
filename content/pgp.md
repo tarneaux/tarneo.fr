@@ -1,7 +1,6 @@
 ---
 title: "Pgp key"
 ---
-# PGP Key
 
 To download my PGP key automatically with GnuPG:
 ```sh

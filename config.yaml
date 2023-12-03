@@ -23,9 +23,15 @@ menu:
     - name: "Links"
       url: "/links/"
       weight: 3
-    - name: "About"
-      url: "/about/"
+    - name: "About me"
+      url: "/bio/"
       weight: 4
+    - name: "Uses"
+      url: "/uses/"
+      weight: 5
+    - name: "About this site"
+      url: "/about/"
+      weight: 6
 
 params:
   favicon: "profile.png"

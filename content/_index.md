@@ -1,8 +1,6 @@
-+++
-title = "Home"
-+++
-
-# Home
+---
+title: Home
+---
 
 ## About me
 
