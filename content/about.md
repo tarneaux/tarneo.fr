@@ -33,7 +33,8 @@ I don't like most of "social" media platforms: Instagram or TikTok, in my very h
 
 ## Software I Use
 
-- Editor: [Neovim](https://neovim.io/) for everything: code, text, this website, and so on. I even make presentations in Markdown and convert them to HTML using [reveal-md](https://github.com/webpro/reveal-md).
+On my PC(s):
+- Editor: [NeoVim](https://neovim.io/) for everything: code, text, this website, and so on. I even make presentations in Markdown and convert them to HTML using [reveal-md](https://github.com/webpro/reveal-md).
 - Web browser: [Qutebrowser](https://qutebrowser.org/), mainly because of its Vim-like keybindings.
 - Youtube players: My own [Invidious](https://invidious.io/) instance on PC's and [NewPipe](https://github.com/TeamNewPipe/NewPipe) for Android.
 - Mobile web browser: [Iceraven](https://github.com/fork-maintainers/iceraven-browser). This is the best browser for android because it is the only one that is decent. Its features include:
@@ -52,10 +53,14 @@ I don't like most of "social" media platforms: Instagram or TikTok, in my very h
 - "Smart"phone OS: [LineageOS](https://lineageos.org/) to get away from Google's crap on Android.
 - Email client: [aerc](https://aerc-mail.org/) on PC and [FairEmail](https://email.faircode.eu/) for Android.
 - Mobile navigation/maps: [Organic maps](https://organicmaps.app/).
+- Terminal multiplexer: [tmux](https://github.com/tmux/tmux).
 
-For a few of those pieces of software, you can find my config files [here](https://github.com/tarneaux/.f).
+On [my servers](https://renn.es):
+- NeoVim & Tmux just like on my PC, with a lighter config for NeoVim.
+- Linux distribution: Debian Linux.
+- Backups: [btrbk](https://digint.ch/btrbk/) with btrfs, plus a custom backup script for off site backups.
 
-For the software I run on servers, see the [Renn.es](https://renn.es) website.
+For a few of those pieces of software, you can find my config files on [the Renn.es Gitea instance](https://git.renn.es/tarneo/.f) and on [GitHub](https://github.com/tarneaux/.f).
 
 ---
 
@@ -63,7 +68,7 @@ For the software I run on servers, see the [Renn.es](https://renn.es) website.
 
 ## Colophon
 
-This is a static site using the [Hugo](https://gohugo.io/) static site generator and hosted on [Renn.es](https://renn.es/). The theme is my own. The code is hosted on [the Renn.es Gitea instance](https://git.renn.es/tarneo/tarneo.fr) and on [Github](https://github.com/tarneaux/tarneo.fr). I use a custom Makefile to rsync the files automatically for publishing.
+This is a static site using the [Hugo](https://gohugo.io/) static site generator and hosted on [Renn.es](https://renn.es/). The theme is my own. The code is hosted on [the Renn.es Gitea instance](https://git.renn.es/tarneo/tarneo.fr) and on [GitHub](https://github.com/tarneaux/tarneo.fr). I use a custom Makefile to rsync the files automatically for publishing.
 
 Everything on this website is produced entirely by me, without the help of large language models ("artificial [ly lowered] intelligence").
 
