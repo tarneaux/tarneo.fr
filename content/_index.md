@@ -4,9 +4,9 @@ title: Home
 
 ## About me
 
-{{% first_paragraph about.md %}}
+{{% first_paragraph bio.md %}}
 
-[>> More about me](/about)
+[>> More about me](/bio)
 
 ## Contact
 
