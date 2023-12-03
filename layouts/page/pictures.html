@@ -1,5 +1,7 @@
 {{ define "main" }}
-    <h1>{{ title .Title }}</h1>
+    <div class="flex-column-center">
+      <h1>{{ title .Title }}</h1>
+    </div>
     {{ .Content }}
     {{ $dir := printf "assets/pictures/" }}
     {{ $files := readDir $dir }}
