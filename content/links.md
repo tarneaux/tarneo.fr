@@ -4,7 +4,7 @@ title: "Links"
 
 These are some sites, webpages, talks, etc. I found interesting.
 
-If you notice a dead link please [email me](/).
+If you notice a dead link please [tell me](/contact/).
 
 ## Blogs
 

@@ -43,7 +43,7 @@ I have only charged the board once for now, and I think (and hope) the batteries
 
 ## Conclusion
 
-I'm very happy with how this keyboard turned out. I built it in a way that should make it usable by other people too, so feel free to build one yourself (please [tell me](/) if you do!).
+I'm very happy with how this keyboard turned out. I built it in a way that should make it usable by other people too, so feel free to build one yourself (please [tell me](/contact/) if you do!).
 
 This is probably not the last keyboard I'll ever make, but for now it's great in terms of portability. Using it on the go is actually possible now, as opposed to the [monkeyboard](/posts/split_keyboard/).
 
