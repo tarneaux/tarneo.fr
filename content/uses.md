@@ -37,7 +37,7 @@ For a few of those pieces of software, you can find my config files on [the Renn
 
 I use a Dell Optiplex 7010 as my desktop computer and a generic Asus laptop.
 
-My mouse is the MX master 3 and my keyboard is my [Triboard](http://localhost:1313/posts/triboard/). They are both great, especially since I made one of the two `:-)`.
+My mouse is the MX master 3 and my keyboard is my [Triboard](/posts/triboard/). They are both great, especially since I made one of the two `:-)`.
 
 I use a second-hand LG Ultrawide 34" monitor. This is just incredibly useful, and makes using a secondary screen obsolete. The resolution, at 2560x1080, is not the best for the size, but I got used to seeing the individual pixels (especially since I have very good eyes), and it's part of this screen's charm.
 
