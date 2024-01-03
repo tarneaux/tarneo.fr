@@ -22,6 +22,8 @@ This leads us onto our next point: Copilot is kind of counter-productive. Becaus
 
 AI was actually never intended to get to the level of an LLM: it was really just intended to recognize objects on an image, or words in an audio file. The way an LLM works (finding the most likely word - or code symbol in Copilot's case - after another) also doesn't feel very smart. Sure, it makes it seem smart, but that's also why LLMs hallucinate; when you ask ChatGPT a question, it will start writing an answer and won't go back to correct itself or tell you it doesn't know. This is also why a simple web search is *always* better than asking ChatGPT (plus you won't use up as much resources).
 
+**Edit**: As some people pointed out on the [tildes topic](https://tildes.net/~comp/1d8v/on_github_copilot) of this post, Copilot is quite useful when writing boilerplate. I also find it's quite good for writing things like Bash scripts or configuration files.
+
 ## What using Copilot daily means for a developer
 
 OK, enough with rambling about how bad LLMs are.
