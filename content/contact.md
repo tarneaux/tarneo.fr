@@ -8,11 +8,11 @@ aliases:
 
 Feel free to contact me through any of the means listed below.
 
-**email**: tarneo@tarneo.fr\
+**Email**: tarneo@tarneo.fr\
 **XMPP**: [tarneo@renn.es](xmpp:tarneo@renn.es?omemo-sid-777090665=e44cec2d4c97dd5df58f20d0baca5799bdcfe3d745608aad0ba7b24c1d11af17)\
-**matrix**: [@tarneo:matrix.renn.es](https://matrix.to/#/@tarneo:matrix.renn.es)\
-**mastodon**: <a rel="me" href="https://toot.renn.es/@tarneo">@tarneo@toot.renn.es</a>\
-**github**: [tarneaux](https://github.com/tarneaux)
+**Matrix**: [@tarneo:matrix.renn.es](https://matrix.to/#/@tarneo:matrix.renn.es)\
+**Mastodon**: <a rel="me" href="https://toot.renn.es/@tarneo">@tarneo@toot.renn.es</a>\
+**Github**: [tarneaux](https://github.com/tarneaux)
 
 You don't need to be very polite. I adhere to [Crocker's rules](http://sl4.org/crocker.html).
 
