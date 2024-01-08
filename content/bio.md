@@ -4,13 +4,13 @@ aliases:
   - /whoami
 ---
 
-I'm tarneo, a high school student, computer programmer, privacy and Free Software advocate and sysadmin at [Renn.es](https://renn.es), a shared GNU/Linux system in the style of the public access computers of the 90's. Some projects I made include [Shlonk](https://github.com/tarneaux/shlonk), a very simple URL shortener, and my two split keyboards, the [Monkeyboard](/posts/split_keyboard/) and the [Triboard](/posts/triboard/). You can also check out my GNU/Linux [dotfiles](https://github.com/tarneaux/.f) or my [wallpaper selection](https://github.com/tarneaux/wallpapers). If for some reason you want to see how this blog is built, go see its [source code](https://github.com/tarneaux/tarneo.fr).
+I'm tarneo, a high school student, computer programmer, privacy and free (as in freedom) software advocate and sysadmin at [Renn.es](https://renn.es), a shared GNU/Linux system in the style of the public access computers of the 90's. Some projects I made include [Shlonk](https://github.com/tarneaux/shlonk), a very simple URL shortener, and my two split keyboards, the [Monkeyboard](/posts/split_keyboard/) and the [Triboard](/posts/triboard/). You can also check out my GNU/Linux [dotfiles](https://github.com/tarneaux/.f) or my [wallpaper selection](https://github.com/tarneaux/wallpapers). If for some reason you want to see how this blog is built, go see its [source code](https://github.com/tarneaux/tarneo.fr).
 
 I started programming with MIT's [Scratch](https://scratch.mit.edu) in primary school at the age of 9 (my account was created on August 24, 2016). Two years later I switched to Python, which was my go-to programming language for a few years. I then started using other languages: HTML and CSS, Arduino C, C itself, Javascript, and Go. I write configuration files in Lua wherever I can (NeoVim, AwesomeWM), and I do my scripting with Bash. These days I write most of my software in Rust, mainly because of its great developer experience.
 
 > "I use arch BTW"
 
-I use Arch Linux as my daily driver OS and I don't plan to go back to windows anytime soon. I just think Free Software is the only way to get good programs that are designed for the best user experience instead of just making money. I managed to get rid of most of the proprietary software I once used: I will never regret doing that and I do think you should too.
+I use Arch Linux as my daily driver OS and I don't plan to go back to windows anytime soon. I think free (as in freedom) software is the only way to get good programs that are designed for the best user experience instead of just making money. I managed to get rid of most of the proprietary software I once used: I will never regret doing that and I do think you should too.
 
 I think one could sum up my thoughts on proprietary software with this quote from John Maynard Keynes:
 
