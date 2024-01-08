@@ -65,36 +65,36 @@ docker exec -it pdns pdnsutil edit-zone charennes.org
 ```
 
 I first changed the default [SOA record](https://en.wikipedia.org/wiki/SOA_record) to match the configuration I wanted:
-```
+```dns
 charennes.org   3600    IN      SOA     ns.charennes.org admin.charennes.org 0 10800 3600 604800 3600
 ```
 
 This tells DNS that the name of the main DNS server for your zone is `ns.yourdomain.org` (`ns.charennes.org` in my case). You should also add an email address with the `@` replaced by a dot. If there are dots in your email address (before the `@`), use a backslash to escape them.
 
 So let's create an A record for `ns.charennes.org`:
-```
+```dns
 ns.charennes.org        3600    IN      A       82.64.143.64
 ```
 Of course you should replace the IP to match your public IP.
 
 Let's also add our VPS's public IP, which will be used as a backup:
-```
+```dns
 ns2.charennes.org       3600    IN      A       51.210.180.14
 ```
 
 We can then add two NS records to point to the DNS servers we just defined:
-```
+```dns
 charennes.org   3600    IN      NS      ns.charennes.org
 charennes.org   3600    IN      NS      ns2.charennes.org
 ```
 
 I also added the following to set the IPv4 address of `charennes.org`:
-```
+```dns
 charennes.org   3600    IN      A       82.64.143.64
 ```
 
 Here's the final file:
-```
+```dns
 ; Warning - every name in this file is ABSOLUTE!
 $ORIGIN .
 charennes.org   3600    IN      SOA     ns.charennes.org admin.charennes.org 0 10800 3600 604800 3600
