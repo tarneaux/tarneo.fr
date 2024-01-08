@@ -6,14 +6,5 @@ test:
 build:
 	hugo
 
-deploy:
-	sed -i "s/baseURL: 'https:\/\/draft.tarneo.fr\//baseURL: 'https:\/\/tarneo.fr\//g" config.yaml || true
-	grep -q "baseURL: 'https://tarneo\.fr/'" config.yaml
-	make test build
+deploy: build
 	rsync -avx --delete public/ cocinero-tarneo:./www/
-
-draft:
-	sed -i "s/baseURL: 'https:\/\/tarneo.fr\//baseURL: 'https:\/\/draft.tarneo.fr\//g" config.yaml || true
-	grep -q "baseURL: 'https://draft\.tarneo\.fr/'" config.yaml
-	make test build
-	rsync -avx --delete public/ cocinero-tarneo:./www-draft/
