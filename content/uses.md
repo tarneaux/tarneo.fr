@@ -35,7 +35,7 @@ For a few of those pieces of software, you can find my config files on [the Renn
 
 ## Hardware
 
-I use a Dell Optiplex 7010 as my desktop computer and a generic Asus laptop.
+My laptop is a Framework 13 inch Ryzen 5 AMD, with 16 GB of RAM. Works great, most of the concerns I had before don't really apply: I don't notice anything with the hinges (they're not noticeably wobbly) or the keyboard. The battery lasts for around 7 hours from 80% charge (with the smaller battery).
 
 My mouse is the MX master 3 and my keyboard is my [Triboard](/posts/triboard/). They are both great, especially since I made one of the two `:-)`.
 
