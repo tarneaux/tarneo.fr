@@ -1,0 +1,49 @@
+#!/bin/bash
+
+# Get the list of only added files (meaning *new* files)
+added_files=$(git diff --cached --name-only --diff-filter=A)
+
+get_frontmatter() {
+    # Extract the YAML frontmatter from the file
+    # We really want to get the file *as known by git*, not from filesystem.
+    frontmatter=$(git show ":$1" | sed -n '/^---$/,/^---$/p')
+    echo "$frontmatter"
+}
+
+# Check each added file
+for file in $added_files; do
+    if [[ $file == *.md ]]; then
+        # Extract the date and draft status from the YAML frontmatter
+        date_in_frontmatter=$(get_frontmatter "$file" | grep -m 1 -oP '^date: \K.*')
+
+        today=$(date +'%Y-%m-%d')
+
+        if [[ $date_in_frontmatter != "$today" ]]; then
+            echo "The date in the YAML frontmatter of '$file' is not set to '$today' (today)."
+            echo -n "Set the date & re-add the file to git? [Y/n] "
+            read -r -n 1 answer
+            if [[ $answer == '' ]]; then
+                answer=Y
+            else
+                echo # We didn't get a newline since the echo
+            fi
+            if [[ $answer =~ ^[Yy]$ ]]; then
+                sed -i "s/^date: .*/date: $today/" "$file"
+                echo "Date set to '$today'. Adding file to git."
+                git add "$file"
+            else
+                echo "Date not set."
+                exit 1
+            fi
+        fi
+
+        # Check that the post is not marked as a draft.
+        # We can assume that if the draft option is present, it is set to true.
+        if get_frontmatter "$file" | grep -qP '^draft: '; then
+            echo "The post '$file' has the 'draft' option set in frontmatter, refusing to commit."
+            exit 1
+        fi
+    fi
+done
+
+exit 0
