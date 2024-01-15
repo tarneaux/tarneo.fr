@@ -7,4 +7,4 @@ build:
 	hugo
 
 deploy: build
-	rsync -avx --delete public/ cocinero-tarneo:./www/
+	rsync -avx --delete public/ tarneo@cocinero:./www/
