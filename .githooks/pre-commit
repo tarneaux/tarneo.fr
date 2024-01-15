@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Get the list of only added files (meaning *new* files)
 added_files=$(git diff --cached --name-only --diff-filter=A)
