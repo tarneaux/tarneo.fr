@@ -4,13 +4,33 @@ aliases:
   - /whoami
 ---
 
-I'm tarneo, a high school student, computer programmer, privacy and free (as in freedom) software advocate and sysadmin at [Renn.es](https://renn.es), a shared GNU/Linux system in the style of the public access computers of the 90's. Some projects I made include [Shlonk](https://github.com/tarneaux/shlonk), a very simple URL shortener, and my two split keyboards, the [Monkeyboard](/posts/split_keyboard/) and the [Triboard](/posts/triboard/). You can also check out my GNU/Linux [dotfiles](https://github.com/tarneaux/.f) or my [wallpaper selection](https://github.com/tarneaux/wallpapers). If for some reason you want to see how this blog is built, go see its [source code](https://github.com/tarneaux/tarneo.fr).
+I'm tarneo, a high school student, computer programmer, sysadmin and {privacy, right to repair, free software} advocate.
 
-I started programming with MIT's [Scratch](https://scratch.mit.edu) in primary school at the age of 9 (my account was created on August 24, 2016). Two years later I switched to Python, which was my go-to programming language for a few years. I then started using other languages: HTML and CSS, Arduino C, C itself, Javascript, and Go. I write configuration files in Lua wherever I can (NeoVim, AwesomeWM), and I do my scripting with Bash. These days I write most of my software in Rust, mainly because of its great developer experience.
+Here's some of what I do or have done:
+- I manage [Renn.es](https://renn.es), a non-profit collective providing online services, which include e-mail, Invidious (YouTube frontend), and web hosting.
+- I made two free and open source ergonomic split keyboards, the [Monkeyboard](/posts/split_keyboard/) and the [Triboard](/posts/triboard/).
+- I am learning Rust by building various projects: [Shlonk](https://github.com/tarneaux/shlonk), a very simple URL shortener,
 
-> "I use arch BTW"
+Also check out my [NixOS configurations](https://github.com/tarneaux/nix), my [wallpaper selection](https://github.com/tarneaux/wallpapers), and this website's [source code](https://github.com/tarneaux/tarneo.fr).
 
-I use Arch Linux as my daily driver OS and I don't plan to go back to windows anytime soon. I think free (as in freedom) software is the only way to get good programs that are designed for the best user experience instead of just making money. I managed to get rid of most of the proprietary software I once used: I will never regret doing that and I do think you should too.
+Here are the programming languages I've used:
+
+| Language   | My age | Uses                                                      |
+|------------|--------|-----------------------------------------------------------|
+| Scratch    | 9-10   | Learning about programming, making small games            |
+| Python     | 11-now | Data analysis, computer vision (OpenCV), advanced scripts |
+| HTML/CSS   | 12-now | Web                                                       |
+| C++        | 12-now | Arduino                                                   |
+| C          | 12-now | Learning data structures, memory management               |
+| JavaScript | 13-now | Web                                                       |
+| Bash       | 13-now | Scripting                                                 |
+| Go         | 15     | Tinkering                                                 |
+| Lua        | 16-now | Software configuration (NeoVim, AwesomeWM)                |
+| Rust       | 16-now | Backend, data analysis, desktop apps with Tauri           |
+| Nix        | 17-now | OS/dotfiles configuration                                 |
+
+
+I use Linux (NixOS) as my daily driver OS and I don't plan to go back to windows anytime soon. I think free (as in freedom) software is the only way to get good programs that are designed for the best user experience instead of just making money. I managed to get rid of most of the proprietary software I once used: I will never regret doing that and I do think you should too.
 
 I think one could sum up my thoughts on proprietary software with this quote from John Maynard Keynes:
 
@@ -18,7 +38,7 @@ I think one could sum up my thoughts on proprietary software with this quote fro
 >
 > <cite>John Maynard Keynes</cite>
 
-I also like to use programs which adhere to the Unix philosophy, namely: do one thing and do it well. This is why I do not use things like Nextcloud or an office suite.
+I also like to use programs which adhere to the Unix philosophy, namely: do one thing and do it well. This is why I do not use things like Nextcloud or an office suite. I understand why most people don't though :-)
 
 I believe everyone should have a right to extensive privacy, both on the internet and in general. If you think "I have nothing to hide", check out Glenn Greenwald's Ted Talk ["Why Privacy Matters"](https://iv.renn.es/watch?v=pcSlowAhvUk). For this matter I also recommend you read [the Wikipedia article about mass surveillance](https://en.wikipedia.org/wiki/Mass_surveillance).
 
@@ -26,6 +46,8 @@ I believe everyone should have a right to extensive privacy, both on the interne
 > 
 > <cite>Edward Snowden</cite>
 
-I don't like most of "social" media platforms: Instagram or TikTok, in my very humble opinion, do not provide any value to the user. I am also not a user of any google service apart from YouTube, which I always access through NewPipe or Invidious.
+I don't like most of "social" media platforms: Instagram or TikTok, in my very humble opinion, do not provide any value to the user. I am also not a user of any google service apart from YouTube, which I always access through NewPipe or Invidious. I believe [enshittification](https://en.wikipedia.org/wiki/Enshittification) is a thing.
 
-
+> Here is how platforms die: first, they are good to their users; then they abuse their users to make things better for their business customers; finally, they abuse those business customers to claw back all the value for themselves. Then, they die. I call this enshittification, and it is a seemingly inevitable consequence arising from the combination of the ease of changing how a platform allocates value, combined with the nature of a "two sided market", where a platform sits between buyers and sellers, hold each hostage to the other, raking off an ever-larger share of the value that passes between them.
+>
+> <cite>Cory Doctorow</cite>
