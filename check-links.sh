@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 links=$(find content/ -type f -name "*.md" -exec cat '{}' \; | grep -oE "https?://[a-zA-Z0-9./?=_-]*")
 
