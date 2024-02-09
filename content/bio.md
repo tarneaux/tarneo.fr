@@ -9,7 +9,7 @@ I'm tarneo, a high school student, computer programmer, sysadmin at [Renn.es](ht
 Here's some of what I do or have done:
 - I manage [Renn.es](https://renn.es), a non-profit collective providing online services, which include e-mail, Invidious (YouTube frontend), and web hosting.
 - I made two free and open source ergonomic split keyboards, the [Monkeyboard](/posts/split_keyboard/) and the [Triboard](/posts/triboard/).
-- I am learning Rust by building various projects: [Shlonk](https://github.com/tarneaux/shlonk), a very simple URL shortener,
+- I am learning Rust by building various projects: [Shlonk](https://github.com/tarneaux/shlonk), a very simple URL shortener, and a few others in progress.
 
 Also check out my [NixOS configurations](https://github.com/tarneaux/nix), my [wallpaper selection](https://github.com/tarneaux/wallpapers), and this website's [source code](https://github.com/tarneaux/tarneo.fr).
 
