@@ -8,6 +8,8 @@ aliases:
 
 Feel free to contact me through any of the means listed below.
 
+My pronouns are he/him.
+
 **Email**: tarneo@tarneo.fr\
 **XMPP**: [tarneo@renn.es](xmpp:tarneo@renn.es?omemo-sid-777090665=e44cec2d4c97dd5df58f20d0baca5799bdcfe3d745608aad0ba7b24c1d11af17)\
 **Matrix**: [@tarneo:matrix.renn.es](https://matrix.to/#/@tarneo:matrix.renn.es)\
