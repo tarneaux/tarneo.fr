@@ -26,9 +26,6 @@ menu:
     - name: "Uses"
       url: "/uses/"
       weight: 4
-    - name: "About this site"
-      url: "/about/"
-      weight: 5
 
 params:
   favicon: "profile.png"
