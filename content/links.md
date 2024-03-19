@@ -4,119 +4,60 @@ title: "Links"
 
 These are some sites, webpages, talks, etc. I found interesting.
 
-If you notice a dead link please [tell me](/contact/).
+All of the people of whom I list the blog here have one thing in common: they can get you interested in a subject you initially don't care about just by writing about it.
 
 ## Blogs
 
-I found most of these completely randomly, with [Wiby](https://wiby.me), [Marginalia search](https://marginalia.nu) and others.
+This section is sorted alphabetically.
 
-[But she's a girl...](https://www.rousette.org.uk/): Emacs and Vim, Split keyboards, Linux...
+[Ali Reza Hayati](https://alirezahayati.com/) ~> [Not a browser war but a Web war](https://alirezahayati.com/2023/08/06/not-a-browser-war-but-a-web-war/)
 
-[Drew Devault](https://drewdevault.com): maintainer of Sway (a Wayland window manager), Sourcehut ("a software development platform for hackers"), Aerc (the email client I use), and others.
-
-[Hanemile](https://emile.space/)
-
-[Henrique Dias](https://hacdias.com/)
-
-[solène](https://dataswamp.org/~solene/): OpenBSD, Qubes OS, git-annex, NixOS, and I won't list all subjects. You should absolutely check this one out.
-
-[Florian Bruhin](https://bruhin.software): maintainer of Qutebrowser (the web browser I use), big contributor of PyTest, HerbstluftWm and others.
-
-[Nikita Voloboev](https://nikiv.dev/) has a great [personal wiki](https://wiki.nikiv.dev/).
-
-[Julius Plenz](https://blog.plenz.com/)
-
-This blog takes a lot of ideas from [Michał Sapka's website](https://michal.sapka.me/) ~> [Charybdis](https://michal.sapka.me/2023/charybdis/), [Mastodon Has Already Won](https://michal.sapka.me/2023/mastodon-has-already-won/), [Mastodon and ActivityPub](https://michal.sapka.me/2023/mastodon-activity-pub/), [Reddit and the centralized Web](https://michal.sapka.me/2023/reddit-and-the-centralized-web/)
-
-From [Fabien Sanglard](https://fabiensanglard.net/) too ~> [USB Cheat Sheet](https://fabiensanglard.net/usbcheat/index.html)
-
-[Julia Evans](https://jvns.ca/) ~> [Monitoring Small Web Services](https://jvns.ca/blog/2022/07/09/monitoring-small-web-services/)
-
-[Ersei 'n Stuff](https://ersei.net/en/blog) ~> [It's Nix All The Way Down](https://ersei.net/en/blog/nix-all-the-way-down), [NixOS and my Descent into Insanity](https://ersei.net/en/blog/its-nixin-time), [Basics of RSA](https://ersei.net/en/blog/rsa-basics) (LaTeX without client JavaScript), [Notes](https://ersei.net/en/notes)
-
-[Jes Olson](https://j3s.sh/) ~> [My Website Is One Binary](https://j3s.sh/thought/my-website-is-one-binary.html)
-
-[Technoblogy](http://www.technoblogy.com/) ~> [Lisp Badge [Updated]](http://www.technoblogy.com/show?2AEE), [Tiny Time 2 Watch](http://www.technoblogy.com/show?1MG3)
-
-[0x19](https://0x19.org/index.php) ~> [Why Social Media Is Bad](https://0x19.org/posts/2021-11-25.php)
-
-[mntn](https://mntn.xyz) ~> [Hello world](https://mntn.xyz/posts/2021-08-22-hello-world/) (website with Hugo -> Gemini), [The Eye Of Sauron](https://mntn.xyz/posts/2021-09-12-the-eye-of-sauron/) (about search engines and why he denies every one of them but [Wiby](https://wiby.me))
-
-[Ali Reza Hayati](https://alirezahayati.com/) ~> [Bugs of social networks!](https://alirezahayati.com/2023/08/21/bugs-of-social-networks/), [Not a browser war but a Web war](https://alirezahayati.com/2023/08/06/not-a-browser-war-but-a-web-war/)
-
-[mrus](https://xn--gckvb8fzb.com/) ~> [Gemini is Solutionism at its Worst](https://xn--gckvb8fzb.com/gemini-is-solutionism-at-its-worst#site-main), [Git on Roids](https://xn--gckvb8fzb.com/git-on-roids/#site-main), [MailMan3 on OpenBSD 7.1](https://xn--gckvb8fzb.com/mailman3-on-openbsd-71/#site-main), [Linux on the Phone: Part One](https://xn--gckvb8fzb.com/linux-on-the-phone-part-one/#site-main), [How Do You Trust That Your Personal Machine Is Not Compromised?](https://xn--gckvb8fzb.com/how-do-you-trust-that-your-personal-machine-is-not-compromised/)
-
-[~bt](https://bt.ht/) ~> [Better Search Results](https://search.bt.ht/), [My coffe maker just makes coffee](https://bt.ht/one-thing/), [Switching to suckless software](https://bt.ht/suckless/), [Do you have an extra $10?](https://bt.ht/$10/), [Stop using custom webfonts](https://bt.ht/webfonts/)
-
-> "Alpine Linux is one of the best distributions available. If you disagree, you clearly haven't achieved galaxy-brain levels of intelligence and I feel sorry for you."
->
-> "The web is not the same medium as graphic design. Digital designers often get this confused. Web applications serve an action or purpose. The user wants to complete a task - not look at a pretty poster. I understand this sounds harsh, but many designers design more for their own ego and portfolio rather than the end-user. That extra flair on your lowercase "t" doesn't help the user better interact with your features or UI. It just slows them down."
-> 
-> <cite>bt</cite>
-
-[Tom Escolano](http://tomescolano.fr/blog/) (french)
-
-[nerdypepper](https://peppe.rs): I love how minimal this site looks. If you are into split keyboards like me (and maybe also otherwise), you'll *have* to check out his post [programming on 34 keys](https://peppe.rs/posts/programming_on_34_keys/).
-
-[Giles Orr](https://www.gilesorr.com/): window managers, Bash prompts, Vim, Raspberry Pis...
-
-[Martin Tournoij / arp242](https://www.arp242.net/): Vim, software freedom ~> [The Art of Unix Programming](https://www.arp242.net/the-art-of-unix-programming/)
-
-[Icyphox](https://icyphox.sh): made Legit (one of the easiest Git frontends to host).
-
-[Liam Heinicke](https://heinicke.xyz/)
-
-[ari-web](https://blog.ari-web.xyz/) ~> [novpn](https://ari-web.xyz/page/novpn#!), [DuckDuckGo? More like DuckDuckNo](https://legacy.blog.ari-web.xyz/blogs/DuckDuckGo_-more-like-DuckDuckNo.html), [Why is GNU/Linux better than microsoft windows (winshit)](https://legacy.blog.ari-web.xyz/blogs/Why-is-GNU_Linux-better-than-microsoft-windows-(winshit))
-
-[Tom](https://tfaz.xyz/) ~> [links](https://tfaz.xyz/links/)
-
-[Stefano Rodighiero](https://stefanorodighiero.net/)
-
-[Danluu](http://danluu.com/)
-
-[Marcel Patzwahl](https://snow-dev.com/) ~> [setup pass on multiple devices](https://snow-dev.com/posts/setup-pass-on-multiple-devices.html)
-
-[Jake Gines](https://jakegines.in): another good example of a minimal site, although it's a bit hard to navigate. I don't think the best part of it is the blog, but rather the [notes](https://jakegines.in/notes) (a personal wiki), and an *enormous* list of [favourites](https://jakegines.in/favorites) (links). Also check out the [dots](https://github.com/JakeGinesin/dotfiles).
-
-[Wesley Aptekar-Cassels](https://blog.wesleyac.com/) ~> [How I run my servers](https://blog.wesleyac.com/posts/how-i-run-my-servers)
-
-[0xdstn](https://0xdstn.site/) ~> [Digital Minimalism](https://0xdstn.site/writing/digital-minimalism/)
-
-[Thib](https://ergaster.org/blog/1/) ~> [My server can burn, my services will run](https://ergaster.org/posts/2023/10/05-my-server-can-burn/), [Syncing Notes with Obsidian](https://ergaster.org/posts/2023/08/23-syncing-notes-with-obsidian/), [I don't want to host services (but I do)](https://ergaster.org/posts/2023/08/09-i-dont-want-to-host-services-but-i-do/)
-
-[Jacob's Unnamed Blog](https://jacobwsmith.xyz/) ~> [My Philosophy on Software](https://jacobwsmith.xyz/stories/software_philosophy.html)
-
-[Vivek Haldar](https://blog.vivekhaldar.com/start) ~> [Productivity porn](https://blog.vivekhaldar.com/post/28465017852/productivity-porn), [GUI vs CLI: Operation vs Expression](https://blog.vivekhaldar.com/post/8950163616/gui-vs-cli-operation-vs-expression)
-
-[Ham Vocke](https://www.hamvocke.com/blog/) ~> [Remote Pair Programming Made Easy with SSH and tmux](https://www.hamvocke.com/blog/remote-pair-programming-with-tmux/), [Using 'make' to Make Your Code Easy to Work With](https://www.hamvocke.com/blog/makefiles-for-accessibility/), [Distraction-free writing with vim](https://www.hamvocke.com/blog/distraction-free-writing/)
-
-[Geoffrey Huntley](https://ghuntley.com/) ~> [Computers Notes](https://ghuntley.com/notes/computers/), [/new convention: think of it as "dotfiles" but "for computers"](https://ghuntley.com/slash-new/), [Visual Studio Code is designed to fracture](https://ghuntley.com/fracture/)
-
-[tonsky.me](https://tonsky.me/) ~> [The Absolute Minimum Every Software Developer Must Know About Unicode in 2023 (Still No Excuses!)](https://tonsky.me/blog/unicode/)
-
-[Scott Jenson](https://jenson.org/) ~> [The invisible problem](https://jenson.org/text/), [The future needs files](https://jenson.org/files/), [Small is Beautiful: Why Desktop UX still has something to teach Mobile](https://jenson.org/small/)
-
-[Stefan Zweifel](https://stefanzweifel.dev/) ~> [An Opinionated Personal Folder Structure](https://stefanzweifel.dev/posts/2023/09/16/an-opinionated-personal-folder-structure), [Things 3 Setup](https://stefanzweifel.dev/posts/2019/12/26/things-3-setup)
+[Arne Bahlo](https://arne.me/) ~> [We Need to Bring Back Webrings](https://arne.me/articles/we-need-to-bring-back-webrings)
 
 [Benedict Evans](https://www.ben-evans.com/) ~> [Generative AI and intellectual property](https://www.ben-evans.com/benedictevans/2023/8/27/generative-ai-ad-intellectual-property)
 
-[Orhun's Blog](https://blog.orhun.dev/)
+[But she's a girl...](https://www.rousette.org.uk/) ~> Emacs and Vim, Split keyboards, Linux... Bsag has greatly participated in my interest for split keyboards (after it started).
 
-[sadgrl.online](https://sadgrl.online/) ~> [Internet Manifesto](https://sadgrl.online/cyberspace/internet-manifesto)
-
-[Paulo Roger](https://pauloroger.dev/) ~> [Take Back the Web](https://pauloroger.dev/post/take-back-the-web/)
-
-[Fredrb's Blog](https://blog.fredrb.com/) ~> [Solving the same problem multiple times](https://blog.fredrb.com/2023/09/08/same-problem-multiple-times/)
+[Drew Devault](https://drewdevault.com): ~> maintainer of Sway, Sourcehut, Aerc (which I use), and others.
 
 [Edwin Wenink](https://www.edwinwenink.xyz/) ~> [Web Paleontology: An Ode to the Hyperlink](https://www.edwinwenink.xyz/etc/web_paleontology/)
 
-> Surf instead of search: click away and follow that hyperlink.
->
-> <cite>Edwin Wenink</cite>
+[Fabien Sanglard](https://fabiensanglard.net/) ~> [USB Cheat Sheet](https://fabiensanglard.net/usbcheat/index.html)
+
+[Fredrb's Blog](https://blog.fredrb.com/) ~> [Solving the same problem multiple times](https://blog.fredrb.com/2023/09/08/same-problem-multiple-times/)
+
+[Geoffrey Huntley](https://ghuntley.com/) ~> [Computers Notes](https://ghuntley.com/notes/computers/), [/new convention: think of it as "dotfiles" but "for computers"](https://ghuntley.com/slash-new/), [Visual Studio Code is designed to fracture](https://ghuntley.com/fracture/)
+
+[Ham Vocke](https://www.hamvocke.com/blog/) ~> [Remote Pair Programming Made Easy with SSH and tmux](https://www.hamvocke.com/blog/remote-pair-programming-with-tmux/), [Using 'make' to Make Your Code Easy to Work With](https://www.hamvocke.com/blog/makefiles-for-accessibility/), [Distraction-free writing with vim](https://www.hamvocke.com/blog/distraction-free-writing/)
+
+[Jacob](https://jacobwsmith.xyz/) ~> [My Philosophy on Software](https://jacobwsmith.xyz/stories/software_philosophy.html)
+
+[Julia Evans](https://jvns.ca/) ~> [Monitoring Small Web Services](https://jvns.ca/blog/2022/07/09/monitoring-small-web-services/)
+
+[Martin Tournoij](https://www.arp242.net/): Vim, software freedom ~> [The Art of Unix Programming](https://www.arp242.net/the-art-of-unix-programming/)
+
+[Michał Sapka](https://michal.sapka.me/): ~> [Charybdis](https://michal.sapka.me/2023/charybdis/), [Mastodon Has Already Won](https://michal.sapka.me/2023/mastodon-has-already-won/), [Mastodon and ActivityPub](https://michal.sapka.me/2023/mastodon-activity-pub/), [Reddit and the centralized Web](https://michal.sapka.me/2023/reddit-and-the-centralized-web/)
+
+[Orhun](https://blog.orhun.dev/)
 
 [Ploum](https://ploum.net/index_all.html) ~> [Splitting the Web](https://ploum.net/2023-08-01-splitting-the-web.html), [How to Kill a Decentralised Network (such as the Fediverse)](https://ploum.net/2023-06-23-how-to-kill-decentralised-networks.html)
 
-[Arne Bahlo](https://arne.me/) ~> [We Need to Bring Back Webrings](https://arne.me/articles/we-need-to-bring-back-webrings)
+[Scott Jenson](https://jenson.org/) ~> [The invisible problem](https://jenson.org/text/), [The future needs files](https://jenson.org/files/), [Small is Beautiful: Why Desktop UX still has something to teach Mobile](https://jenson.org/small/)
+
+[Solène](https://dataswamp.org/~solene/): ~> OpenBSD, Qubes OS, git-annex, NixOS, and I won't list all subjects.
+
+[Stefan Zweifel](https://stefanzweifel.dev/) ~> [An Opinionated Personal Folder Structure](https://stefanzweifel.dev/posts/2023/09/16/an-opinionated-personal-folder-structure), [Things 3 Setup](https://stefanzweifel.dev/posts/2019/12/26/things-3-setup)
+
+[Thib](https://ergaster.org/blog/1/) ~> [My server can burn, my services will run](https://ergaster.org/posts/2023/10/05-my-server-can-burn/), [Syncing Notes with Obsidian](https://ergaster.org/posts/2023/08/23-syncing-notes-with-obsidian/), [I don't want to host services (but I do)](https://ergaster.org/posts/2023/08/09-i-dont-want-to-host-services-but-i-do/)
+
+[Vivek Haldar](https://blog.vivekhaldar.com/start) ~> [Productivity porn](https://blog.vivekhaldar.com/post/28465017852/productivity-porn), [GUI vs CLI: Operation vs Expression](https://blog.vivekhaldar.com/post/8950163616/gui-vs-cli-operation-vs-expression)
+
+[bt](https://btxx.org/) ~> [My coffe maker just makes coffee](https://bt.ht/one-thing/), [Switching to suckless software](https://bt.ht/suckless/), [Do you have an extra &dollar;10?](https://bt.ht/$10/), [Stop using custom webfonts](https://bt.ht/webfonts/)
+
+[mntn](https://mntn.xyz) ~> [Backbone surveillance and the future of privacy](https://mntn.xyz/posts/2021-08-28-backbone-surveillance-and-the-future-of-privacy/)
+
+[mrus](https://xn--gckvb8fzb.com/) ~> [Gemini is Solutionism at its Worst](https://xn--gckvb8fzb.com/gemini-is-solutionism-at-its-worst#site-main), [Git on Roids](https://xn--gckvb8fzb.com/git-on-roids/#site-main), [MailMan3 on OpenBSD 7.1](https://xn--gckvb8fzb.com/mailman3-on-openbsd-71/#site-main), [Linux on the Phone: Part One](https://xn--gckvb8fzb.com/linux-on-the-phone-part-one/#site-main), [How Do You Trust That Your Personal Machine Is Not Compromised?](https://xn--gckvb8fzb.com/how-do-you-trust-that-your-personal-machine-is-not-compromised/)
+[nerdypepper](https://peppe.rs): I love how minimal this site looks. If you are into split keyboards like me (and maybe also otherwise), you'll *have* to check out his post [programming on 34 keys](https://peppe.rs/posts/programming_on_34_keys/).
 
 ## Articles / wikis / papers / fun stuff
 
@@ -168,24 +109,6 @@ Paul Ford - [I had a couple drinks and woke up with 1,000 nerds](https://medium.
 [FediPrimer - Chatty, Basic, Easy To Understand Explanations Of Fediverse Concepts](http://fediprimer.org/index.php)
 
 [Google vs. the Open Web](https://interpeer.io/blog/2023/07/google-vs-the-open-web/)
-
-## For the red-pilled
-
-[spyware index](https://spyware.neocities.org/) (mostly web browsers)
-
-[blacklight](https://themarkup.org/blacklight): see what trackers are on a website
-
-[PRISM break](https://prism-break.org/en/)
-
-[switching.software](https://switching.software/): "Ethical, easy-to-use and privacy-conscious alternatives to well-known software"
-
-[redecentralize/alternative-internet](https://github.com/redecentralize/alternative-internet): "A collection of interesting new networks and tech aiming at decentralisation (in some form)"
-
-[Surveillance Self-Defense](https://ssd.eff.org/)
-
-Wikipedia - [Global surveillance](https://en.wikipedia.org/wiki/Global_surveillance)
-
-[Don't Hex the Water](https://iv.renn.es/watch?v=Fzhkwyoe5vI)
 
 ## Talks / Videos
 
