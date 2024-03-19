@@ -84,6 +84,8 @@ Paul Ford - [I had a couple drinks and woke up with 1,000 nerds](https://medium.
 
 [xkcd 1205: is it worth the time?](https://xkcd.com/1205/)
 
+[xkcd 806: Tech Support](https://xkcd.com/806/)
+
 [oldweb.today](https://oldweb.today/?browser=ns3-mac#https://tarneo.fr): browse the web with old browsers like NetScape
 
 > I believe Google Adwords killed the web. Google Adwords incentivized sites to peddle SEO optimized garbage. Sites who aren't are forced to optimize for email capture so they can market directly to you. Search results now show "news", ads, and SEO spam instead of surfacing information.
