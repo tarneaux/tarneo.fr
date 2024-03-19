@@ -4,9 +4,9 @@ title: "Links"
 
 These are some sites, webpages, talks, etc. I found interesting.
 
-All of the people of whom I list the blog here have one thing in common: they can get you interested in a subject you initially don't care about just by writing about it.
-
 ## Blogs
+
+All of the people of whom I list the blog here have one thing in common: they can get you interested in a subject you initially don't care about just by writing about it.
 
 This section is sorted alphabetically.
 
