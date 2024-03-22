@@ -5,31 +5,31 @@ title: "Uses"
 ## Software
 
 On my PC(s):
-- Editor: [NeoVim](https://neovim.io/) for everything: code, text, this website, and so on. I even make presentations in Markdown and convert them to HTML using [reveal-md](https://github.com/webpro/reveal-md).
+- Editor: [NeoVim](https://neovim.io/) for everything: code, text, this website, and so on.
 - Web browser: [Qutebrowser](https://qutebrowser.org/), mainly because of its Vim-like keybindings.
-- Youtube players: My own [Invidious](https://invidious.io/) instance on PC's and [NewPipe](https://github.com/TeamNewPipe/NewPipe) for Android.
+- Youtube players: My own [Invidious](https://invidious.io/) instance on computers and [NewPipe](https://github.com/TeamNewPipe/NewPipe) for Android.
 - Mobile web browser: [Iceraven](https://github.com/fork-maintainers/iceraven-browser). This is the best browser for android because it is the only one that is decent. Its features include:
     - ACTUALLY not tracking you, at least according to my research.
     - Extension support: I use UBlock Origin, Decentraleyes, Privacy Badger and CanvasBlocker.
-    - An address bar on the bottom of the screen
-- Search engine: [SearXNG](https://docs.searxng.org/) ([find an instance](https://searx.space/)), a "meta search engine". I enabled Google, Duckduckgo and Qwant.
+    - The address bar is on the bottom of the screen, which avoids the awkward reaching you have to do on other browsers.
+- Search engine: [SearXNG](https://docs.searxng.org/). I enabled Google, Duckduckgo and Qwant.
 - Audio editor: [Audacity](https://www.audacityteam.org/).
 - Video editor: [Kdenlive](https://kdenlive.org/en/).
 - Photo viewer: [nsxiv](https://codeberg.org/nsxiv/nsxiv) with [a decent key handler](https://raw.githubusercontent.com/tarneaux/.f/master/nsxiv/.config/nsxiv/exec/key-handler).
 - Photo organizer: [DigiKam](https://www.digikam.org/).
 - RAW photo editor: [RawTherapee](http://rawtherapee.com/).
 - Terminal emulator: [Alacritty](https://github.com/alacritty/alacritty).
-- Linux distribution: Arch Linux.
+- Linux distribution: NixOS.
 - Password manager: [Bitwarden](https://bitwarden.com/).
-- "Smart"phone OS: [LineageOS](https://lineageos.org/) to get away from Google's crap on Android.
+- "Smart"phone OS: [LineageOS](https://lineageos.org/) (degoogled Android).
 - Email client: [aerc](https://aerc-mail.org/) on PC and [FairEmail](https://email.faircode.eu/) for Android.
 - Mobile navigation/maps: [Organic maps](https://organicmaps.app/).
 - Terminal multiplexer: [tmux](https://github.com/tmux/tmux).
 
 On [my servers](https://renn.es):
 - NeoVim & Tmux just like on my PC, with a lighter config for NeoVim.
-- Linux distribution: Debian Linux.
-- Backups: [btrbk](https://digint.ch/btrbk/) with btrfs, plus a custom backup script for off site backups.
+- Linux distributions: Debian Linux, NixOS.
+- Backups: [btrbk](https://digint.ch/btrbk/), [borg](https://www.borgbackup.org/), rsync to another server.
 
 For a few of those pieces of software, you can find my config files on [the Renn.es Gitea instance](https://git.renn.es/tarneo/.f) and on [GitHub](https://github.com/tarneaux/.f).
 
