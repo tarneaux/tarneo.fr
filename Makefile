@@ -7,7 +7,7 @@ test:
 	bash check-links.sh 2>/dev/null
 
 build:
-	hugo
+	hugo --cleanDestinationDir
 
 deploy: build
 	rsync -avx --delete public/ tarneo@cocinero:./www/
