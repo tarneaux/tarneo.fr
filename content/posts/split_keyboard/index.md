@@ -1,5 +1,5 @@
 ---
-title: Making A Split Keyboard From Scratch With Ergogen And QMK
+title: Making a split keyboard from scratch with Ergogen and QMK
 date: 2023-02-27
 summary: This post is about my journey to make my own (highly inefficient, but already better than standard) split keyboard.
 ---

@@ -1,5 +1,5 @@
 ---
-title: "bringing back the minimal web"
+title: "Bringing back the minimal web"
 date: 2023-05-08T11:07:41+02:00
 summary: "A call to action to bring back the minimal web and how we can achieve it"
 ---
