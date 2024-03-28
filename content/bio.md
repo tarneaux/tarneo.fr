@@ -7,7 +7,7 @@ aliases:
 I'm tarneo, a high school student, computer programmer, sysadmin at [Renn.es](https://renn.es) and {privacy, right to repair, free software} advocate.
 
 Here's some of what I do or have done:
-- I manage [Renn.es](https://renn.es), a non-profit collective providing online services, which include e-mail, Invidious (YouTube frontend), and web hosting.
+- I manage [Renn.es](https://renn.es), a french 1901-law nonprofit providing online services based on free software, including e-mail, Invidious, Nextcloud, and web hosting.
 - I made two free and open source ergonomic split keyboards, the [Monkeyboard](/posts/split_keyboard/) and the [Triboard](/posts/triboard/).
 - I am learning Rust by building various projects: [Shlonk](https://github.com/tarneaux/shlonk), a very simple URL shortener, and a few others in progress.
 
