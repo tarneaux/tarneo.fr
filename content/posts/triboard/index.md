@@ -47,6 +47,6 @@ I'm very happy with how this keyboard turned out. I built it in a way that shoul
 
 This is probably not the last keyboard I'll ever make, but for now it's great in terms of portability. Using it on the go is actually possible now, as opposed to the [monkeyboard](/posts/split_keyboard/).
 
-If you liked this article, consider reading ones from other people like Rousette's [TOTEM](https://www.rousette.org.uk/archives/totem-keyboard/) and [Nine](https://www.rousette.org.uk/archives/introducing-the-nine-keyboard/) or nerdypepper's [Programming on 34 keys](https://peppe.rs/posts/programming_on_34_keys/).
+If you liked this article, consider reading ones from other people like Bsag's [TOTEM](https://www.rousette.org.uk/archives/totem-keyboard/) and [Nine](https://www.rousette.org.uk/archives/introducing-the-nine-keyboard/) or nerdypepper's [Programming on 34 keys](https://peppe.rs/posts/programming_on_34_keys/).
 
 ![Second picture of the keyboard from the side](./triboard2.webp)
