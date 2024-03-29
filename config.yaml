@@ -4,6 +4,12 @@ title: "Tarneo's blog"
 titleCaseStyle: "firstupper"
 theme: renny
 
+params:
+  favicon: "profile.png"
+  description: "Programming, Linux, self-hosting, ergo keyboards..."
+  navbar: true
+  feed: /posts/index.xml
+
 author:
   name: "Tarneo"
   email: "tarneo@tarneo.fr"
@@ -27,9 +33,3 @@ menu:
     - name: "Uses"
       url: "/uses/"
       weight: 4
-
-params:
-  favicon: "profile.png"
-  description: "Programming, Linux, self-hosting, ergo keyboards..."
-  navbar: true
-  feed: /posts/index.xml
