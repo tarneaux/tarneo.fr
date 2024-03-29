@@ -7,7 +7,9 @@ test:
 	bash check-links.sh 2>/dev/null
 
 build:
+	git stash --include-untracked # Don't deploy drafts of changes
 	hugo --cleanDestinationDir
+	git stash pop
 
 deploy: build
 	rsync -avx --delete public/ tarneo@cocinero:./www/
