@@ -9,6 +9,7 @@ params:
   description: "Programming, Linux, self-hosting, ergo keyboards..."
   navbar: true
   feed: /posts/index.xml
+  monospace: true
 
 author:
   name: "Tarneo"
@@ -18,6 +19,16 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+    extensions:
+      passthrough:
+        delimiters:
+          block:
+          - - $$
+            - $$
+          inline:
+          - - '@@'
+            - '@@'
+        enable: true
 
 menu:
   main:
