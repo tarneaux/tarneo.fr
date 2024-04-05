@@ -41,6 +41,8 @@ As already mentioned, I built the wireless version of this keyboard, which is wh
 
 I have only charged the board once for now, and I think (and hope) the batteries where not full when I bought them. I'll update this article when the battery runs out on the left half (which should happen before the right one does). The ZMK power profiler predicts around two weeks of battery life on the left half.
 
+**update**: the battery lasts for about two weeks on the left half, and I haven't paid close attention to the right half.
+
 ## Conclusion
 
 I'm very happy with how this keyboard turned out. I built it in a way that should make it usable by other people too, so feel free to build one yourself (please [tell me](/contact/) if you do!).
