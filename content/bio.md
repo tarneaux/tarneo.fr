@@ -4,7 +4,7 @@ aliases:
   - /whoami
 ---
 
-I'm tarneo, a high school student, computer programmer, sysadmin at [Renn.es](https://renn.es) and {privacy, right to repair, free software} advocate.
+I'm tarneo, a high school student, computer programmer, president and sysadmin of [Renn.es](https://renn.es) and {privacy, right to repair, free software} advocate.
 
 Here's some of what I do or have done:
 - I manage [Renn.es](https://renn.es), a french 1901-law nonprofit providing online services based on free software, including e-mail, Invidious, Nextcloud, and web hosting.
