@@ -43,7 +43,7 @@ Then run:
 sudo sqlite3 /data/pdns/varlib/pdns.sqlite3 < schema.sqlite3.sql
 ```
 
-I had a permission issue when trying to run the container again, so I ran a `sudo chown -R 953:953 /data/pdns`. Make sure there is no UID or GID 953 on your system because that user would have access to `/data/pdns`.
+I had a permission issue when trying to run the container again, so I ran a `sudo chown -R 953:953 /data/pdns`. Make sure there is no UID or GID 953 on your system because that user would have access to `/data/pdns` (or make sure that `/data` is not readable by that user).
 
 Then run `docker-compose up -d` again. The container's log should end with the following line:
 ```
@@ -121,6 +121,7 @@ Remember to open port 53 (for both TCP and UDP) and check that queries also work
 I also ran the following command to enable DNSSEC:
 ```sh
 docker exec -it pdns pdnsutil secure-zone charennes.org
+docker exec -it pdns pdnsutil rectify-zone charennes.org
 ```
 
 Note that you will have to find a way to sync the server's database between your two servers. I chose to use a one-way rsync script which I run every time I update stuff. Remember to restart the docker container whenever you overwrite the database because it won't reread it by itself. Also know that overwriting databases is not the best practice in most cases, but I think it's OK here since the database isn't being written to without modifying domains.
@@ -128,3 +129,21 @@ Note that you will have to find a way to sync the server's database between your
 ## Letting DNS know about our new server
 
 Now you'll need to tell your registrar about the server you just created. This is a bit tricky as you need to give the registrar the domain names of your servers, but they don't have one yet as the DNS isn't propagated. What I did was add A records for `ns.charennes.org` and `ns2.charennes.org` matching the ones I had defined on my own name server, and then set the DNS servers to those which worked alright. It took some time though, around an hour to get to my own PC, but it could be up to two days until every computer on the internet has the new correct records (due to cache time to live).
+
+## Errata
+
+You also need to add a DS record in your registrar's control panel for DNSSEC to work! Here is how to find the DS record(s):
+
+```
+docker exec -it pdns pdnsutil show-zone charennes.org
+```
+
+Two of the outputted lines will be something like:
+```
+ID = 3 (CSK), flags = 257, tag = 7327, algo = 13, bits = 256      Active         Published  ( ECDSAP256SHA256 )
+CSK DNSKEY = charennes.org. IN DNSKEY 257 3 13 <base64 encoded key> ; ( ECDSAP256SHA256 )
+```
+
+Copy the key to your registrar, and you're done! I had to enter key tag 7327, flag 257, algorithm 13 and the base64 encoded key.
+
+For security, I would also recommend setting the `version-string` option to `anonymous` to avoid bots scanning your server for vulnerable versions.
