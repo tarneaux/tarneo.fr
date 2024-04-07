@@ -42,7 +42,7 @@ This section is sorted alphabetically.
 
 [Orhun](https://blog.orhun.dev/)
 
-[Ploum](https://ploum.net/index_all.html) ~> [Splitting the Web](https://ploum.net/2023-08-01-splitting-the-web.html), [How to Kill a Decentralised Network (such as the Fediverse)](https://ploum.net/2023-06-23-how-to-kill-decentralised-networks.html), [Une bulle d’intelligence artificielle et de stupidité naturelle](https://ploum.net/2024-04-04-la-bulle-ai.html)
+[Ploum](https://ploum.net/index_all.html) ~> [Splitting the Web](https://ploum.net/2023-08-01-splitting-the-web.html), [How to Kill a Decentralised Network (such as the Fediverse)](https://ploum.net/2023-06-23-how-to-kill-decentralised-networks.html), [Une bulle d’intelligence artificielle et de stupidité naturelle](https://ploum.net/2024-04-04-la-bulle-ai.html), [Keynote Touraine Tech 2023 : Pourquoi ?](https://ploum.net/2023-03-30-tnt23-pourquoi.html), [Gemini, le protocole du slow web](https://ploum.net/gemini-le-protocole-du-slow-web/index.html), [A Society That Lost Focus](https://ploum.net/2024-03-18-lost-focus.html)
 
 [Scott Jenson](https://jenson.org/) ~> [The invisible problem](https://jenson.org/text/), [The future needs files](https://jenson.org/files/), [Small is Beautiful: Why Desktop UX still has something to teach Mobile](https://jenson.org/small/)
 
