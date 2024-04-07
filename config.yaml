@@ -9,7 +9,6 @@ params:
   description: "Programming, Linux, self-hosting, ergo keyboards..."
   navbar: true
   feed: /posts/index.xml
-  monospace: true
 
 author:
   name: "Tarneo"
