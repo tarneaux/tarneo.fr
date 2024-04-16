@@ -9,12 +9,15 @@ I thought I would share my Zsh prompt here, mainly the part that shows the git s
 ![A screenshot of the prompt, with the path in blue, the git status in red, and a green lambda symbol. The git status is in square brackets, showing information with symbols, plus the branch we are on.](prompt.png)
 
 First, you'll need to tell Zsh to run the commands in the `$PROMPT` variable each time it runs:
+
 ```zsh
 setopt prompt_subst
 ```
+
 Without this, Zsh would run the commands only once (when parsing the zshrc), making functions useless for the prompt.
 
 You guessed it, we'll functions. The names start with an underscore to prevent them from showing up in autocomplete.
+
 ```zsh
 function _git_symbols() {
 }
@@ -24,6 +27,7 @@ function _git_info() {
 ```
 
 Following is the config I use for the prompt, with a lambda as the prompt character. The comments explain it all, so I won't go into more detail.
+
 ```zsh
 PROMPT=''
 # PROMPT+='%F{yellow}%n@%m ' # Display the username followed by @ and hostname in yellow
@@ -34,6 +38,7 @@ PROMPT+='%f' # Reset the text color
 ```
 
 Now on to those functions. The first one, `_git_symbols()`, will echo a number of symbols displaying information about our current git status:
+
 - **↑** if we are are ahead of at least one remote (we can push changes).
 - **↓** if we are behind (we can pull changes).
 - **↕** if the local and remote branch diverge (we have commits on each side after the last one we had in common).
@@ -47,6 +52,7 @@ Now on to those functions. The first one, `_git_symbols()`, will echo a number o
 - **$** if we have stashed changes.
 
 Let's put those in the function:
+
 ```zsh
 function _git_symbols() {
 	# Symbols
@@ -65,6 +71,7 @@ function _git_symbols() {
 ```
 
 The rest should have enough comments. Capital words indicate the parts that are being checked in the next paragraph.
+
 ```zsh
 function _git_symbols() {
     ...
@@ -124,8 +131,10 @@ function _git_symbols() {
 ```
 
 Now that this function is done, let's see the next one, `_git_info()`. It verifies we are in a git repository, and then makes the rest of the prompt:
+
 - the branch name
 - the brackets around the git status for style
+
 ```zsh
 function _git_info() {
 	local git_info=''
@@ -146,6 +155,6 @@ function _git_info() {
 
 ## Conclusion
 
-Now we have a *relatively* simple prompt in plain shell which will work anywhere git and Zsh do. I originally wrote it for my Gentoo [server](https://renn.es/) where I didn't want to install the [starship](https://starship.rs/) prompt I was using at the time. These days I ditched starship and only use this prompt everywhere!
+Now we have a _relatively_ simple prompt in plain shell which will work anywhere git and Zsh do. I originally wrote it for my Gentoo [server](https://renn.es/) where I didn't want to install the [starship](https://starship.rs/) prompt I was using at the time. These days I ditched starship and only use this prompt everywhere!
 
 The entire code is available [in my .zshrc](https://github.com/tarneaux/.f/blob/master/zsh/.config/zsh/.zshrc), in the "Prompt" section.

@@ -27,6 +27,7 @@ We need to bring back the minimal web.
 ## How can we achieve this?
 
 There are two things we need to do to bring back the minimal web:
+
 - Make it easy for people to host their own sites
 - Make it easy for people to find those sites
 
@@ -34,7 +35,7 @@ There are two things we need to do to bring back the minimal web:
 
 One popular option for people to host their own sites or blogs is by using [Neocities](https://neocities.org/). It is donation-based and provides an easy and user-friendly platform for individuals to create and host their own websites without much technical knowledge.
 
-If you want something more community-oriented, you can explore the [Tildeverse](https://tildeverse.org). It is a collection of personal servers and communities which offer various services such as web hosting, email, IRC, and more. The [IndieWeb](https://indieweb.org/) is also worth a look. 
+If you want something more community-oriented, you can explore the [Tildeverse](https://tildeverse.org). It is a collection of personal servers and communities which offer various services such as web hosting, email, IRC, and more. The [IndieWeb](https://indieweb.org/) is also worth a look.
 
 Another option for more tech-savvy users is to host their sites on a VPS or even their own server, but this means that you will have to maintain it and it may not stay up all the time. Still, this is what I do for this site (see [renn.es](https://renn.es)).
 
@@ -57,12 +58,13 @@ Now, let's talk about how to find and sort the results.
 #### The result score
 
 Each web page should have a score, determined by the search engine, that will be used to sort the results and know which pages to crawl first (a page with a better score will have its linked pages crawled before another worse page). This score should be based on the following criteria:
+
 - Penalizing factors:
-    - The size of the page (in bytes)
-    - The number of external resources (images, scripts, etc.)
+  - The size of the page (in bytes)
+  - The number of external resources (images, scripts, etc.)
 - Bonus factors:
-    - ~~The number of links to the page/site~~: this is a bad idea, because big sites will have more links to them, and thus will be prioritized over smaller sites. We don't want another google. This *may* be used to promote non-minimal sites popular among minimal sites.
-    - The fact that it is a personal site: this would make it so that personal sites are prioritized over big sites, which is exactly what we want.
+  - ~~The number of links to the page/site~~: this is a bad idea, because big sites will have more links to them, and thus will be prioritized over smaller sites. We don't want another google. This _may_ be used to promote non-minimal sites popular among minimal sites.
+  - The fact that it is a personal site: this would make it so that personal sites are prioritized over big sites, which is exactly what we want.
 
 The score should be calculated by servers when crawling pages, and should be stored in a public database with all the parts of the score (size, number of external resources, etc.) so that it can be recalculated very fast when a client asks for it. We want this because clients should be able to specify the weights of these parameters, and maybe even add "modules" which would be a server add-on to add some more filters and the like.
 
@@ -75,6 +77,7 @@ Servers should also have a limit of storage space and query each other regularly
 #### Additional features
 
 We could also add some features to the search engine to make it more useful:
+
 - A way to give the search engine a site and have it give you a list of similar sites
 - Crawling sites on the Web Archive to find sites that are no longer online?
 - [anything else?]

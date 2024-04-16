@@ -1,7 +1,7 @@
 ---
 title: "Contact"
 aliases:
-- pgp
+  - pgp
 ---
 
 ## Addresses, accounts and JID
@@ -21,6 +21,7 @@ If you send me an email and know how to use PGP encryption, please encrypt it wi
 ## PGP
 
 To download my PGP key automatically with GnuPG:
+
 ```sh
 gpg --locate-keys tarneo@tarneo.fr
 ```

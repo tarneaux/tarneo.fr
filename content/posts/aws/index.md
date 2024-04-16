@@ -12,18 +12,18 @@ First, I tried going to the settings for my account, but they wanted me to add c
 
 > **me:** Hello, how do I delete my account without giving my credit card information?
 > The web interface wants me to give it when I go into "my account".
-> My email address is ****.
+> My email address is \*\*\*\*.
 >
 > I seriously do not appreciate having to go in here and talk to someone for something as trivial as deleting my account.
 > As a european citizen, I also want my entire data deleted (GDPR).
 
 Here's how they replied:
 
-> **them:** The thing is  the following I just review the account information, the account is in created status
+> **them:** The thing is the following I just review the account information, the account is in created status
 >
 > so you need to finish the activation process to be able to close it, if you do not finish the process of activation by adding a valid card, the account will remain in that status, but it does not generate any charge to you in case you can not add a card.
 
-First, as said above, I didn't want to give any credit card information. This is not something they need to delete an account, and there is *absolutely* no possible debate here.
+First, as said above, I didn't want to give any credit card information. This is not something they need to delete an account, and there is _absolutely_ no possible debate here.
 
 I was already pretty angry, and here's what I replied:
 
@@ -69,7 +69,7 @@ Dear Amazon employee, if you could have seen the size of the smile I had on my f
 What I knew is they just couldn't close the support ticket, and were just trying to get me to leave. But I knew my rights and said this:
 
 > **me:** There is no reason why I would have to give my credit card info because I have nothing due.
-> 
+>
 > If you can't do anything please forward this to someone else who can actually delete the account.
 
 I knew they wouldn't forward this to anybody. What I think is they are just paid to get people to keep their accounts.
@@ -85,10 +85,10 @@ I knew they wouldn't forward this to anybody. What I think is they are just paid
 > The data subject shall have the right to obtain from the controller the erasure of personal data concerning him or her without undue delay and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies:
 > a) the personal data are no longer necessary in relation to the purposes for which they were collected or otherwise processed;
 > [other points]
-> 
+>
 > That is why I am wanting to delete my account, and if I cannot amazon is doing something illegal (which they already do quite a lot :d)
 
-> What I am saying is that my data is no longer necessary. This is why I have the right to delete it *without undue delay*
+> What I am saying is that my data is no longer necessary. This is why I have the right to delete it _without undue delay_
 
 > **them:** We can't delete something that has not been fully activated, I would like to state that we have other option, there is not other option as this account is not active. We do not have any further action besides what we have indicated you.
 
@@ -99,7 +99,7 @@ I knew they wouldn't forward this to anybody. What I think is they are just paid
 > **me:** Can you explain to me why I would have to enter a means to give money somewhere I don't need to give money?
 >
 > "it's OK": it may be OK to one of the big tech companies but it is not OK to me. Again, I have the right to delete my account and that's it, you have nothing you can say about that.
-Now please do something or we will be chatting here for the rest of the evening
+> Now please do something or we will be chatting here for the rest of the evening
 
 > **them:** Because a requirement to use the AWS services is to have a valid card, we understand you don't need it, but is part of the process as you previously requested to get it.
 

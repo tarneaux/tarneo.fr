@@ -17,4 +17,3 @@ The code (HTML & CSS) is licensed under the [GNU General Public License v2](http
 ## Privacy
 
 This site is hosted at [Renn.es](https://renn.es/) and therefore follows its [privacy policy](https://renn.es/#privacy).
-

@@ -59,7 +59,7 @@ This section is sorted alphabetically.
 [mntn](https://mntn.xyz) ~> [Backbone surveillance and the future of privacy](https://mntn.xyz/posts/2021-08-28-backbone-surveillance-and-the-future-of-privacy/)
 
 [mrus](https://xn--gckvb8fzb.com/) ~> [Gemini is Solutionism at its Worst](https://xn--gckvb8fzb.com/gemini-is-solutionism-at-its-worst#site-main), [Git on Roids](https://xn--gckvb8fzb.com/git-on-roids/#site-main), [MailMan3 on OpenBSD 7.1](https://xn--gckvb8fzb.com/mailman3-on-openbsd-71/#site-main), [Linux on the Phone: Part One](https://xn--gckvb8fzb.com/linux-on-the-phone-part-one/#site-main), [How Do You Trust That Your Personal Machine Is Not Compromised?](https://xn--gckvb8fzb.com/how-do-you-trust-that-your-personal-machine-is-not-compromised/)
-[nerdypepper](https://peppe.rs): I love how minimal this site looks. If you are into split keyboards like me (and maybe also otherwise), you'll *have* to check out his post [programming on 34 keys](https://peppe.rs/posts/programming_on_34_keys/).
+[nerdypepper](https://peppe.rs): I love how minimal this site looks. If you are into split keyboards like me (and maybe also otherwise), you'll _have_ to check out his post [programming on 34 keys](https://peppe.rs/posts/programming_on_34_keys/).
 
 ## Articles / wikis / papers / fun stuff
 
@@ -74,6 +74,7 @@ Paul Ford - [I had a couple drinks and woke up with 1,000 nerds](https://medium.
 [Internet statistics](https://www.mit.edu/~mkgray/net/) (written in 1996)
 
 > "Here is what you do:
+>
 > - Visit an article, blog post, or Russian-hosted text-file e-book site that you'd like to read.
 > - Click at the beginning of the headline, scroll to the bottom without clicking, and shift-click the end.
 > - Command-C.

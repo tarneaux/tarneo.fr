@@ -17,6 +17,7 @@ Ideally you want to have your two DNS servers at two different locations to prov
 ## Compose example
 
 Here is a `docker-compose` example:
+
 ```yaml
 services:
   pdns:
@@ -39,6 +40,7 @@ Run `docker-compose up -d` once before proceeding to create the volume directori
 Download the database schema from [GitHub](https://github.com/PowerDNS/pdns/blob/master/modules/gsqlite3backend/schema.sqlite3.sql).
 
 Then run:
+
 ```sh
 sudo sqlite3 /data/pdns/varlib/pdns.sqlite3 < schema.sqlite3.sql
 ```
@@ -46,6 +48,7 @@ sudo sqlite3 /data/pdns/varlib/pdns.sqlite3 < schema.sqlite3.sql
 I had a permission issue when trying to run the container again, so I ran a `sudo chown -R 953:953 /data/pdns`. Make sure there is no UID or GID 953 on your system because that user would have access to `/data/pdns` (or make sure that `/data` is not readable by that user).
 
 Then run `docker-compose up -d` again. The container's log should end with the following line:
+
 ```
 Done launching threads, ready to distribute questions
 ```
@@ -55,16 +58,19 @@ Done launching threads, ready to distribute questions
 There are many frontends for PowerDNS, but I chose to not install any and use the included [pdnsutil](https://doc.powerdns.com/authoritative/manpages/pdnsutil.1.html) command-line utility for simplicity.
 
 Create an empty zone for your domain name (I'll use `charennes.org` from now on as an example):
+
 ```sh
 docker exec -it pdns pdnsutil create-zone charennes.org
 ```
 
 Edit the zone (I hope you're familiar with `vi`):
+
 ```sh
 docker exec -it pdns pdnsutil edit-zone charennes.org
 ```
 
 I first changed the default [SOA record](https://en.wikipedia.org/wiki/SOA_record) to match the configuration I wanted:
+
 ```dns
 charennes.org   3600    IN      SOA     ns.charennes.org admin.charennes.org 0 10800 3600 604800 3600
 ```
@@ -72,28 +78,34 @@ charennes.org   3600    IN      SOA     ns.charennes.org admin.charennes.org 0 1
 This tells DNS that the name of the main DNS server for your zone is `ns.yourdomain.org` (`ns.charennes.org` in my case). You should also add an email address with the `@` replaced by a dot. If there are dots in your email address (before the `@`), use a backslash to escape them.
 
 So let's create an A record for `ns.charennes.org`:
+
 ```dns
 ns.charennes.org        3600    IN      A       82.64.143.64
 ```
+
 Of course you should replace the IP to match your public IP.
 
 Let's also add our VPS's public IP, which will be used as a backup:
+
 ```dns
 ns2.charennes.org       3600    IN      A       51.210.180.14
 ```
 
 We can then add two NS records to point to the DNS servers we just defined:
+
 ```dns
 charennes.org   3600    IN      NS      ns.charennes.org
 charennes.org   3600    IN      NS      ns2.charennes.org
 ```
 
 I also added the following to set the IPv4 address of `charennes.org`:
+
 ```dns
 charennes.org   3600    IN      A       82.64.143.64
 ```
 
 Here's the final file:
+
 ```dns
 ; Warning - every name in this file is ABSOLUTE!
 $ORIGIN .
@@ -110,6 +122,7 @@ Now I was able to test the server with the following command:
 ```sh
 nslookup charennes.org <server-ip>
 ```
+
 ```
 ...
 Address: 82.64.143.64
@@ -119,6 +132,7 @@ Address: 82.64.143.64
 Remember to open port 53 (for both TCP and UDP) and check that queries also work from outside your firewall!
 
 I also ran the following command to enable DNSSEC:
+
 ```sh
 docker exec -it pdns pdnsutil secure-zone charennes.org
 docker exec -it pdns pdnsutil rectify-zone charennes.org
@@ -139,6 +153,7 @@ docker exec -it pdns pdnsutil show-zone charennes.org
 ```
 
 Two of the outputted lines will be something like:
+
 ```
 ID = 3 (CSK), flags = 257, tag = 7327, algo = 13, bits = 256      Active         Published  ( ECDSAP256SHA256 )
 CSK DNSKEY = charennes.org. IN DNSKEY 257 3 13 <base64 encoded key> ; ( ECDSAP256SHA256 )

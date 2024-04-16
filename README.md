@@ -7,6 +7,7 @@ My way of deploying this site is to use rsync, see the [Makefile](Makefile) for 
 ## Hook configuration
 
 To allow for automatic checking of e.g. newly created post dates, the `.githooks/` directory should be used by Git. Run:
+
 ```sh
 git config --local core.hooksPath .githooks/
 ```
