@@ -7,9 +7,12 @@ test:
 	bash check-links.sh 2>/dev/null
 
 build:
-	git stash --include-untracked # Don't deploy drafts of changes
+	if [[ $$(git status --porcelain) ]]; then \
+		echo "You have unstaged changes, please stash first"; \
+		echo "Run git stash --include-untracked to stash."; \
+		exit 1; \
+	fi
 	hugo --cleanDestinationDir
-	git stash pop
 
 deploy: build
 	rsync -avx --delete public/ tarneo@cocinero:./www/
