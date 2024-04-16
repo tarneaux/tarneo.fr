@@ -16,3 +16,6 @@ build:
 
 deploy: build
 	rsync -avx --delete public/ tarneo@cocinero:./www/
+
+format:
+	prettier content --write
