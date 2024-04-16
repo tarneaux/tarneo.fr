@@ -16,7 +16,7 @@ This section is sorted alphabetically.
 
 [Benedict Evans](https://www.ben-evans.com/) ~> [Generative AI and intellectual property](https://www.ben-evans.com/benedictevans/2023/8/27/generative-ai-ad-intellectual-property)
 
-[Brain Baking](https://brainbaking.com/) ~> [Is Your Website Training AI?](https://brainbaking.com/post/2023/04/is-your-website-training-ai/), [ChatGPT Is Worse For Students Than Stack Overflow](https://brainbaking.com/post/2023/10/chatgpt-is-worse-for-students-than-stack-overflow/)
+[Brain Baking](https://brainbaking.com/) ~> [Is Your Website Training AI?](https://brainbaking.com/post/2023/04/is-your-website-training-ai/), [ChatGPT Is Worse For Students Than Stack Overflow](https://brainbaking.com/post/2023/10/chatgpt-is-worse-for-students-than-stack-overflow/), [Smartphone Pervasiveness](https://brainbaking.com/post/2024/04/smartphone-pervasiveness/)
 
 [But she's a girl...](https://www.rousette.org.uk/) ~> Emacs and Vim, Split keyboards, Linux... Bsag has greatly participated in my interest for split keyboards (after it started).
 
