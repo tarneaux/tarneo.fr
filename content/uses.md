@@ -5,13 +5,14 @@ title: "Uses"
 ## Software
 
 On my PC(s):
+
 - Editor: [NeoVim](https://neovim.io/) for everything: code, text, this website, and so on.
 - Web browser: [Qutebrowser](https://qutebrowser.org/), mainly because of its Vim-like keybindings.
 - Youtube players: My own [Invidious](https://invidious.io/) instance on computers and [NewPipe](https://github.com/TeamNewPipe/NewPipe) for Android.
 - Mobile web browser: [Iceraven](https://github.com/fork-maintainers/iceraven-browser). This is the best browser for android because it is the only one that is decent. Its features include:
-    - ACTUALLY not tracking you, at least according to my research.
-    - Extension support: I use UBlock Origin, Decentraleyes, Privacy Badger and CanvasBlocker.
-    - The address bar is on the bottom of the screen, which avoids the awkward reaching you have to do on other browsers.
+  - ACTUALLY not tracking you, at least according to my research.
+  - Extension support: I use UBlock Origin, Decentraleyes, Privacy Badger and CanvasBlocker.
+  - The address bar is on the bottom of the screen, which avoids the awkward reaching you have to do on other browsers.
 - Search engine: [SearXNG](https://docs.searxng.org/). I enabled Google, Duckduckgo and Qwant.
 - Audio editor: [Audacity](https://www.audacityteam.org/).
 - Video editor: [Kdenlive](https://kdenlive.org/en/).
@@ -27,6 +28,7 @@ On my PC(s):
 - Terminal multiplexer: [tmux](https://github.com/tmux/tmux).
 
 On [my servers](https://renn.es):
+
 - NeoVim & Tmux just like on my PC, with a lighter config for NeoVim.
 - Linux distributions: Debian Linux, NixOS.
 - Backups: [btrbk](https://digint.ch/btrbk/), [borg](https://www.borgbackup.org/), rsync to another server.

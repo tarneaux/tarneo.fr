@@ -11,18 +11,22 @@ This is what this post is, and it should work with any language.
 ## Spellcheck language
 
 - Install the hunspell package for your language. Example for French:
+
 ```bash
 sudo dnf install hunspell-fr
 ```
+
 - Restart LibreOffice for it to notice the changes .
 - Head over to `Tools > spellcheck...`. Your language should now appear there.
 
 ## GUI language
 
 - In the same way, install the LibreOffice language pack for your language. Example for French:
+
 ```bash
 sudo dnf install libreoffice-langpack-fr
 ```
+
 - Restart libreoffice for it to notice the changes.
 - Now the GUI follows the system language. If not you may need to find the setting yourself.
 

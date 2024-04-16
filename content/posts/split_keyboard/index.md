@@ -31,14 +31,14 @@ Once the keys were assigned, I hopped onto [a typing trainer](https://monkeytype
 I then started using the keyboard normally.
 
 ## Using french letters (éèàçù)
+
 One downside of QMK is that I couldn't use the french keyboard layout (because characters that needed alt gr to be typed weren't appearing on the graphical configuration tool). For two months I used the keyboard without accents, but one day I had the idea to use the F13 to F24 keys with something capturing them on the PC. I first tried to add shortcuts to my linux window manager (awesomewm) and then use [xdotool](https://man.archlinux.org/man/xdotool.1.en) to type the characters. I immediately noticed that typing those characters only worked sometimes. So I chose to use [xmodmap](https://wiki.archlinux.org/title/xmodmap) to change the actions of those keys, which worked like a charm. The only issue is that you have to run `xmodmap ~/.Xmodmap` each time you disconnect the keyboard (this most certainly has a fix, but I just don't mind having to type that from time to time).
 
 ## What I would do differently if I built this keyboard again
 
 First things off: making your own keyboard takes time, and I almost made a mistake by not using diodes in my build (see why they're needed [here](https://deskthority.net/wiki/Rollover,_blocking_and_ghosting), in short it's to prevent ghosting). But if you want to make your own, here are some things that I learned along the way:
+
 - You don't need many keys. In fact, the six outer keys of my thumb cluster and the upper row of my matrix have no assigned actions! I also don't use the corners of the remaining matrix, except for the print screen key (which could just be on another layer). In general, small is better, and I think the best size for a keyboard is something like the 6-column [corne](https://github.com/foostan/crkbd), maybe even the 5-column one. On a split keyboard, you will notice if a key is too far away, and that's the case for my 12 middle thumb keys.
 - You can just buy another keyboard. I think the [corne](https://github.com/foostan/crkbd) can be the right keyboard for anyone willing to take a bit of time learning a new layout, even if the pinky stagger is maybe not aggressive enough for my hands, plus it's **cheap**.
 
-
-[^1]:On a traditional keyboard, both thumbs press only one key. This is highly inefficient as, well, you don't need two fingers to press one key. Have you never noticed the fact that one of your thumbs is never doing anything? Ergonomic keyboards have two main ways of mitigating this problem, mainly thumb clusters (typically multiple keys on multiple rows, which I don't really like because the outer keys are typically too far) and thumb fans (just an arc of keys).
-
+[^1]: On a traditional keyboard, both thumbs press only one key. This is highly inefficient as, well, you don't need two fingers to press one key. Have you never noticed the fact that one of your thumbs is never doing anything? Ergonomic keyboards have two main ways of mitigating this problem, mainly thumb clusters (typically multiple keys on multiple rows, which I don't really like because the outer keys are typically too far) and thumb fans (just an arc of keys).

@@ -22,7 +22,7 @@ If I'm working on a Rust project, Unison gets mad at me for modifying files whil
 
 I like to see if my files are being synced, in addition to being told when there are errors.
 
-So I very easily added a widget in my awesomeWM bar (I *love* awesome), which just does a `pgrep` and checks that there are at least 4 processes, which is the total count that the script spawns. It's dirty, but it works! (well, at least it works most of the time: if unison keeps exiting because of errors, it tends to alternate between up and down, but that's also a nice way to indicate that something is wrong.)
+So I very easily added a widget in my awesomeWM bar (I _love_ awesome), which just does a `pgrep` and checks that there are at least 4 processes, which is the total count that the script spawns. It's dirty, but it works! (well, at least it works most of the time: if unison keeps exiting because of errors, it tends to alternate between up and down, but that's also a nice way to indicate that something is wrong.)
 
 ## Backups
 

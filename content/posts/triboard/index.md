@@ -9,6 +9,7 @@ For the second time, I've designed a keyboard with [ergogen](https://github.com/
 ![A Picture of the triboard from the top down, showing, on each side: 34 keys, a 180 mAh LiPo battery, a Seeed XIAO microcontroller, a power switch and the logo on the left side](./triboard.webp)
 
 This board:
+
 - Is tiny, less than 10x10 cm for each half, making it easy to carry in a point-and-shoot camera carrying bag.
 - Can be made wired or wireless. The wireless version (the one I built) only supports two thumb keys instead of three on each side to leave space for the battery.
 - Is cheap (as far as split keyboards go): the whole build cost me less than 90 euros with shipping. The reversible PCB greatly helps with this.

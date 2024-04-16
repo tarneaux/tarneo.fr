@@ -79,6 +79,7 @@ Very often I want to add something to my notes while on the go, and that's why I
 ## What about [insert feature]?
 
 Orgmode has too much features, which can be well illustrated by the length of the documentation[^4]. However I can list out some of these here:
+
 - TODO keywords: Org can highlight and autocomplete any keywords you'd like. Most people will have something like "TODO", "NEXT", and "DONE", and I added "TOREAD" and "TOWRITE" onto these.
 - URLs: `[[https://tarneo.fr]]` makes a link to this site. `[[https://tarneo.fr/][really nice site]]` adds a title to it.
 - Tags: Each heading can have tags, and I mainly use them for things I still need to think about, e.g. "Do I really need this"?

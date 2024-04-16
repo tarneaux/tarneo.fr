@@ -1,5 +1,5 @@
-baseURL: 'https://tarneo.fr/'
-languageCode: 'en-us'
+baseURL: "https://tarneo.fr/"
+languageCode: "en-us"
 title: "Tarneo's blog"
 titleCaseStyle: "firstupper"
 theme: renny
@@ -22,11 +22,11 @@ markup:
       passthrough:
         delimiters:
           block:
-          - - $$
-            - $$
+            - - $$
+              - $$
           inline:
-          - - '@@'
-            - '@@'
+            - - "@@"
+              - "@@"
         enable: true
 
 menu:
