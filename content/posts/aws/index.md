@@ -41,7 +41,7 @@ Here, what they are really saying is this: "we don't want to delete your account
 >
 > Because in that it is clearly stated that any european citizen can delete information at a company if he wants to, and amazon does not have the right to change that or force people into giving them more personal information.
 
-> **them:** Please note, all the details in your use case has been considered carefully and in line with our Service Agreement: https://aws.amazon.com/agreement
+> **them:** Please note, all the details in your use case has been considered carefully and in line with our Service Agreement: https://aws.amazon.com/agreement/
 >
 > We'd also like to remind you that as part of our agreement, you are responsible for all activities that occur under your account, including all applicable fees and charges for use of our services. We also ask that you please review our Shared Responsibility Model here: https://aws.amazon.com/compliance/shared-responsibility-model/
 

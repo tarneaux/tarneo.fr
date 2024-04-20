@@ -8,7 +8,7 @@ For a good amount of time now, I've been using a combination of unison, Syncthin
 
 ## Syncing files
 
-Whenever my computer is on, I have a script running in the background that runs `unison`, a good mirrored file syncing program, to sync a local `.sync` directory in my home directory with a `sync` directory on the personal account I have on my server.
+Whenever my computer is on, I have a [script](https://github.com/tarneaux/nix/blob/main/home-manager/config/unison-sync.sh) running in the background that runs `unison`, a good mirrored file syncing program, to sync a local `.sync` directory in my home directory with a `sync` directory on the personal account I have on my server.
 
 This syncs everything from my pictures to my notes and my git repositories, which makes for a total size of around 200 GB, maybe more if I have some RAW pictures left from the last time I took photographs.
 

@@ -12,7 +12,7 @@ This section is sorted alphabetically.
 
 [Ali Reza Hayati](https://alirezahayati.com/) ~> [Not a browser war but a Web war](https://alirezahayati.com/2023/08/06/not-a-browser-war-but-a-web-war/)
 
-[Arne Bahlo](https://arne.me/) ~> [We Need to Bring Back Webrings](https://arne.me/articles/we-need-to-bring-back-webrings)
+[Arne Bahlo](https://arne.me/) ~> [We Need to Bring Back Webrings](https://arne.me/blog/we-need-to-bring-back-webrings)
 
 [Benedict Evans](https://www.ben-evans.com/) ~> [Generative AI and intellectual property](https://www.ben-evans.com/benedictevans/2023/8/27/generative-ai-ad-intellectual-property)
 
@@ -30,7 +30,7 @@ This section is sorted alphabetically.
 
 [Geoffrey Huntley](https://ghuntley.com/) ~> [Computers Notes](https://ghuntley.com/notes/computers/), [/new convention: think of it as "dotfiles" but "for computers"](https://ghuntley.com/slash-new/), [Visual Studio Code is designed to fracture](https://ghuntley.com/fracture/)
 
-[Ham Vocke](https://www.hamvocke.com/blog/) ~> [Remote Pair Programming Made Easy with SSH and tmux](https://www.hamvocke.com/blog/remote-pair-programming-with-tmux/), [Using 'make' to Make Your Code Easy to Work With](https://www.hamvocke.com/blog/makefiles-for-accessibility/), [Distraction-free writing with vim](https://www.hamvocke.com/blog/distraction-free-writing/)
+[Ham Vocke](https://hamvocke.com/blog/) ~> [Remote Pair Programming Made Easy with SSH and tmux](https://hamvocke.com/blog/remote-pair-programming-with-tmux/), [Using 'make' to Make Your Code Easy to Work With · Ham Vocke](https://hamvocke.com/blog/make-for-easy-coding/), [Distraction-free writing with vim](https://hamvocke.com/blog/distraction-free-writing/)
 
 [Jacob](https://jacobwsmith.xyz/) ~> [My Philosophy on Software](https://jacobwsmith.xyz/stories/software_philosophy.html)
 
@@ -38,7 +38,7 @@ This section is sorted alphabetically.
 
 [Martin Tournoij](https://www.arp242.net/): Vim, software freedom ~> [The Art of Unix Programming](https://www.arp242.net/the-art-of-unix-programming/)
 
-[Michał Sapka](https://michal.sapka.me/): ~> [Charybdis](https://michal.sapka.me/2023/charybdis/), [Mastodon Has Already Won](https://michal.sapka.me/2023/mastodon-has-already-won/), [Mastodon and ActivityPub](https://michal.sapka.me/2023/mastodon-activity-pub/), [Reddit and the centralized Web](https://michal.sapka.me/2023/reddit-and-the-centralized-web/)
+[Michał Sapka](https://michal.sapka.me/): ~> [Charybdis](https://michal.sapka.me/articles/charybdis/), [Mastodon Has Already Won](https://michal.sapka.me/blog/2023/mastodon-has-already-won/), [Mastodon and ActivityPub](https://michal.sapka.me/articles/mastodon-activity-pub/), [Reddit and the centralized Web](https://michal.sapka.me/articles/reddit-and-the-centralized-web/)
 
 [Orhun](https://blog.orhun.dev/)
 
@@ -50,11 +50,11 @@ This section is sorted alphabetically.
 
 [Stefan Zweifel](https://stefanzweifel.dev/) ~> [An Opinionated Personal Folder Structure](https://stefanzweifel.dev/posts/2023/09/16/an-opinionated-personal-folder-structure), [Things 3 Setup](https://stefanzweifel.dev/posts/2019/12/26/things-3-setup)
 
-[Thib](https://ergaster.org/blog/1/) ~> [My server can burn, my services will run](https://ergaster.org/posts/2023/10/05-my-server-can-burn/), [Syncing Notes with Obsidian](https://ergaster.org/posts/2023/08/23-syncing-notes-with-obsidian/), [I don't want to host services (but I do)](https://ergaster.org/posts/2023/08/09-i-dont-want-to-host-services-but-i-do/)
+[Thib](https://ergaster.org/blog/) ~> [My server can burn, my services will run](https://ergaster.org/posts/2023/10/05-my-server-can-burn/), [Syncing Notes with Obsidian](https://ergaster.org/posts/2023/08/23-syncing-notes-with-obsidian/), [I don't want to host services (but I do)](https://ergaster.org/posts/2023/08/09-i-dont-want-to-host-services-but-i-do/)
 
 [Vivek Haldar](https://blog.vivekhaldar.com/start) ~> [Productivity porn](https://blog.vivekhaldar.com/post/28465017852/productivity-porn), [GUI vs CLI: Operation vs Expression](https://blog.vivekhaldar.com/post/8950163616/gui-vs-cli-operation-vs-expression)
 
-[bt](https://btxx.org/) ~> [My coffe maker just makes coffee](https://bt.ht/one-thing/), [Switching to suckless software](https://bt.ht/suckless/), [Do you have an extra &dollar;10?](https://bt.ht/$10/), [Stop using custom webfonts](https://bt.ht/webfonts/)
+[bt](https://btxx.org/) ~> [My coffe maker just makes coffee](https://btxx.ht/one-thing/), [Switching to suckless software](https://btxx.ht/suckless/), [Do you have an extra &dollar;10?](https://btxx.ht/$10/), [Stop using custom webfonts](https://btxx.ht/webfonts/)
 
 [mntn](https://mntn.xyz) ~> [Backbone surveillance and the future of privacy](https://mntn.xyz/posts/2021-08-28-backbone-surveillance-and-the-future-of-privacy/)
 
