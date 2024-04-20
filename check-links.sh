@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-links=$(find content/ -type f -name "*.md" -exec cat '{}' \; | grep -oE "https?://[a-zA-Z0-9./?=_-]*")
+links=$(find content/ -type f -name "*.md" -exec cat '{}' \; | grep -oE "https?://[a-zA-Z0-9./?=_-]*" | sort | uniq)
 
 check_url() {
 	http_code=$(curl -s -m 20 -o /dev/null -w "%{http_code}" "$line")
