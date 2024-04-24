@@ -41,6 +41,7 @@ This lack of PIN entry implementation is due to the underlying QtWebEngine:
 On my LineageOS phone, I had to install MicroG GmsCore, since AOSP doesn't have support for FIDO without Google Play services.
 
 I had some trouble making it work, and here's what I've learned:
+
 - MicroG _only_ does its magic when you have ticked all the boxes in their settings app's self-check section. At first, I also didn't guess that I could tap the checkboxes to give the permissions and download the other needed app.
 - Patched builds of Firefox on Android (like Iceraven) apparently don't come with FIDO/Webauthn capabilities, and I had to install stock Firefox for 2FA to work. This isn't true for desktop Firefox derivatives, Librewolf works with TOTP.
 
