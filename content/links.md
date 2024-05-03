@@ -44,6 +44,8 @@ This section is sorted alphabetically.
 
 [Ploum](https://ploum.net/index_all.html) ~> [Splitting the Web](https://ploum.net/2023-08-01-splitting-the-web.html), [How to Kill a Decentralised Network (such as the Fediverse)](https://ploum.net/2023-06-23-how-to-kill-decentralised-networks.html), [Une bulle d’intelligence artificielle et de stupidité naturelle](https://ploum.net/2024-04-04-la-bulle-ai.html), [Keynote Touraine Tech 2023 : Pourquoi ?](https://ploum.net/2023-03-30-tnt23-pourquoi.html), [Gemini, le protocole du slow web](https://ploum.net/gemini-le-protocole-du-slow-web/index.html), [A Society That Lost Focus](https://ploum.net/2024-03-18-lost-focus.html)
 
+[Schneier on Security](https://www.schneier.com/) ~> [The Eternal Value of Privacy](https://www.schneier.com/essays/archives/2006/05/the_eternal_value_of.html), [It’s the End of the Web as We Know It](https://www.schneier.com/essays/archives/2024/04/its-the-end-of-the-web-as-we-know-it.html)
+
 [Scott Jenson](https://jenson.org/) ~> [The invisible problem](https://jenson.org/text/), [The future needs files](https://jenson.org/files/), [Small is Beautiful: Why Desktop UX still has something to teach Mobile](https://jenson.org/small/)
 
 [Solène](https://dataswamp.org/~solene/): ~> OpenBSD, Qubes OS, git-annex, NixOS, and I won't list all subjects.
