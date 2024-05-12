@@ -20,7 +20,7 @@ sd:
 	git stash pop
 
 deploy: build
-	rsync -avx --delete public/ tarneo@cocinero:./www/
+	rsync -avx --delete public/ tarneo@ssh.renn.es:tarneo.fr/
 
 format:
 	prettier content --write
