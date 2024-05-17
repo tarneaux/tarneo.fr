@@ -9,10 +9,9 @@ params:
   description: "Programming, Linux, self-hosting, ergo keyboards, IT ethics..."
   navbar: true
   feed: /posts/index.xml
-
-author:
-  name: "Tarneo"
-  email: "tarneo@tarneo.fr"
+  author:
+    name: "Tarneo"
+    email: "tarneo@tarneo.fr"
 
 markup:
   goldmark:
