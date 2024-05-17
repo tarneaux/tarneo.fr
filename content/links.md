@@ -10,7 +10,7 @@ All of the people of whom I list the blog here have one thing in common: they ca
 
 This section is sorted alphabetically.
 
-[Ali Reza Hayati](https://alirezahayati.com/) ~> [Not a browser war but a Web war](https://alirezahayati.com/2023/08/06/not-a-browser-war-but-a-web-war/)
+[Ali Reza Hayati](https://hyti.org/) ~> [Not a browser war but a Web war](https://hyti.org/2023/08/06/not-a-browser-war-but-a-web-war/)
 
 [Arne Bahlo](https://arne.me/) ~> [We Need to Bring Back Webrings](https://arne.me/blog/we-need-to-bring-back-webrings)
 
