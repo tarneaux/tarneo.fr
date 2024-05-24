@@ -22,7 +22,7 @@ Here is a `docker-compose` example:
 services:
   pdns:
     container_name: pdns
-    image: powerdns/pdns-auth-master:48-lmdb-index-1
+    image: powerdns/pdns-auth-49 # See what the latest version is on docker hub
     ports:
       - "53:53"
       - "53:53/udp"
@@ -162,3 +162,5 @@ CSK DNSKEY = charennes.org. IN DNSKEY 257 3 13 <base64 encoded key> ; ( ECDSAP25
 Copy the key to your registrar, and you're done! I had to enter key tag 7327, flag 257, algorithm 13 and the base64 encoded key.
 
 For security, I would also recommend setting the `version-string` option to `anonymous` to avoid bots scanning your server for vulnerable versions.
+
+(I have also fixed the docker image to use as I had used the development image instead of the production one.)
