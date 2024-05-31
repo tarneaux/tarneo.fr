@@ -46,7 +46,13 @@ I believe everyone should have a right to full privacy, both on the internet and
 >
 > <cite>Edward Snowden</cite>
 
-I don't like most of "social" media platforms: Instagram or TikTok, in my very humble opinion, do not provide any value to the user. I am also not a user of any google service apart from YouTube, which I always access through NewPipe or Invidious. I believe [enshittification](https://en.wikipedia.org/wiki/Enshittification) is a thing.
+I don't like most of "social" media platforms: Instagram or TikTok, in my very humble opinion, do not provide any value to the user.
+
+> "There are only two industries that call their customers 'users': illegal drugs and software."
+>
+> <cite>Edward Tufte</cite>
+
+I am also not a user of any google service apart from YouTube, which I always access through NewPipe or Invidious. I believe [enshittification](https://en.wikipedia.org/wiki/Enshittification) is a thing.
 
 > "Here is how platforms die: first, they are good to their users; then they abuse their users to make things better for their business customers; finally, they abuse those business customers to claw back all the value for themselves. Then, they die. I call this enshittification, and it is a seemingly inevitable consequence arising from the combination of the ease of changing how a platform allocates value, combined with the nature of a "two sided market", where a platform sits between buyers and sellers, hold each hostage to the other, raking off an ever-larger share of the value that passes between them."
 >
