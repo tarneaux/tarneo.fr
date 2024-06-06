@@ -9,10 +9,7 @@ On my PC(s):
 - Editor: [NeoVim](https://neovim.io/) for everything: code, text, this website, and so on.
 - Web browser: [Qutebrowser](https://qutebrowser.org/), mainly because of its Vim-like keybindings.
 - Youtube players: My own [Invidious](https://invidious.io/) instance on computers and [NewPipe](https://github.com/TeamNewPipe/NewPipe) for Android.
-- Mobile web browser: [Iceraven](https://github.com/fork-maintainers/iceraven-browser). This is the best browser for android because it is the only one that is decent. Its features include:
-  - ACTUALLY not tracking you, at least according to my research.
-  - Extension support: I use UBlock Origin, Decentraleyes, Privacy Badger and CanvasBlocker.
-  - The address bar is on the bottom of the screen, which avoids the awkward reaching you have to do on other browsers.
+- Mobile web browser: Firefox. I previously used its fork [Iceraven](https://github.com/fork-maintainers/iceraven-browser) which has better privacy by default, but Iceraven can't be used with WebAuthn (security keys).
 - Search engine: [SearXNG](https://docs.searxng.org/). I enabled Google, Duckduckgo and Qwant.
 - Audio editor: [Audacity](https://www.audacityteam.org/).
 - Video editor: [Kdenlive](https://kdenlive.org/en/).
@@ -29,11 +26,13 @@ On my PC(s):
 
 On [my servers](https://renn.es):
 
-- NeoVim & Tmux just like on my PC, with a lighter config for NeoVim.
+- NeoVim & Tmux just like on my PC.
 - Linux distributions: Debian Linux, NixOS.
-- Backups: [btrbk](https://digint.ch/btrbk/), [borg](https://www.borgbackup.org/), rsync to another server.
+- Backups: [btrbk](https://digint.ch/btrbk/), [restic](https://restic.net/) to Backblaze B2, tar to refurbished LTO-5 tape, rsync to another server.
 
 For a few of those pieces of software, you can find my config files on [the Renn.es Gitea instance](https://git.renn.es/tarneo/.f) and on [GitHub](https://github.com/tarneaux/.f).
+
+Nowadays, I configure both my servers and my dotfiles with Nix: see on [Gitea](https://git.renn.es/tarneo/nix) or [GitHub](https://github.com/tarneaux/nix)
 
 ## Hardware
 
