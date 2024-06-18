@@ -6,15 +6,29 @@
     nixpkgs-unstable.url = "github:nixos/nixpkgs/nixos-unstable";
   };
 
-  outputs = { self, nixpkgs, nixpkgs-unstable, ... }:
+  outputs = { nixpkgs, nixpkgs-unstable, ... }:
     let
-      system = "x86_64-linux";
-      pkgs = nixpkgs.legacyPackages.${system};
-      pkgs-unstable = nixpkgs-unstable.legacyPackages.${system};
-      nativeBuildInputs = [ pkgs-unstable.hugo pkgs.gnumake ];
-    in {
-      devShells.x86_64-linux.default = pkgs.mkShell {
-        inherit nativeBuildInputs;
-      };
+      systems = [
+        "aarch64-linux"
+        "i686-linux"
+        "x86_64-linux"
+        "aarch64-darwin"
+        "x86_64-darwin"
+      ];
+      forAllSystems = nixpkgs.lib.genAttrs systems;
+    in
+    {
+      devShells = forAllSystems (system:
+        let
+          pkgs = nixpkgs.legacyPackages.${system};
+          pkgs-unstable = nixpkgs-unstable.legacyPackages.${system};
+        in
+        {
+          default = pkgs.mkShell {
+            name = "my-shell-${system}";
+            buildInputs = with pkgs; [ pkgs-unstable.hugo gnumake ];
+          };
+        }
+      );
     };
 }
