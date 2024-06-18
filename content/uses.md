@@ -39,7 +39,7 @@ Nowadays, I configure both my servers and my dotfiles with Nix: see on [Gitea](h
 
 My laptop is a Framework 13 inch Ryzen 5 AMD, with 16 GB of RAM. Works great, most of the concerns I had before don't really apply: I don't notice anything with the hinges (they're not noticeably wobbly) or the keyboard. The battery lasts for around 7 hours from 80% charge (with the smaller battery).
 
-My mouse is the MX master 3 and my keyboard is my [Triboard](/posts/triboard/). They are both great, especially since I made one of the two `:-)`.
+My mouse is the MX master 3 and my keyboard is my [Triboard](/posts/triboard/). They are both great, especially since I made one of the two :-).
 
 I use a second-hand LG Ultrawide 34" monitor. This is just incredibly useful, and makes using a secondary screen obsolete. The resolution, at 2560x1080, is not the best for the size, but I got used to seeing the individual pixels (especially since I have very good eyes), and it's part of this screen's charm.
 
