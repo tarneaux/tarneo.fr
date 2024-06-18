@@ -23,6 +23,7 @@ On my PC(s):
 - Email client: [aerc](https://aerc-mail.org/) on PC and [FairEmail](https://email.faircode.eu/) for Android.
 - Mobile navigation/maps: [Organic maps](https://organicmaps.app/).
 - Terminal multiplexer: [tmux](https://github.com/tmux/tmux).
+- Git helper: [Lazygit](https://github.com/jesseduffield/lazygit).
 
 On [my servers](https://renn.es):
 
