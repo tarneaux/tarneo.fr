@@ -16,17 +16,5 @@
       devShells.x86_64-linux.default = pkgs.mkShell {
         inherit nativeBuildInputs;
       };
-      packages.x86_64-linux = {
-        dev = pkgs.writeShellScriptBin "dev" ''
-          #!/usr/bin/env bash
-          ${pkgs-unstable.hugo}/bin/hugo server -D --disableFastRender
-        '';
-      };
-      apps.x86_64-linux = {
-        dev = {
-          type = "app";
-          program = "${self.packages.x86_64-linux.dev}/bin/dev";
-        };
-      };
     };
 }
