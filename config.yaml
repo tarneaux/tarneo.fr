@@ -5,7 +5,7 @@ titleCaseStyle: "firstupper"
 theme: renny
 
 params:
-  favicon: "profile.png"
+  favicon: "favicon.jpg"
   description: "Programming, Linux, self-hosting, ergo keyboards, IT ethics..."
   navbar: true
   feed: /posts/index.xml
