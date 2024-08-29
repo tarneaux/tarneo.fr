@@ -1,3 +1,5 @@
+.PHONY: dev test build sd deploy format
+
 dev:
 	hugo server -D --disableFastRender
 
