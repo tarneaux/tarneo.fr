@@ -18,6 +18,7 @@ Here are the programming languages I've used:
 
 | Language   | My age | Uses                                                      |
 | ---------- | ------ | --------------------------------------------------------- |
+| BASIC      | 8-9    | Programming on a 1982 SHARP pocket computer               |
 | Scratch    | 9-10   | Learning about programming, making small games            |
 | Python     | 11-now | Data analysis, computer vision (OpenCV), advanced scripts |
 | HTML/CSS   | 12-now | Web                                                       |
