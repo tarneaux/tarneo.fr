@@ -1,6 +1,6 @@
 ---
 title: |
-  CVRace: non intrusive runner speed measurement with a camera
+  CVRace: measuring runner speed with a camera
 date: 2024-04-24
 summary: ""
 math: true
