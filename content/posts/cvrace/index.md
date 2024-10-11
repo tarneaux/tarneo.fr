@@ -230,4 +230,4 @@ We have shown that measuring real world speed with a camera is indeed possible o
 
 The method described in this paper is, as far as I know, the only one that is so cheap and works so well on a medium distance (GPS's are too imprecise, LiDARs are too expensive, and accelerometers that are precise enough for this are pretty expensive too).
 
-[^1]: The code for this project is available on [Github](https://github.com/tarneaux/cvrace) and [the Renn.es Gitea instance](https://git.renn.es/tarneo/cvrace).
+[^1]: The code for this project is available on [Github](https://github.com/tarneaux/cvrace) and [the Renn.es ForgeJo instance](https://git.renn.es/tarneo/cvrace).

@@ -4,7 +4,7 @@ title: "About this site"
 
 ## Colophon
 
-This is a static site using the [Hugo](https://gohugo.io/) static site generator and hosted on [Renn.es](https://renn.es/). The theme is my own. The code is hosted on [the Renn.es Gitea instance](https://git.renn.es/tarneo/tarneo.fr) and on [GitHub](https://github.com/tarneaux/tarneo.fr). I use a custom Makefile to rsync the files automatically for publishing.
+This is a static site using the [Hugo](https://gohugo.io/) static site generator and hosted on [Renn.es](https://renn.es/). The theme is my own. The code is hosted on [the Renn.es ForgeJo instance](https://git.renn.es/tarneo/tarneo.fr) and on [GitHub](https://github.com/tarneaux/tarneo.fr). I use a custom Makefile to rsync the files automatically for publishing.
 
 Everything on this website is produced entirely by me, without the help of large language models ("artificial [ly lowered] intelligence").
 
