@@ -31,9 +31,9 @@ On [my servers](https://renn.es):
 - Linux distributions: Debian Linux, NixOS.
 - Backups: [btrbk](https://digint.ch/btrbk/), [restic](https://restic.net/) to Backblaze B2, tar to refurbished LTO-5 tape, rsync to another server.
 
-For a few of those pieces of software, you can find my config files on [the Renn.es Gitea instance](https://git.renn.es/tarneo/.f) and on [GitHub](https://github.com/tarneaux/.f).
+For a few of those pieces of software, you can find my config files on [the Renn.es ForgeJo instance](https://git.renn.es/tarneo/.f) and on [GitHub](https://github.com/tarneaux/.f).
 
-Nowadays, I configure both my servers and my dotfiles with Nix: see on [Gitea](https://git.renn.es/tarneo/nix) or [GitHub](https://github.com/tarneaux/nix)
+Nowadays, I configure both my servers and my dotfiles with Nix: see on [ForgeJo](https://git.renn.es/tarneo/nix) or [GitHub](https://github.com/tarneaux/nix)
 
 ## Hardware
 
