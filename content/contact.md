@@ -4,7 +4,7 @@ aliases:
   - pgp
 ---
 
-## Addresses, accounts and JID
+## Addresses and accounts
 
 Feel free to contact me through any of the means listed below.
 
@@ -19,14 +19,13 @@ If you send me an email and know how to use PGP encryption, please encrypt it wi
 
 ## PGP
 
-To download my PGP key automatically with GnuPG:
+To download my PGP keys automatically with GnuPG:
 
 ```sh
 gpg --locate-keys tarneo@tarneo.fr
 ```
 
-You can also [download](/.well-known/openpgpkey/hu/twnxbp33gur4nwext9bzmm6mahjw44hr) the key and then import it manually.
+You can also [download](/.well-known/openpgpkey/hu/twnxbp33gur4nwext9bzmm6mahjw44hr) the keys and then import them manually.
 
-You can then check that the key fingerprint is `D431 FE72 3E9D 396F 634E  15ED 2EF9 761F 9EAE 4CBE`.
-
-When the key expires, I will just upload a new one here. My threat model makes signing the new key with the old one completely useless and I will therefore not go through that hassle.
+- The encryption key's fingerprint is `BB7E 3E76 C8DB 37AF 94F3  22DF A106 AD72 EA62 ADDF`.
+- The git signing key's fingerprint is `74E9 F0A2 0B52 F743 674B  04A5 4E70 72A7 8326 617F`.
