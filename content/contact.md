@@ -19,10 +19,16 @@ If you send me an email and know how to use PGP encryption, please encrypt it wi
 
 ## PGP
 
-To download my PGP keys automatically with GnuPG:
+To download my PGP keys automatically with GnuPG using my WKD:
 
 ```sh
 gpg --locate-keys tarneo@tarneo.fr
+```
+
+Or using a keyserver:
+
+```sh
+gpg --recv-keys 4E7072A78326617F A106AD72EA62ADDF
 ```
 
 You can also [download](/.well-known/openpgpkey/hu/twnxbp33gur4nwext9bzmm6mahjw44hr) the keys and then import them manually.
