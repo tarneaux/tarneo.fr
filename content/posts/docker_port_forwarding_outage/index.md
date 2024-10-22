@@ -4,9 +4,11 @@ date: 2023-07-23
 summary: "This is why you should never enable automatic routine updates"
 ---
 
-**tl;dr**: Because we had automatic updates enabled on our Gentoo Linux server, ports couldn't be opened by Docker anymore, which caused 8 hours of downtime. Just running another update fixed the problem.
+<div class="box">
+<strong>tl;dr</strong>: Because we had automatic updates enabled on our Gentoo Linux server, ports couldn't be opened by Docker anymore, which caused 8 hours of downtime. Just running another update fixed the problem.
+</div>
 
-I have just spend an entire day troubleshooting Docker because of its last version on Gentoo Linux.
+I have just spent an entire day troubleshooting Docker because of its last version on Gentoo Linux.
 
 ## How something went wrong and how I noticed it
 
