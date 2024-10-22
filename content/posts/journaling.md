@@ -4,9 +4,7 @@ date: 2024-10-22
 summary: "How I managed to start journaling despite a fear of wanting to start the notebook all over again"
 ---
 
-I have wanted to start daily journaling for a few months now.
-
-But there was one issue: every time I tried, I either couldn't start writing the first page, or after that, I wanted to start a new notebook to make it cleaner.
+I always wanted to have a daily journal. But there was always one issue: every time I tried, I either couldn't start writing the first page, or after that, I wanted to start a new notebook to make it cleaner.
 
 This summer, I finally started actively looking for a solution to this problem. I ended up discovering ring binder notebooks, which allow you to reorganize the pages, and so remove them if needed. That sounded perfect for me, except... they are super expensive. If you're lucky, you may find an A6 or B5 leather ring binder for about 50 bucks, but that seems like far too much money for what it is.
 
