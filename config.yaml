@@ -12,6 +12,9 @@ params:
   author:
     name: "Tarneo"
     email: "tarneo@tarneo.fr"
+  meta:
+    - name: "robots"
+      content: "noarchive, nosnippet"
 
 markup:
   goldmark:
