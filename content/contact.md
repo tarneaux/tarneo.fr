@@ -4,19 +4,25 @@ aliases:
   - pgp
 ---
 
-## Addresses and accounts
+## Contact
 
 Feel free to contact me through any of the means listed below.
 
 **Email**: tarneo@tarneo.fr\
 **Matrix**: [@tarneo:matrix.renn.es](https://matrix.to/#/@tarneo:matrix.renn.es)\
-**Mastodon**: <a rel="me" href="https://toot.renn.es/@tarneo">@tarneo@toot.renn.es</a>\
-**Git**:
-- GitHub: [tarneaux](https://github.com/tarneaux)
-- ForgeJo: [git.renn.es/tarneo](https://git.renn.es/tarneo/)
-- Sourcehut: [~tarneo](https://git.renn.es/~tarneo/)
+**Mastodon**: <a rel="me" href="https://toot.renn.es/@tarneo">@tarneo@toot.renn.es</a>
 
-You don't need to be very polite. I adhere to [Crocker's rules](http://sl4.org/crocker.html).
+Also see [PGP](#pgp) below.
+
+Be as polite as you feel like. I adhere to [Crocker's rules](http://sl4.org/crocker.html).
+
+## Git accounts
+
+All of these accounts should always have the same repositories, the choice is yours.
+
+**GitHub**: [tarneaux](https://github.com/tarneaux)\
+**ForgeJo**: [git.renn.es/tarneo](https://git.renn.es/tarneo/)\
+**Sourcehut**: [~tarneo](https://git.renn.es/~tarneo/)
 
 If you send me an email and know how to use PGP encryption, please encrypt it with the key below.
 
