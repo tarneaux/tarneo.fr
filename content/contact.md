@@ -11,7 +11,10 @@ Feel free to contact me through any of the means listed below.
 **Email**: tarneo@tarneo.fr\
 **Matrix**: [@tarneo:matrix.renn.es](https://matrix.to/#/@tarneo:matrix.renn.es)\
 **Mastodon**: <a rel="me" href="https://toot.renn.es/@tarneo">@tarneo@toot.renn.es</a>\
-**Github**: [tarneaux](https://github.com/tarneaux)
+**Git**:
+- GitHub: [tarneaux](https://github.com/tarneaux)
+- ForgeJo: [git.renn.es/tarneo](https://git.renn.es/tarneo/)
+- Sourcehut: [~tarneo](https://git.renn.es/~tarneo/)
 
 You don't need to be very polite. I adhere to [Crocker's rules](http://sl4.org/crocker.html).
 
