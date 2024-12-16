@@ -1,5 +1,5 @@
 ---
-title: "Contact"
+title: "Contact, PGP, Git"
 aliases:
   - pgp
 ---
