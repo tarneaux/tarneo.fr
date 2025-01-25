@@ -12,7 +12,7 @@ Feel free to contact me through any of the means listed below.
 **Matrix**: [@tarneo:matrix.renn.es](https://matrix.to/#/@tarneo:matrix.renn.es)\
 **Mastodon**: <a rel="me" href="https://toot.renn.es/@tarneo">@tarneo@toot.renn.es</a>
 
-Also see [PGP](#pgp) below.
+If you send me an email and are familiar with PGP encryption, please use the key below.
 
 Be as polite as you feel like. I adhere to [Crocker's rules](http://sl4.org/crocker.html).
 
@@ -24,7 +24,7 @@ All of these accounts should always have the same repositories, the choice is yo
 **ForgeJo**: [git.renn.es/tarneo](https://git.renn.es/tarneo/)\
 **Sourcehut**: [~tarneo](https://git.renn.es/~tarneo/)
 
-If you send me an email and know how to use PGP encryption, please encrypt it with the key below.
+All my commits should be signed with PGP.
 
 ## PGP
 
