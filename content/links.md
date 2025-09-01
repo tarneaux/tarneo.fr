@@ -22,6 +22,8 @@ This section is sorted alphabetically.
 
 [Drew Devault](https://drewdevault.com): maintainer of Sway, Sourcehut, Aerc (which I use), and others.
 
+[Jake Ginesin](https://jakegines.in/): Great blog in terms of aesthetics but also in content. One of the rare blog where I've read *every page*.
+
 [Julia Evans](https://jvns.ca/) ~> [Monitoring Small Web Services](https://jvns.ca/blog/2022/07/09/monitoring-small-web-services/)
 
 [Martin Tournoij](https://www.arp242.net/) ~> [The Art of Unix Programming](https://www.arp242.net/the-art-of-unix-programming/)
