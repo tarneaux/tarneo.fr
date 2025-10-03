@@ -62,7 +62,7 @@ But it can also be used from outside with its command. It will automatically dec
 
 When a `tmw` or `tms` query string matches a session that isn't the wanted one, a `+` can be added to the query to prevent matches, and it will be removed before doing anything else, allowing to force creation of new windows.
 
-`tms` simply asks for a hostname and `ssh`-es to it through my wireguard tunnel.
+`tms` simply asks for a hostname and `ssh`-es to it through my [wireguard tunnel](../wireguard_namespace/).
 
 [Here's a link to tmw](https://git.sr.ht/~tarneo/nix/tree/main/item/hm/tmux/tmw.sh). It is recommended to set good shell options (something like `set -euo pipefail`) in it, I do it with Nix.
 
