@@ -1,5 +1,5 @@
 ---
-title: "Adding profiles to Qutebrowser"
+title: "Adding isolated profiles to Qutebrowser"
 date: 2025-10-03
 summary: ""
 ---
