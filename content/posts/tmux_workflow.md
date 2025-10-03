@@ -8,7 +8,7 @@ My Tmux workflow is very close to my awesomewm one.
 
 ## Window switching
 
-The first similarity is in window switching, which matches my tag keys on awesomewm, only with the different Alt modifier. a, r, s, t, d, h are the six first keys on the colemak home row, which my [keyboard](../triboard) uses.
+The first similarity is in window switching, which matches my tag keys on awesomewm, only with the different Alt modifier. a, r, s, t, d, h are the six first keys on the colemak home row, which my [keyboard](../triboard/) uses.
 
 ```sh
 # Window switching (by index)
