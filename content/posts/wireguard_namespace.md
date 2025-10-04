@@ -65,6 +65,7 @@ esac
 Note that `/etc/wireguard/wg0.conf` needs to be stripped from its `Address`, `MTU`, `PreUp` and most other `[Interface]` fields, which are already set by the script.
 
 After running `doas ./tunnel up`, the namespace will be usable like this:
+
 ```sh
 doas ip netns exec wg0 doas -u $(whoami) ssh chorizo
 ```
@@ -73,9 +74,9 @@ But this isn't very convenient, I don't want to have to authenticate locally jus
 
 ## Accessing the namespace from userspace
 
-This is where we'll get our hands dirty, since it requires writing a custom program with the setuid bit set. This is what's used by privilege escalation tools like `sudo`, and it simply allows a program run by a user to run as *effective root*.
+This is where we'll get our hands dirty, since it requires writing a custom program with the setuid bit set. This is what's used by privilege escalation tools like `sudo`, and it simply allows a program run by a user to run as _effective root_.
 
-It requires additional caution though, as any arbitrary execution that can be done in our program could be used by local bad actors: remember, it's *privilege escalation*. I am pretty serene on this though, because a hacker going through the hassle of finding a mistake in this could simply use a software keylogger to get my root password. I'll still try to make something secure though.
+It requires additional caution though, as any arbitrary execution that can be done in our program could be used by local bad actors: remember, it's _privilege escalation_. I am pretty serene on this though, because a hacker going through the hassle of finding a mistake in this could simply use a software keylogger to get my root password. I'll still try to make something secure though.
 
 Here's the program. A more recent version may be available [in my dotfiles](https://git.sr.ht/~tarneo/nix/tree/main/item/pkgs/wgx/wgx.c), along with the nix package definition.
 
@@ -151,6 +152,7 @@ security.wrappers.wgx = {
 This assumes that the script has been compiled into the store as `pkgs.wgx`.
 
 It can then be used instead of `ip netns exec`:
+
 ```sh
 wgx ssh chorizo
 ```

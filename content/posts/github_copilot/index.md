@@ -53,6 +53,9 @@ Copilot is not great, but I still use it for writing configuration files. This w
 I'm off, see you in 2024.
 
 [^1]: [CU Colorado Springs students secretly photographed for government-backed facial-recognition research – The Denver Post](https://www.denverpost.com/2019/05/27/cu-colorado-springs-facial-recognition-research/), [A Duke study recorded thousands of students’ faces. Now they’re being used all over the world - The Chronicle](https://www.dukechronicle.com/article/2019/06/duke-university-facial-recognition-data-set-study-surveillance-video-students-china-uyghur)
+
 [^2]: [Your Personal Information Is Probably Being Used to Train Generative AI Models - Scientific American](https://www.scientificamerican.com/article/your-personal-information-is-probably-being-used-to-train-generative-ai-models/)
+
 [^3]: [On the Nature of AI Code Copilots - Free Software Foundation](https://www.fsf.org/licensing/copilot/on-the-nature-of-ai-code-copilots)
+
 [^4]: [Is Your Website Training AI? - Brain Baking](https://brainbaking.com/post/2023/04/is-your-website-training-ai/)

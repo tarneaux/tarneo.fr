@@ -114,4 +114,3 @@ xdg.mimeApps.defaultApplications = {
   "x-scheme-handler/qute" = [ "qprofile.desktop" ];
 };
 ```
-

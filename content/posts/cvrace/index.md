@@ -164,13 +164,13 @@ In this section, the following values are defined:
 - @@x\_{max} \in \mathbb{N}@@ is the horizontal pixel count of the camera divided by two.
 - @@x \in [ -x_{max}; x_{max}]@@ is the pixel abscissa that has been found as described above, representing the "center" of our object.
 - @@\theta\_{max} \in [ 0; 90 [@@ is the horizontal viewing angle of the camera.
-- @@h \in \mathbb{R^{+*}}@@ is the distance to the running field.
+- @@h \in \mathbb{R^{+\*}}@@ is the distance to the running field.
 
 The following values will be calculated:
 
 - @@\theta \in [-\theta_{max};\theta_{max}]@@, the angle to the moving object relative to the center.
 - @@d \in [-b_{max};b_{max}]@@, the position of the object.
-- @@d\_{max} \in \mathbb{R^{+*}}@@, the half of the running field width.
+- @@d\_{max} \in \mathbb{R^{+\*}}@@, the half of the running field width.
 
 All angles will be expressed in degrees.
 

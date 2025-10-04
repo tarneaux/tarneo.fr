@@ -19,4 +19,3 @@ I could write an entry every day, close the notebook, and feel nothing else than
 After the summer break was over, I switched to a normal B5 notebook, one without rings, preventing page removal. The fear of wanting to remove the pages was gone, because with the split ring notebook, I had learned that you always want to keep the pages: even if it's a small temporary thing, you may find that page much later and be happy to see a glimpse of that day.
 
 I've started this new notebook on September 1st, and have been filling its pages ever since, two or three at a time. I have also added another notebook which I carry around everywhere as a phone note replacement. When there's some event at uni where I want to take notes, I simply open that notebook and start writing, treating it as if I could erase the things that are on the pages (turns out I can: I just don't open these pages again!)
-

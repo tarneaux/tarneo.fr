@@ -18,7 +18,6 @@ I started by installing [TT9](https://github.com/sspanak/tt9) to support the T9 
 
 All my attempts of using an SD card for music durably with this device have failed, so I've kept my old smartphone only for listening to music. It also doubles as a camera for when I need better quality than the S22's camera, which is only really good in daylight, and lacks exposure in other cases. Qobuz was buggy on the S22 anyway, plus this gives me shared battery usage, which means... Two days of battery life on a phone I used to charge multiple times a day !
 
-
 ## Keypad brightness script
 
 I didn't find a builtin way to power the keyboard when typing or when the screen is on, so I've simply written a bash scripts that runs as a root Termux daemon. You do need rooted android for this, see below.
@@ -26,6 +25,7 @@ I didn't find a builtin way to power the keyboard when typing or when the screen
 This script simply watches for events on the T9 keyboard and turns the brightness on for 5 seconds on keypresses.
 
 `~/brightness.sh`:
+
 ```bash
 #!/bin/bash
 
@@ -75,14 +75,13 @@ termux-wake-lock
 sudo bash /data/data/com.termux/files/home/brightness.sh &
 ```
 
-(I also made sure to have sudo installed in Termux, and to have granted it superuser rights.) 
+(I also made sure to have sudo installed in Termux, and to have granted it superuser rights.)
 
 Now, around a minute after every boot, the daemon starts automatically and handles the keyboard brightness wonderfully, without any battery hogging sleep loops.
 
 ## Rooting
 
 I mainly followed this [tutorial](https://xdaforums.com/t/tut-root-how-to-root-cat-s22-flip-on-version-30.4626971/), and (to disable root in system.img which conflicts with boot root (magisk)), I pushed the bvN image instead of bvS, since patching the bvS image instead with sas creator will not work as you'll end up with a file that's far too large to flash (more than 2 gigs larger than the original).
-
 
 ## Conclusion
 

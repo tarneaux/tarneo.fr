@@ -53,7 +53,7 @@ On to the most useful part of my Tmux config: the `tmw` and `tms` scripts, which
 
 ```sh
 # popups
-bind -n M-w run-shell "tmw >/dev/null || true" 
+bind -n M-w run-shell "tmw >/dev/null || true"
 ```
 
 But it can also be used from outside with its command. It will automatically decide whether it needs to switch to a session or open tmux in said session.
