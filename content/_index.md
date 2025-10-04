@@ -15,8 +15,6 @@
 
 ## Posts
 
-You can subscribe to this blog with RSS by using the following feed URL: https://tarneo.fr/posts/index.xml
-
-[What is RSS?](https://alirezahayati.com/2021/09/11/what-is-rss-really-simple-syndication/)
+You can subscribe to this blog using [RSS](https://alirezahayati.com/2021/09/11/what-is-rss-really-simple-syndication/) with the following URL: <https://tarneo.fr/posts/index.xml>
 
 {{% post_list %}}
