@@ -19,9 +19,9 @@ Be as polite as you feel like. I adhere to [Crocker's rules](http://sl4.org/croc
 
 All of these accounts should always have the same repositories, the choice is yours.
 
+**Sourcehut**: [~tarneo](https://git.renn.es/~tarneo/)\
 **GitHub**: [tarneaux](https://github.com/tarneaux)\
-**ForgeJo**: [git.renn.es/tarneo](https://git.renn.es/tarneo/)\
-**Sourcehut**: [~tarneo](https://git.renn.es/~tarneo/)
+**ForgeJo**: [git.renn.es/tarneo](https://git.renn.es/tarneo/)
 
 All my commits should be signed with PGP.
 
