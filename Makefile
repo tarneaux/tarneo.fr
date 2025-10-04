@@ -9,9 +9,11 @@ test:
 	bash check-links.sh 2>/dev/null
 
 build:
-	if [[ $$(git status --porcelain) ]]; then \
-		echo "You have unstaged changes, please stash first"; \
-		echo "Run the \`sd\` target to stack and deploy."; \
+	if [ -n "$$(git ls-files --deleted --modified --others --exclude-standard)" ]; then \
+		echo "You have unstaged changes, refusing to build."; \
+		echo "You can:"; \
+		echo "- Deploy while stashing changes with \"make sd\""; \
+		echo "- Stage the files before building again"; \
 		exit 1; \
 	fi
 	hugo --cleanDestinationDir
