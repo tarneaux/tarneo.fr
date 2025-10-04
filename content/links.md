@@ -32,21 +32,17 @@ This section is sorted alphabetically.
 
 [Ploum](https://ploum.net/index_all.html) ~> [Splitting the Web](https://ploum.net/2023-08-01-splitting-the-web.html), [How to Kill a Decentralised Network (such as the Fediverse)](https://ploum.net/2023-06-23-how-to-kill-decentralised-networks.html), [Une bulle d’intelligence artificielle et de stupidité naturelle](https://ploum.net/2024-04-04-la-bulle-ai.html), [Keynote Touraine Tech 2023 : Pourquoi ?](https://ploum.net/2023-03-30-tnt23-pourquoi.html), [Gemini, le protocole du slow web](https://ploum.net/gemini-le-protocole-du-slow-web/index.html), [A Society That Lost Focus](https://ploum.net/2024-03-18-lost-focus.html)
 
-[Schneier on Security](https://www.schneier.com/) ~> [The Eternal Value of Privacy](https://www.schneier.com/essays/archives/2006/05/the_eternal_value_of.html), [It’s the End of the Web as We Know It](https://www.schneier.com/essays/archives/2024/04/its-the-end-of-the-web-as-we-know-it.html)
-
 [Solène](https://dataswamp.org/~solene/): ~> OpenBSD, Qubes OS, git-annex, NixOS, and I won't list all subjects.
-
-[Stefan Zweifel](https://stefanzweifel.dev/) ~> [An Opinionated Personal Folder Structure](https://stefanzweifel.dev/posts/2023/09/16/an-opinionated-personal-folder-structure), [Things 3 Setup](https://stefanzweifel.dev/posts/2019/12/26/things-3-setup)
 
 [Vivek Haldar](https://blog.vivekhaldar.com/start) ~> [Productivity porn](https://blog.vivekhaldar.com/post/28465017852/productivity-porn), [GUI vs CLI: Operation vs Expression](https://blog.vivekhaldar.com/post/8950163616/gui-vs-cli-operation-vs-expression)
 
-[bt](https://btxx.org/) ~> [My coffe maker just makes coffee](https://btxx.ht/one-thing/), [Switching to suckless software](https://btxx.ht/suckless/), [Do you have an extra &dollar;10?](https://btxx.ht/$10/), [Stop using custom webfonts](https://btxx.ht/webfonts/)
+[Bradley Taunt](https://btxx.org/) ~> [My coffe maker just makes coffee](https://btxx.ht/one-thing/), [Switching to suckless software](https://btxx.ht/suckless/), [Do you have an extra &dollar;10?](https://btxx.ht/$10/), [Stop using custom webfonts](https://btxx.ht/webfonts/)
 
-[mntn](https://mntn.xyz) ~> [Backbone surveillance and the future of privacy](https://mntn.xyz/posts/2021-08-28-backbone-surveillance-and-the-future-of-privacy/)
+[mntn](https://mntn.xyz) ~> [Backbone surveillance and the future of privacy](https://mntn.xyz/posts/2021-08-28-backbone-surveillance-and-the-future-of-privacy/), [Hello world! Building a multi-protocol blog with Nix, Hugo, gmnhg, and Sourcehut](https://mntn.xyz/posts/2021-08-22-hello-world/)
 
 [mrus](https://xn--gckvb8fzb.com/) ~> [Gemini is Solutionism at its Worst](https://xn--gckvb8fzb.com/gemini-is-solutionism-at-its-worst#site-main), [Git on Roids](https://xn--gckvb8fzb.com/git-on-roids/#site-main), [MailMan3 on OpenBSD 7.1](https://xn--gckvb8fzb.com/mailman3-on-openbsd-71/#site-main), [Linux on the Phone: Part One](https://xn--gckvb8fzb.com/linux-on-the-phone-part-one/#site-main), [How Do You Trust That Your Personal Machine Is Not Compromised?](https://xn--gckvb8fzb.com/how-do-you-trust-that-your-personal-machine-is-not-compromised/)
 
-[nerdypepper](https://peppe.rs): I love how minimal this site looks. If you are into split keyboards like me (and maybe also otherwise), you'll _have_ to check out his post [programming on 34 keys](https://peppe.rs/posts/programming_on_34_keys/).
+[nerdypepper](https://peppe.rs): I love how minimal this site looks. If you are into split keyboards like me (and maybe also otherwise), you'll _have_ to check out their post [programming on 34 keys](https://peppe.rs/posts/programming_on_34_keys/).
 
 ## Articles / papers
 
@@ -66,9 +62,7 @@ Paul Ford - [I had a couple drinks and woke up with 1,000 nerds](https://medium.
 >
 > <cite>[~droob](https://tilde.club/~droob/)</cite>
 
-[xkcd 1205: is it worth the time?](https://xkcd.com/1205/)
-
-[xkcd 806: Tech Support](https://xkcd.com/806/)
+[xkcd 1205: is it worth the time?](https://xkcd.com/1205/), [xkcd 806: Tech Support](https://xkcd.com/806/)
 
 [oldweb.today](https://oldweb.today/?browser=ns3-mac#https://tarneo.fr): browse the web with old browsers like NetScape
 
@@ -80,11 +74,9 @@ Paul Ford - [I had a couple drinks and woke up with 1,000 nerds](https://medium.
 
 [The Web We Lost](https://www.anildash.com/2012/12/13/the_web_we_lost/)
 
-[The Missing Semester Of Your CS Education](https://missing.csail.mit.edu/) is one of the only places where [SSH port forwarding](https://missing.csail.mit.edu/2020/command-line/#port-forwarding) is explained well. The first google result for this is cryptic.
+[The Missing Semester Of Your CS Education](https://missing.csail.mit.edu/)
 
 [Let's Design A Keyboard With Ergogen v4](https://flatfootfox.com/ergogen-introduction/)
-
-[Energy Conservation with Open Source Ad Blockers](https://www.mdpi.com/2227-7080/8/2/18)
 
 [Generative AI like Midjourney creates images full of stereotypes - Rest of World](https://restofworld.org/2023/ai-image-stereotypes/)
 
