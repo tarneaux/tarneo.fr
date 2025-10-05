@@ -27,6 +27,14 @@ I made a little script that puts everything together (detailed explanations can 
 
 set -e
 
+if [ "$1" = "check" ]; then
+    ip netns show wg0 | grep -q wg0 || {
+        echo "starting tunnel"
+        exec doas "$0" up
+    }
+    exit 0
+fi
+
 if [ $EUID -ne 0 ]; then
     echo "Please run this script as root. Exiting."
     exit 1
@@ -88,6 +96,9 @@ Here's the program. A more recent version may be available [in my dotfiles](http
 // then run: sudo chmod u+s wgx
 
 // example usage: wgx ip netns identify
+
+// For a cleaner SSH setup, ProxyCommand can be set as follows :
+// ProxyCommand = "sh -c 'tunnel check && wgx nc %h %p'";
 
 #define NAME_OF_NETWORK_NAMESPACE  "wg0"
 #define PATH_TO_NAMESPACE  "/run/netns/"  NAME_OF_NETWORK_NAMESPACE
@@ -156,3 +167,15 @@ It can then be used instead of `ip netns exec`:
 ```sh
 wgx ssh chorizo
 ```
+
+## SSH config
+
+I'm editing this post to add that SSH can be easily configured to use this, using ProxyCommand (which replaces SSH's socket connection). Here's the Nix config (the bare SSH config is in `wgx`'s header):
+
+```nix
+programs.ssh.matchBlocks."chorizo" = {
+  proxyCommand = "sh -c 'tunnel check && wgx nc %h %p'";
+};
+```
+
+Multiple hostnames can be specified in the quotes, separated by a space.
