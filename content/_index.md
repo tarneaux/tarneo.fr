@@ -9,7 +9,8 @@
 
 ## Contact
 
-**Email:** <tarneo@tarneo.fr>
+**Email:** <tarneo@tarneo.fr>\
+**IRC:** *tarneo* on oftc, freenode, and libera
 
 [>> More methods & PGP](/contact)
 

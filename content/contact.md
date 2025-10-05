@@ -9,6 +9,7 @@ aliases:
 Feel free to contact me through any of the means listed below.
 
 **Email:** tarneo@tarneo.fr\
+**IRC:** tarneo on OFTC, freenode, and libera.\
 **Mastodon:** <a rel="me" href="https://toot.renn.es/@tarneo">@tarneo@toot.renn.es</a>
 
 If you send me an email and are familiar with PGP encryption, please use the key below.
