@@ -22,6 +22,8 @@ This section is sorted alphabetically.
 
 [Drew Devault](https://drewdevault.com): maintainer of Sway, Sourcehut, Aerc (which I use), and others.
 
+[Infinite Ink](http://www.ii.com/) ~> [Getting Started With qutebrowser](https://www.ii.com/qutebrowser-getting-started/), [Generating Passphrases Like “correct horse battery staple"](https://www.ii.com/passphrase-generators/)
+
 [Jake Ginesin](https://jakegines.in/): Great blog in terms of aesthetics but also in content. One of the rare blog where I've read _every page_.
 
 [Julia Evans](https://jvns.ca/) ~> [Monitoring Small Web Services](https://jvns.ca/blog/2022/07/09/monitoring-small-web-services/)
