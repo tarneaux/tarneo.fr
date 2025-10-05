@@ -1,7 +1,7 @@
 .PHONY: dev test build sd deploy format
 
 dev:
-	hugo server -D --disableFastRender
+	hugo server -D --disableFastRender --minify
 
 test:
 	# Verify there are no top-level headings in blog posts, but still allow comments in code blocks :D
@@ -16,7 +16,7 @@ build:
 		echo "- Stage the files before building again"; \
 		exit 1; \
 	fi
-	hugo --cleanDestinationDir
+	hugo --cleanDestinationDir --minify
 
 sd:
 	git stash --include-untracked
