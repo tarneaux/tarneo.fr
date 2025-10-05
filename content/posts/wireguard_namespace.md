@@ -112,11 +112,12 @@ Here's the program. A more recent version may be available [in my dotfiles](http
 #include <unistd.h>
 #include <stdlib.h>
 #include <stdio.h>
+#include <string.h>
+#include <errno.h>
 
-void
-die(int status, char *message) {
-	printf("%s\n", message);
-	exit(status);
+#define die(s, msg, ...) { \
+	printf("%s: " msg "\n", basename(argv[0]) __VA_OPT__(,) __VA_ARGS__); \
+	exit(s); \
 }
 
 int
@@ -139,11 +140,14 @@ main(int argc, char **argv) {
 	if(!(setgid(getgid()) == 0 && setuid(getuid()) == 0))
 		die(-1, "Couldn't drop effective root or root group");
 
-	if(argc > 1)
+	if(argc > 1) {
 		execvpe(argv[1], argv + 1, environ);
-
-	printf("A command is needed.");
-	return 1;
+		int errsv = errno;
+		const char *errstr = strerrorname_np(errsv);
+		die(1, "Got error %d (%s) while running command", errsv,
+		    errstr);
+	} else
+		die(1, "A command is required.");
 }
 ```
 
