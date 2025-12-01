@@ -10,7 +10,7 @@ I quickly found a [post](https://www.procustodibus.com/blog/2023/04/wireguard-ne
 
 ## Architecture
 
-We will simply create a network namespace `wg0` which will contain the Wireguard interface, so that any traffic in this namespace goes through Wireguard. Userland acces to this namespace will be touched on later.
+We will simply create a network namespace `wg0` which will contain the Wireguard interface, so that any traffic in this namespace goes through Wireguard. Userland access to this namespace will be touched on later.
 
 ## Execution
 
