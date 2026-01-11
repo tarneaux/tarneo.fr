@@ -6,7 +6,7 @@ theme: renny
 
 params:
   favicon: "favicon.jpg"
-  description: "Programming, Linux, self-hosting, ergo keyboards, IT ethics..."
+  description: "Undergrad student and hacker of hardware and software"
   navbar: true
   feed: /posts/index.xml
   author:
