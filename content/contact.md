@@ -6,23 +6,15 @@ aliases:
 
 ## Contact
 
-Feel free to contact me through any of the means listed below.
-
-**Email:** tarneo@tarneo.fr\
-**IRC:** tarneo on OFTC, freenode, and libera.\
-**Mastodon:** <a rel="me" href="https://toot.renn.es/@tarneo">@tarneo@toot.renn.es</a>
+Feel free to contact me through email: tarneo@tarneo.fr
 
 If you send me an email and are familiar with PGP encryption, please use the key below.
 
-Be as polite as you feel like. I adhere to [Crocker's rules](http://sl4.org/crocker.html).
-
 ## Git accounts
 
-All of these accounts should always have the same repositories, the choice is yours.
+My projects are available on my Sourcehut: [~tarneo](https://git.renn.es/~tarneo/)
 
-**Sourcehut**: [~tarneo](https://git.renn.es/~tarneo/)\
-**GitHub**: [tarneaux](https://github.com/tarneaux)\
-**ForgeJo**: [git.renn.es/tarneo](https://git.renn.es/tarneo/)
+I also have a GitHub account, which I will gradually stop using: [tarneaux](https://github.com/tarneaux)
 
 All my commits should be signed with PGP.
 
